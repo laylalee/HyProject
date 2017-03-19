@@ -1,0 +1,71 @@
+<!--页脚-->
+<footer>
+    <section class="com-footer">
+        <div class="com-wrap">
+            <table>
+                <tr>
+                    <td>
+                        <h4>关于我们</h4>
+                        <a href="javascript:;" titile="">公司简介</a>
+                        <a href="javascript:;" titile="">企业文化</a>
+                        <a href="javascript:;" titile="">发展历程</a>
+                        <a href="javascript:;" titile="">企业荣誉</a>
+                        <a href="javascript:;" titile=""> 企业动态</a>
+                    </td>
+                    <td>
+                        <h4>行业展会</h4>
+                        <a href="javascript:;" titile="">家居用品展</a>
+                        <a href="javascript:;" titile=""> 纺织服装展</a>
+                        <a href="javascript:;" titile="">食品饮料展</a>
+                        <a href="javascript:;" titile="">体育户外展</a>
+                        <a href="javascript:;" titile="">婴童玩具展</a>
+                        <a href="javascript:;" titile="">礼品消费品展</a>
+                        <a href="javascript:;" titile="">更多展会</a>
+                    </td>
+                    <td>
+                        <h4>国别展会</h4>
+                        <a href="javascript:;" titile="">香港展会</a>
+                        <a href="javascript:;" titile="">美国展会</a>
+                        <a href="javascript:;" titile=""> 德国展会</a>
+                        <a href="javascript:;" titile="">俄罗斯展会</a>
+                        <a href="javascript:;" titile=""> 日本展会</a>
+                        <a href="javascript:;" titile=""> 阿联酋展会</a>
+                        <a href="javascript:;" titile=""> 更多展会</a>
+                    </td>
+                    <td>
+                        <h4>参展攻略</h4>
+                        <a href="javascript:;" titile="">展会回顾</a>
+                        <a href="javascript:;" titile=""> 参展技巧</a>
+                        <a href="javascript:;" titile="">展台搭建</a>
+                        <a href="javascript:;" titile="">行业资讯</a>
+                        <a href="javascript:;" titile=""> 签证技巧</a>
+                        <a href="javascript:;" titile=""> 外贸课堂</a>
+                        <a href="javascript:;" titile="">市场分析</a>
+                    </td>
+                    <td>
+                        <h4>参展攻略</h4>
+                        <a href="javascript:;" titile=""> 联系方式</a>
+                        <a href="javascript:;" titile="">在线报名</a>
+                        <a href="javascript:;" titile=""> 人才招聘</a>
+                        <h2>全球展会咨询</h2>
+                        <h3>4001-865-365</h3>
+                    </td>
+                    <td class="text-center">
+                        <img src="images/code-1.png" alt="">
+                        <p>官方微信号：hyfairs</p>
+                        <img src="images/code-2.png" alt="">
+                        <p>V官方微博：<br>
+                            福建汇源国际商务会展<br>有限公司</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <section class="com-copyright">
+        版权声明：所有图片均受著作权保护，未经许可不得使用、转载、摘编。版权所有 福建汇源国际商务会展有限公司 闽ICP备11024466号-1
+        <img class="copy-ico" src="images/copy-ico.png" alt="">
+    </section>
+</footer>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/common.js"></script>
+<!--/页脚-->

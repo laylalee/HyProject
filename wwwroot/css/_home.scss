@@ -1,0 +1,535 @@
+@charset "UTF-8";
+@import "_function.scss";
+
+/*首页：banner*/
+.home-banner {
+  .swiper-container {
+    height: 400px !important;
+  }
+  .swiper-slide {
+    height: 400px !important;
+    .img {
+      display: block;
+      height: 100%;
+      width: 100%;
+      background-position: center center !important;;
+    }
+  }
+  .pagination {
+    position: absolute;
+    z-index: 20;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+  }
+  .swiper-pagination-switch {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #fff;
+    margin: 0 8px;
+    cursor: pointer;
+  }
+  .swiper-active-switch {
+    background: $primary-second;
+  }
+  .swiper-button {
+    position: absolute;
+    width: 50px;
+    line-height: 100px;
+    top: 50%;
+    background: url("../images/black-30.png");
+    cursor: pointer;
+    font-size: 18px;
+    @include transition(background 0.3s);
+    text-align: center;
+    color: #fff;
+    margin-top: -50px;
+    &:hover {
+      background: url("../images/black-75.png");
+    }
+    &.swiper-button-prev {
+      left: 10px;
+    }
+    &.swiper-button-next {
+      right: 10px;
+    }
+  }
+  .com-wrap{
+    position: relative;
+    z-index: 99;
+  }
+  .tabs{
+    position: absolute;
+    width: 340px;
+    height: 340px;
+    overflow: hidden;
+    background: url("../images/black-65.png");
+    top: -370px;
+    border-radius: 15px;
+    left: 10px;
+    z-index: 100;
+    color: #fff;
+    .tab-header{
+      a{
+        background:url("../images/white-30.png") ;
+        width: 50%;
+        display: block;
+        float: left;
+        font-size: 16px;
+        line-height: 48px;
+        text-align: center;
+        &.on{
+          background: none;
+        }
+      }
+
+    }
+    .tab-content{
+      padding:15px 10px;
+    }
+    .content{
+      display: none;
+      text-align: center;
+      a{
+        display: inline-block;
+        width: 30%;
+        padding-left: 2%;
+        font-size: 14px;
+        text-align: left;
+        line-height: 32px;
+        &:hover{
+          text-decoration: underline;
+        }
+      }
+      .more{
+        color: $primary-second;
+      }
+      &.on{
+        display: block;
+      }
+    }
+  }
+}
+
+/*首页：专题展会*/
+.home-zt {
+  .items {
+    margin-left: -0.5%;
+    margin-right: -0.5%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .item {
+    width: 32.3%;
+    float: left;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+
+    &:hover {
+      .circle {
+        background: url("../images/circle-orange.png");
+        color: #fff;
+      }
+    }
+    img {
+      width: 100%;
+    }
+    i {
+      display: inline-block;
+      float: left;
+      width: 26px;
+      height: 26px;
+      background: url("../images/circle-thumb.png") no-repeat;
+    }
+    .img {
+      position: relative;
+      margin-bottom: 10px;
+
+    }
+    a {
+      display: block;
+    }
+    .circle {
+      width: 160px;
+      height: 160px;
+      position: absolute;
+      background: url("../images/circle-white.png");
+      left: 50%;
+      display: table;
+      top: 50%;
+      margin-top: -80px;
+      margin-left: -80px;
+      text-align: center;
+      color: $orange;
+      font-size: 18px;
+      @include transition(background 0.4s);
+      h6 {
+        font-size: 24px;
+        font-weight: lighter;
+        margin-bottom: 2px;
+      }
+      .inner {
+        display: table-cell;
+        vertical-align: middle;
+      }
+    }
+    .text {
+      p {
+        float: right;
+        width: 91%;
+        margin-top: 3px;
+        line-height: 20px;
+        height: 40px;
+        overflow: hidden;
+      }
+    }
+
+  }
+}
+
+/*首页：专题展会*/
+.home-cq {
+  img {
+    width: 100%;
+  }
+  .label-primary {
+    background: url("../images/sj-blue.png");
+  }
+  .label-hot {
+    background: url("../images/sj-red.png");
+  }
+  .label-xq {
+    background: url("../images/sj-green.png");
+  }
+  .label-bt {
+    background: url("../images/sj-orange.png");
+  }
+  .label-yh {
+    background: url("../images/sj-purple.png");
+  }
+  .ad {
+    margin-top: 15px;
+    margin-right: 15px;
+  }
+  .item {
+    margin: 10px 0;
+    width: 298px;
+    float: left;
+    position: relative;
+    z-index: 0;
+    height: 320px;
+    .inner {
+      position: relative;
+      padding: 8px;
+      background: #fff;
+      box-shadow: none;
+    }
+    .btn {
+      display: block;
+      margin: 5px auto;
+      text-align: center;
+      background: #088def;
+      color: #fff;
+      line-height: 36px;
+      display: none;
+      .fa {
+        padding-right: 5px;
+      }
+    }
+    .img {
+      position: relative;
+      label {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 78px;
+        height: 78px;
+        line-height: 50px;
+        color: #fff;
+        padding-left: 6px;
+        font-size: 16px;
+        @extend %tof;
+      }
+    }
+    .link {
+      font-size: 16px;
+      line-height: 24px;
+      height: 55px;
+      overflow: hidden;
+      display: block;
+      padding: 5px;
+      margin-bottom: 5px;
+    }
+    p {
+      color: #999;
+      padding: 2px 5px;
+      @extend %tof;
+    }
+    &.on, &:hover {
+      z-index: 99;
+      .inner {
+        background: #f1f1f1;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      }
+      .btn {
+        display: block;
+      }
+      .link {
+        color: $primary;
+      }
+      p {
+        color: #000;
+      }
+    }
+  }
+  .row-2 {
+    margin-right: -16px;
+    padding-bottom: 15px;
+  }
+  .row-1 {
+    margin-right: -15px;
+    margin-left: -5px;
+    .items {
+      width: 900px;
+    }
+  }
+}
+
+/*首页：国内自办展*/
+.home-zb {
+  .zb-cnt {
+    overflow: hidden;
+    margin: 15px auto;
+    height: 200px !important;
+    .img {
+      display: block;
+      margin: 0 10px;
+      height: 200px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .swiper-slide {
+    width: 590px;
+    height: 200px !important;
+  }
+  .swiper-button {
+    height: 30px;
+    line-height: 40px;
+    overflow: hidden;
+    width: 25px;
+    text-align: center;
+    background: #ccd7e7;
+    display: inline-block;
+    margin: 0 5px;
+    @include transition(background 0.3s);
+    color: #fff;
+    &:hover {
+      background: $primary-second;
+    }
+  }
+  .swiper-buttons {
+    margin-top: 30px;
+  }
+}
+
+/*首页：参展攻略*/
+.home-gl {
+  .gallery {
+    margin-top: 10px;
+    position: relative;
+    overflow: hidden;
+    width: 450px;
+    img {
+      width: 100%;
+    }
+    .img {
+      display: block;
+      position: relative;
+
+      p {
+        background: url("../images/gallary-text-bg.png") bottom repeat-x;
+        color: #fff;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 50px;
+        line-height: 55px;
+        font-size: 16px;
+        position: absolute;
+        @extend %tof;
+        width: 100%;
+        text-align: center;
+
+      }
+    }
+    .list-group {
+      width: 100%;
+      padding-top: 10px;
+      overflow: hidden;
+      a {
+        width: 25%;
+        display: block;
+        float: left;
+        border: 1px solid #fff;
+        margin-right: 0px;
+        position: relative;
+
+      }
+      a:hover, a.on {
+        border-color: $orange;
+        &:after{
+          content: '';
+          position: absolute;
+          top: -14px;
+          border-style: solid;
+          left: 50%;
+          margin-left: -7px;
+          @include triangle(bottom,$orange,7px,7px);
+        }
+      }
+    }
+    .icon {
+      position: absolute;
+      bottom: 15px;
+      display: inline-block;
+      width: 30px;
+      line-height: 45px;
+      color: #fff;
+      background: url("../images/black-65.png");
+      color: #fff;
+      text-align: center;
+      cursor: pointer;
+    }
+    .icon-left {
+      left: 1px;
+    }
+    .icon-right {
+      right: 1px;
+    }
+  }
+  .list-center {
+    margin-top: 10px;
+    width: 420px;
+    margin-left: 10px;
+    .top {
+      border-bottom: 1px dashed #f2f2f2;
+      padding: 20px 5px 20px;
+      margin-bottom: 10px;
+      p {
+        line-height: 25px;
+        height: 50px;
+        overflow: hidden;
+      }
+      h5 {
+        color: $primary;
+        font-size: 24px;
+        margin-bottom: 10px;
+        @extend %tof;
+      }
+    }
+
+  }
+  .list-right {
+    border: 1px solid $home-gray;
+    width: 280px;
+    margin-top: 10px;
+    padding: 10px 15px 0px;
+    h6 {
+      color: $primary;
+      line-height: 34px;
+      font-weight: bold;
+    }
+  }
+}
+
+/*首页：合作伙伴*/
+.home-coop {
+  .com-wrap {
+    border-top: 1px solid #dcdcdc;
+    padding: 25px 0 30px;
+  }
+  .item {
+    display: inline-block;
+    width: 13%;
+    margin-top: 15px;
+    margin-left: 0.5%;
+    text-align: center;
+    a {
+      display: block;
+      color: #999;
+      @extend %tof;
+    }
+    img {
+      border: 1px solid #eee;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+  }
+  label {
+    background: $home-gray;
+    width: 100px;
+    padding: 15px 0;
+    float: left;
+    text-align: center;
+    font-size: 24px;
+  }
+  ul {
+    width: 1100px;
+    text-align: right;
+    float: right;
+  }
+
+}
+
+/* 首页：友情链接*/
+.home-link {
+  background: $home-gray;
+  padding: 15px 0;
+  min-height: 50px;
+  line-height: 28px;
+  label {
+    float: left;
+    font-size: 16px;
+    width: 80px;
+  }
+  .links {
+    width: 1050px;
+    float: right;
+  }
+  a {
+    display: inline-block;
+    color: #999;
+    font-size: 12px;
+    padding-right: 10px;
+    &:after {
+      content: ' | ';
+      padding-left: 10px;
+      color: #e7e7ea;
+    }
+    &.last {
+      padding-right: 0;
+      &:after {
+        content: '';
+        padding-left: 0;
+
+      }
+    }
+  }
+}
+
+.home-ad {
+  display: block;
+  margin: 20px auto 10px !important;
+  img {
+    width: 100%;
+  }
+}
+
+

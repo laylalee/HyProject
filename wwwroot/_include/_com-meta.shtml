@@ -1,0 +1,12 @@
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<meta name="renderer" content="webkit">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link rel="stylesheet" href="css/common.css">
+
+<title>汇源</title>
+<!--[if lt IE 9]>
+<script src="js/respond.min.js"></script>
+<script src="js/html5shiv.min.js"></script>
+<![endif]-->

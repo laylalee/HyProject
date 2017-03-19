@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+//--------------------- color ---------------------//
+
+// other color
+$org:                   #fe8840;
+$green:                 #7aa127;
+$yellow:                #fff;
+$red:                   #fff;
+$blue:                  #fff;
+$purple:                #fff;
+$pink:                  #fff;
+
+// main color
+$main:                  $org;
+$main-dark:             #a94e12;
+$main-darker:           darken($main,10%);
+$main-light:            #de884d;
+$main-lighter:          lighten($main,15%);
+
+// sub color
+$sub: 					$green;
+$sub-dark: 				darken($sub,5%); 
+$sub-darker: 			darken($sub,10%);
+$sub-light: 			lighten($sub,10%);
+$sub-lighter: 			lighten($sub,15%);
+
+
+// grey color
+$grey-bg: 				#ddd;
+$grey-border: 			#ded8ca;
+$grey-border-dark: 		#ddd;
+$grey-border-darker: 	#ddd;
+$grey-border-light: 	#ddd;
+$grey-fz: 				#666;
+$grey-fz-dark: 			#333;
+$grey-fz-light: 		#999;
+
+//--------------------- radius ---------------------//
+
+$radius:                3px;           //rem：去掉单位
+$radius-s:              3px;
+$radius-l:              8px;
+
+
+//--------------------- z-index ---------------------//
+
+$zindex-below:          -1;
+$zindex-default:        1;
+$zindex-fix:            50;		//fixed topbar,backtotop
+$zindex-dd:             70;		//dropdown
+$zindex-modal:          100;	//pop    
+$zindex-font:           3;
+$zindex-behind:         2;
+
+
+//--------------------- animation ---------------------//
+
+$dur-s:                 0.3s;
+$dur:                   0.5s;
+$dur-l:                 1s;
+$dur-h:                 2s;
+
+
+//--------------------- width and height ---------------------//
+
+$header-h:              86px;      // header height  
+$mainnav-h:             64px;      // mainnav height  
+$footer-h:              0px;      // footer height 
+$wrapper-w:				1200px;      // 正文 width
+$con-minw:				1024px;      // 正文 width,1024还需加上滚动条宽度
+$side-w:				234px;      // 侧栏 width
+$padding:  				34px;
+
+
+
+//--------------------- media ---------------------//
+
+$mq-s:                  max-width $con-minw;
+// $mq-n:                  1024px 1200px;
+// $mq-l:                  1000px;
+// $mq-h:                  1600px;
+// media query
+// @example:
+// 示例scss:
+//   .foo{
+//     width: 500px;
+//     @include breakpoint($mq-n){
+//       width: 200px;
+//     }
+//   }
