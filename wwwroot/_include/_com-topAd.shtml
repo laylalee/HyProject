@@ -1,0 +1,8 @@
+<!--可关闭广告-->
+<a class="com-top-ad" title="">
+    <img src="pics/top-ad.jpg" alt="">
+    <div class="com-wrap">
+        <i class="close"></i>
+    </div>
+</a>
+<!--可关闭广告-->

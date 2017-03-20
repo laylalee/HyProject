@@ -67,5 +67,6 @@
     </section>
 </footer>
 <script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/jquery-throttle-debounce.min.js"></script>
 <script src="js/common.js"></script>
 <!--/页脚-->

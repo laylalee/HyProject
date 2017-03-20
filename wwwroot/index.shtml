@@ -516,8 +516,6 @@
     </div>
 </section>
 <!--/首页：友情链接-->
-<!--#include virtual="_include/_com-footer.shtml"-->
-
 <!--首页：咨询侧边-->
 <section class="com-consult">
     <div class="inner">
@@ -543,12 +541,11 @@
 
 </section>
 <!--首页：咨询侧边-->
+<!--#include virtual="_include/_com-footer.shtml"-->
 <script src="js/idangerous.swiper.min.js"></script>
-<script src="js/jquery-throttle-debounce.min.js"></script>
 <script>
     (function () {
-        var $window = $(window), $consult = $('.com-consult'),
-                banner = new Swiper('.banner-cnt', {
+        var banner = new Swiper('.banner-cnt', {
                     autoplay: 5000,//可选选项，自动滑动
                     pagination: '.pagination',
                     loop: true//可选选项，开启循环s
@@ -556,26 +553,6 @@
         var zb = new Swiper('.zb-cnt', {
             slidesPerView: 2
         });
-
-        $('.com-top-search .menu').on('click', function () {
-            $('.com-menu-fold').addClass('open');
-            return false;
-        });
-
-        $window.on({
-            'click': function () {
-                $('.com-menu-fold').removeClass('open');
-                return false;
-            },
-            'scroll': $.throttle(500, winScroll)
-        });
-        function winScroll() {
-            if ($window.scrollTop() > 500) {
-                $consult.fadeIn();
-            }else{
-                $consult.hide();
-            }
-        }
 
         $('.com-head-nav .swiper-button-prev').click(function () {
             zb.swipePrev();
