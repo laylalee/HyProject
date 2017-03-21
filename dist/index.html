@@ -753,6 +753,31 @@
     </div>
 </section>
 <!--/首页：友情链接-->
+<!--首页：咨询侧边-->
+<section class="com-consult">
+    <div class="inner">
+        <h4>咨询<br>小展</h4>
+        <a class="link" href="##">资料下载</a>
+        <a class="link" href="##">补贴申请</a>
+
+        <div class="img">
+            <img src="images/wx-code.png">
+
+            <p>官方微信</p>
+        </div>
+        <div class="img">
+            <img src="images/wb-code.png">
+
+            <p>官方微博</p>
+        </div>
+        <a class="return" id="goReturn" href="##">
+            <i class="fa fa-angle-up fa-2x"></i>
+            <p>回顶部</p>
+        </a>
+    </div>
+
+</section>
+<!--首页：咨询侧边-->
 <!--页脚-->
 <footer>
     <section class="com-footer">
@@ -822,40 +847,13 @@
     </section>
 </footer>
 <script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/jquery-throttle-debounce.min.js"></script>
 <script src="js/common.js"></script>
 <!--/页脚-->
-
-<!--首页：咨询侧边-->
-<section class="com-consult">
-    <div class="inner">
-        <h4>咨询<br>小展</h4>
-        <a class="link" href="##">资料下载</a>
-        <a class="link" href="##">补贴申请</a>
-
-        <div class="img">
-            <img src="images/wx-code.png">
-
-            <p>官方微信</p>
-        </div>
-        <div class="img">
-            <img src="images/wb-code.png">
-
-            <p>官方微博</p>
-        </div>
-        <a class="return" id="goReturn" href="##">
-            <i class="fa fa-angle-up fa-2x"></i>
-            <p>回顶部</p>
-        </a>
-    </div>
-
-</section>
-<!--首页：咨询侧边-->
 <script src="js/idangerous.swiper.min.js"></script>
-<script src="js/jquery-throttle-debounce.min.js"></script>
 <script>
     (function () {
-        var $window = $(window), $consult = $('.com-consult'),
-                banner = new Swiper('.banner-cnt', {
+        var banner = new Swiper('.banner-cnt', {
                     autoplay: 5000,//可选选项，自动滑动
                     pagination: '.pagination',
                     loop: true//可选选项，开启循环s
@@ -863,26 +861,6 @@
         var zb = new Swiper('.zb-cnt', {
             slidesPerView: 2
         });
-
-        $('.com-top-search .menu').on('click', function () {
-            $('.com-menu-fold').addClass('open');
-            return false;
-        });
-
-        $window.on({
-            'click': function () {
-                $('.com-menu-fold').removeClass('open');
-                return false;
-            },
-            'scroll': $.throttle(500, winScroll)
-        });
-        function winScroll() {
-            if ($window.scrollTop() > 500) {
-                $consult.fadeIn();
-            }else{
-                $consult.hide();
-            }
-        }
 
         $('.com-head-nav .swiper-button-prev').click(function () {
             zb.swipePrev();

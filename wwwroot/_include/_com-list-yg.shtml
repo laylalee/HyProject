@@ -1,0 +1,22 @@
+<!-- 展会预告-->
+<section class="com-list-aside">
+    <h6>展会预告</h6>
+    <ul class="list-yg">
+        <li><a href="###">2017年4月</a> </li>
+        <li><a href="###">2017年5月</a> </li>
+        <li><a href="###">2017年6月</a> </li>
+        <li><a href="###">2017年7月</a> </li>
+        <li><a href="###">2017年8月</a> </li>
+        <li><a href="###">2017年9月</a> </li>
+        <li><a href="###">2017年10月</a> </li>
+        <li><a href="###">2017年11月</a> </li>
+        <li><a href="###">2017年12月</a> </li>
+        <li><a href="###">2018年1月</a> </li>
+        <li><a href="###">2018年2月</a> </li>
+        <li><a href="###">2018年3月</a> </li>
+
+
+    </ul>
+    <a class="more" href="###">更多内容 >></a>
+</section>
+<!-- /展会预告-->

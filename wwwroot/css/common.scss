@@ -29,40 +29,61 @@
 }
 
 /* 公共组件*/
-.com-content{
- .aside-left{
-   width: 880px;
- }
- .aside-right{
-   width: 280px;
- }
+.com-content {
+  .aside-left {
+    width: 880px;
+  }
+  .inner-header {
+    margin: 15px 0;
+    background: $inner-gray;
+    border-bottom: 2px solid $gray;
+  }
+  .com-nav-tab{
+    a{
+      background: $inner-gray;
+    }
+
+  }
+  .load-more {
+    background: $inner-gray;
+    display: block;
+    line-height: 42px;
+    text-align: center;
+    font-size: 16px;
+    margin: 15px auto;
+  }
+  .aside-right {
+    width: 280px;
+  }
 }
-.com-crumbs{
+
+.com-crumbs {
   margin-bottom: 5px;
-   li{
-     display: inline-block;
-     line-height: 45px;
-     color: #666;
-     padding-right: 10px;
-   }
-   a{
-     color: #666;
-     &:after{
-       content: '>';
-       padding-left: 10px;
-     }
-   }
+  li {
+    display: inline-block;
+    line-height: 45px;
+    color: #666;
+    padding-right: 10px;
+  }
+  a {
+    color: #666;
+    &:after {
+      content: '>';
+      padding-left: 10px;
+    }
+  }
 }
-.com-top-ad{
+
+.com-top-ad {
   display: block;
   margin: 10px auto;
-  .com-wrap{
+  .com-wrap {
     position: relative;
   }
-  img{
+  img {
     width: 100%;
   }
-  .close{
+  .close {
     display: inline-block;
     width: 40px;
     height: 40px;
@@ -73,20 +94,21 @@
     top: -60px;
   }
 }
-.com-aside-ad{
+
+.com-aside-ad {
   width: 280px;
   display: block;
   position: relative;
   height: 280px;
   margin-bottom: 20px;
-  img{
+  img {
     width: 100%;
     height: 100%;
     position: relative;
     z-index: 4;
   }
 
-  &:after{
+  &:after {
     content: '广告位';
     display: block;
     line-height: 260px;
@@ -102,6 +124,7 @@
     height: 100%;
   }
 }
+
 .com-header {
   height: 75px;
   border-bottom: 1px solid #dcdcdc;
@@ -569,69 +592,94 @@
     }
   }
 }
-.com-pager{
+
+.com-pager {
   margin: 30px auto;
   text-align: center;
-  li{
+  li {
     display: inline-block;
     border: 1px solid $primary-second;
     color: $primary-second;
     line-height: 30px;
     min-width: 30px;
     cursor: pointer;
-    @include  transition(background 0.3s);
-    &.pre,&.next{
-       padding: 0 15px;
+    @include transition(background 0.3s);
+    &.pre, &.next {
+      padding: 0 15px;
     }
-    &:hover,&.on{
-       background: $primary-second;
-       color: #fff;
+    &:hover, &.on {
+      background: $primary-second;
+      color: #fff;
     }
   }
 
 }
-.com-list-base{
-  .item{
+
+.com-list-base {
+  .item {
     overflow: hidden;
+    padding: 15px;
     margin-bottom: 15px;
     color: #666;
-    .header{
+    .header {
       color: #333;
       display: block;
       font-size: 24px;
       position: relative;
       @extend %tof;
-      line-height: 70px;
     }
-    .img{
+    .img {
       float: left;
       margin-right: 25px;
       width: 285px;
     }
-    .text{
-      line-height: 24px;
+    .text {
+      line-height: 28px;
       max-height: 170px;
+      font-size: 16px;
       overflow: hidden;
     }
-    .more{
+    .more {
       color: $primary-second;
       padding-left: 5px;
       display: inline-block;
-      &:hover{
+      &:hover {
         text-decoration: underline;
       }
     }
-  }
+    &:hover {
+      .header {
+        color: $primary;
+      }
+    }
 
-}
-.com-list-subject{
-  .item{
-    padding: 15px;
-    position: relative;
-    border: 1px solid #f2f2f2;
-    box-shadow: 1px 2px 3px rgba(0,0,0,0.2);
   }
-  label{
+}
+
+.com-list-simple {
+  .item {
+    @include transition(background 0.3s);
+    .header {
+      line-height: 40px;
+      margin-bottom: 5px;
+    }
+    .time {
+      margin-bottom: 5px;
+    }
+    &:hover {
+      background: $inner-gray;
+    }
+
+  }
+}
+
+.com-list-subject {
+  .item {
+    position: relative;
+    border: 1px solid $inner-gray;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
+  }
+  label {
     position: absolute;
     right: 10px;
     top: 0px;
@@ -643,15 +691,16 @@
     height: 70px;
     display: block;
     background: url("../images/circle-blue.png") bottom center no-repeat;
-    b{
-      display:block ;
+    b {
+      display: block;
     }
   }
-  .header{
+  .header {
     line-height: 80px;
-    margin-right:100px;
+    margin-right: 100px;
   }
 }
+
 .com-list-circle {
   li {
     line-height: 39px;
@@ -714,20 +763,21 @@
 
   }
 }
-.com-list-aside{
+
+.com-list-aside {
   margin-bottom: 20px;
   padding: 10px;
-  border: 1px solid $home-gray;
-  li{
-    border-bottom: 1px dashed #f2f2f2;
-    &:hover{
-      a{
+  border: 1px solid $inner-gray;
+  li {
+
+    &:hover {
+      a {
         text-decoration: underline;
         color: $primary;
       }
     }
   }
-  a.more{
+  a.more {
     color: #666;
     display: block;
     text-align: center;
@@ -740,32 +790,78 @@
     font-weight: bold;
     margin-bottom: 10px;
   }
-  .list-sj{
-    li{
+  .list-sj {
+    li {
+      border-bottom: 1px dashed #f2f2f2;
       padding: 5px 0;
       overflow: hidden;
-      i{
+      i {
         float: left;
         width: 20px;
         height: 20px;
         margin-top: 5px;
         background: url("../images/circle-sj-default.png") no-repeat;
       }
-      a{
+      a {
         display: block;
         float: right;
         line-height: 24px;
         height: 50px;
         width: 230px;
       }
-      &:hover{
-        i{
+      &:hover {
+        i {
           background: url("../images/circle-sj-hover.png");
         }
       }
     }
   }
+  .list-yg{
+    text-align: center;
+    li{
+      display: inline-block;
+      width: 100px;
+      margin: 8px 5px;
+      line-height: 32px;
+      text-align: center;
+      background: $inner-gray;
+      border-radius: 5px;
+      &:hover{
+        background: $primary-second;
+        a{
+          color: #fff;
+          text-decoration: none;
+
+        }
+      }
+    }
+  }
+  .list-tj{
+    .item{
+      margin-bottom: 15px;
+      .img{
+        display: block;
+        img{
+          width: 100%;
+        }
+      }
+      .text{
+        margin: 5px 0;
+        display: block;
+        line-height: 25px;
+        height: 50px;
+        overflow: hidden;
+        font-size: 16px;
+      }
+      p{
+        @extend %tof;
+        color: #666;
+        line-height: 22px;
+      }
+    }
+  }
 }
+
 .com-consult {
   position: fixed;
   display: none;
@@ -791,19 +887,19 @@
     font-size: 16px;
     line-height: 50px;
   }
-  .img{
+  .img {
     border-top: 1px solid #80ccff;
     padding: 10px 0;
-    img{
+    img {
       display: inline-block;
       margin-bottom: 6px;
     }
   }
-  .return{
+  .return {
     display: block;
     border-top: 1px solid #80ccff;
-    .fa{
-      font-size:35px;
+    .fa {
+      font-size: 35px;
     }
   }
 }

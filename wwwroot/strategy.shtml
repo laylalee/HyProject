@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--#include virtual="_include/_com-meta.shtml"-->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+<body>
+<!--#include virtual="_include/_com-header.shtml"-->
+<!--#include virtual="_include/_com-topAd.shtml"-->
+<div class="com-wrap">
+    <ul class="com-crumbs">
+        <li><a href="index.html">首页</a></li>
+        <li>参展攻略</li>
+    </ul>
+    <main class="com-content clearfix">
+        <aside class="aside-left fl">
+            <div class="com-list-base com-list-simple">
+                <section class="item">
+                    <a class="header" href="###" title="">广交会展位申请攻略</a>
+
+                    <div class="time">2017-3-10</div>
+                    <p class="text">第121届广交会出口展展位申请正火热进行中！截止时间2016年11月30日，抓紧时间！现在小展为各位放出展位申请过关攻略，欢迎围观！</p>
+                </section>
+                <section class="item">
+                    <a class="header" href="###" title="">【小展的生意经】一些国家的外贸交易习惯</a>
+
+                    <div class="time">2017-3-10</div>
+                    <p class="text">
+                        不同的国家之间，他们的外贸交易习惯都有自己的特点，外贸人在和他们沟通之前，要事先详细了解他们的外贸交易习惯，避免触犯了禁忌，从而得罪了客户。下面，小展将为大家详细介绍外贸人不能不知的一些国家外贸交易习惯。</p>
+                </section>
+                <section class="item">
+                    <a class="header" href="###" title="">广交会展位申请攻略</a>
+
+                    <div class="time">2017-3-10</div>
+                    <p class="text">第121届广交会出口展展位申请正火热进行中！截止时间2016年11月30日，抓紧时间！现在小展为各位放出展位申请过关攻略，欢迎围观！</p>
+                </section>
+            </div>
+            <div class="inner-header clearfix">
+                <nav class="com-nav-tab com-head-nav">
+                    <a class="on" href="###" title="展会回顾">展会回顾 </a>
+                    <a href="###" title="参展技巧">参展技巧</a>
+                    <a href="###" title="展台搭建">展台搭建</a>
+                    <a href="###" title="行业资讯">行业资讯 </a>
+                    <a href="###" title="签证知识">签证知识</a>
+                    <a href="###" title="外贸课堂">外贸课堂</a>
+                    <a href="###" title="市场分析">市场分析</a>
+                </nav>
+            </div>
+            <div>
+                <div class="com-list-base com-list-simple">
+                    <section class="item">
+                        <a class="header" href="###" title=""> 遇见诗意生活 2017法兰克福春季消费遇见诗意生活 2017法兰克福春季消费遇见诗意生活
+                            2017法兰克福春季消费</a>
+
+                        <div class="clearfix">
+                            <a class="img" href="###" title=""><img src="pics/zh-1.jpg"></a>
+
+                            <p class="text">
+                                作为世界顶级的消费品行业类博览会，毫不夸张地说，在这里可以看到关于美好家居生活的所有想象，其专业性和前瞻性堪称全球消费风向标(俗称剁手指南)。PChouse第一时间赶赴现场，全方位报道这场全球级的买买买狂欢……
+                                <a class="more" href="###">详细>></a>
+                            </p>
+                        </div>
+                    </section>
+                    <section class="item">
+                        <a class="header" href="###" title=""> 遇见诗意生活 2017法兰克福春季消费遇见诗意生活 2017法兰克福春季消费遇见诗意生活
+                            2017法兰克福春季消费</a>
+
+                        <div class="clearfix">
+                            <a class="img" href="###" title=""><img src="pics/zh-1.jpg"></a>
+
+                            <p class="text">
+                                作为世界顶级的消费品行业类博览会，毫不夸张地说，在这里可以看到关于美好家居生活的所有想象，其专业性和前瞻性堪称全球消费风向标(俗称剁手指南)。PChouse第一时间赶赴现场，全方位报道这场全球级的买买买狂欢……
+                                <a class="more" href="###">详细>></a>
+                            </p>
+                        </div>
+                    </section>
+                    <section class="item">
+                        <a class="header" href="###" title=""> 遇见诗意生活 2017法兰克福春季消费遇见诗意生活 2017法兰克福春季消费遇见诗意生活
+                            2017法兰克福春季消费</a>
+
+                        <div class="clearfix">
+                            <a class="img" href="###" title=""><img src="pics/zh-1.jpg"></a>
+
+                            <p class="text">
+                                作为世界顶级的消费品行业类博览会，毫不夸张地说，在这里可以看到关于美好家居生活的所有想象，其专业性和前瞻性堪称全球消费风向标(俗称剁手指南)。PChouse第一时间赶赴现场，全方位报道这场全球级的买买买狂欢……
+                                <a class="more" href="###">详细>></a>
+                            </p>
+                        </div>
+                    </section>
+                    <section class="item">
+                        <a class="header" href="###" title=""> 遇见诗意生活 2017法兰克福春季消费遇见诗意生活 2017法兰克福春季消费遇见诗意生活
+                            2017法兰克福春季消费</a>
+
+                        <div class="clearfix">
+                            <a class="img" href="###" title=""><img src="pics/zh-1.jpg"></a>
+
+                            <p class="text">
+                                作为世界顶级的消费品行业类博览会，毫不夸张地说，在这里可以看到关于美好家居生活的所有想象，其专业性和前瞻性堪称全球消费风向标(俗称剁手指南)。PChouse第一时间赶赴现场，全方位报道这场全球级的买买买狂欢……
+                                <a class="more" href="###">详细>></a>
+                            </p>
+                        </div>
+                    </section>
+                    <section class="item">
+                        <a class="header" href="###" title=""> 遇见诗意生活 2017法兰克福春季消费遇见诗意生活 2017法兰克福春季消费遇见诗意生活
+                            2017法兰克福春季消费</a>
+
+                        <div class="clearfix">
+                            <a class="img" href="###" title=""><img src="pics/zh-1.jpg"></a>
+
+                            <p class="text">
+                                作为世界顶级的消费品行业类博览会，毫不夸张地说，在这里可以看到关于美好家居生活的所有想象，其专业性和前瞻性堪称全球消费风向标(俗称剁手指南)。PChouse第一时间赶赴现场，全方位报道这场全球级的买买买狂欢……
+                                <a class="more" href="###">详细>></a>
+                            </p>
+                        </div>
+                    </section>
+                    <section class="item">
+                        <a class="header" href="###" title=""> 遇见诗意生活 2017法兰克福春季消费遇见诗意生活 2017法兰克福春季消费遇见诗意生活
+                            2017法兰克福春季消费</a>
+
+                        <div class="clearfix">
+                            <a class="img" href="###" title=""><img src="pics/zh-1.jpg"></a>
+
+                            <p class="text">
+                                作为世界顶级的消费品行业类博览会，毫不夸张地说，在这里可以看到关于美好家居生活的所有想象，其专业性和前瞻性堪称全球消费风向标(俗称剁手指南)。PChouse第一时间赶赴现场，全方位报道这场全球级的买买买狂欢……
+                                <a class="more" href="###">详细>></a>
+                            </p>
+                        </div>
+                    </section>
+
+                </div>
+                <a class="load-more" href="##">更多展会回顾 >></a>
+            </div>
+
+        </aside>
+        <aside class="aside-right fr">
+            <!-- 广告位-->
+            <a class="com-aside-ad" href="###" title=""></a>
+            <!--#include virtual="_include/_com-list-yg.shtml"-->
+            <!--#include virtual="_include/_com-list-tj.shtml"-->
+        </aside>
+    </main>
+</div>
+<!--#include virtual="_include/_com-info.shtml"-->
+
+<!--#include virtual="_include/_com-footer.shtml"-->
+<script>
+    (function () {
+
+    })();
+</script>
+</body>
+
+</html>

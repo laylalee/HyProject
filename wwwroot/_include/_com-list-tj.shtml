@@ -1,0 +1,26 @@
+<!-- 重点展会推荐-->
+<section class="com-list-aside">
+    <h6>重点展会推荐</h6>
+    <ul class="list-tj">
+        <li class="item">
+            <a class="img"><img src="pics/home-cq.jpg"></a>
+            <a class="text">日本东京时尚世界服装配饰及鞋包展览会</a>
+            <p>展会时间: 2017年6月6日-8日017年6月6日-8日</p>
+            <p>展出地点：墨西哥-墨西哥城</p>
+        </li>
+        <li class="item">
+            <a class="img"><img src="pics/home-cq.jpg"></a>
+            <a class="text">日本东京时尚世界服装配饰及鞋包展览会</a>
+            <p>展会时间: 2017年6月6日-8日</p>
+            <p>展出地点：墨西哥-墨西哥城</p>
+        </li>
+        <li class="item">
+            <a class="img"><img src="pics/home-cq.jpg"></a>
+            <a class="text">日本东京时尚世界服装配饰及鞋包展览会</a>
+            <p>展会时间: 2017年6月6日-8日</p>
+            <p>展出地点：墨西哥-墨西哥城</p>
+        </li>
+    </ul>
+    <a class="more" href="###">更多内容 >></a>
+</section>
+<!--/重点展会推荐-->
