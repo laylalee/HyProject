@@ -1,4 +1,4 @@
-.home-cq .item .img label, .home-cq .item p, .home-gl .gallery .img p, .home-gl .list-center .top h5, .home-coop .item a, .com-menu-fold .item h4, .com-list-base .item .header, .com-list-circle li, .com-list-label li, .com-list-aside .list-tj .item p {
+.home-cq .item .img label, .home-cq .item p, .home-gl .gallery .img p, .home-gl .list-center .top h5, .home-coop .item a, .com-menu-fold .item h4, .global-class header, .com-list-base .item .header, .com-list-circle li, .com-list-label li, .com-list-aside .list-tj .item p {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis; }
@@ -432,7 +432,7 @@ input::-ms-reveal {
 ::-ms-clear, ::-ms-reveal {
   display: none; }
 
-.home-cq .item .img label, .home-cq .item p, .home-gl .gallery .img p, .home-gl .list-center .top h5, .home-coop .item a, .com-menu-fold .item h4, .com-list-base .item .header, .com-list-circle li, .com-list-label li, .com-list-aside .list-tj .item p {
+.home-cq .item .img label, .home-cq .item p, .home-gl .gallery .img p, .home-gl .list-center .top h5, .home-coop .item a, .com-menu-fold .item h4, .global-class header, .com-list-base .item .header, .com-list-circle li, .com-list-label li, .com-list-aside .list-tj .item p {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis; }
@@ -919,14 +919,41 @@ input::-ms-reveal {
 .text-orange {
   color: #ff3300; }
 
+.text-primary {
+  color: #003987; }
+
 .text-center {
   text-align: center; }
+
+.text-upper {
+  text-transform: uppercase; }
 
 .fl {
   float: left; }
 
 .fr {
   float: right; }
+
+.label-sj {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 78px;
+  height: 78px;
+  line-height: 50px;
+  color: #fff;
+  padding-left: 6px;
+  font-size: 16px; }
+  .label-sj.label-primary {
+    background: url("../images/sj-blue.png"); }
+  .label-sj.label-hot {
+    background: url("../images/sj-red.png"); }
+  .label-sj.label-xq {
+    background: url("../images/sj-green.png"); }
+  .label-sj.label-bt {
+    background: url("../images/sj-orange.png"); }
+  .label-sj.label-yh {
+    background: url("../images/sj-purple.png"); }
 
 /* 公共组件*/
 .com-content .aside-left {
@@ -1365,18 +1392,102 @@ input::-ms-reveal {
       color: #ff3300;
       border: 2px solid #ff3300;
       width: 75px;
-      line-height: 70px;
+      line-height: 65px;
       height: 75px;
       margin: 10px auto;
-      border-radius: 50%; }
+      border-radius: 50%;
+      -webkit-transition: all 0.35s;
+      transition: all 0.35s; }
     .com-info .item h4 {
       font-size: 24px;
       margin-bottom: 5px; }
-    .com-info .item.on h3 {
+    .com-info .item:hover h3 {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
       color: #fff;
       background: #ff3300; }
     .com-info .item.last:after {
       display: none; }
+
+.global-class {
+  margin: 20px auto;
+  border: 1px solid #535d63; }
+  .global-class header {
+    padding: 5px 0;
+    line-height: 32px;
+    background: #535d63;
+    padding: 0 1em;
+    color: #fff; }
+    .global-class header a {
+      display: inline-block;
+      padding: 0px 5px;
+      line-height: 28px;
+      margin: 4px 0 4px 4px;
+      border: 1px solid #fff; }
+      .global-class header a:hover {
+        background: #ffffff;
+        color: #0099ff;
+        border-color: #0099ff; }
+  .global-class .main {
+    padding: 0 15px; }
+  .global-class .fa {
+    margin: 0 2px; }
+  .global-class .item {
+    padding: 15px 80px 15px 100px;
+    position: relative;
+    min-height: 60px;
+    border-bottom: 1px dashed #c7c7c7; }
+    .global-class .item label {
+      position: absolute;
+      left: 0;
+      top: 20px; }
+    .global-class .item .tag {
+      position: absolute;
+      right: 0;
+      top: 20px;
+      display: none;
+      cursor: pointer;
+      font-size: 15px; }
+      .global-class .item .tag:hover {
+        color: #0099ff; }
+    .global-class .item .text a {
+      display: inline-block;
+      line-height: 32px;
+      margin-right: 15px; }
+      .global-class .item .text a:hover {
+        color: #0099ff;
+        text-decoration: underline; }
+    .global-class .item .text-tab {
+      text-transform: uppercase; }
+      .global-class .item .text-tab a {
+        min-width: 30px;
+        border-radius: 2px;
+        margin-right: 5px;
+        text-align: center; }
+        .global-class .item .text-tab a:hover, .global-class .item .text-tab a.on {
+          background: #0099ff !important;
+          color: #fff !important; }
+    .global-class .item.open .tag-open {
+      display: block; }
+    .global-class .item.close .tag-close {
+      display: block; }
+    .global-class .item.close .text {
+      height: 40px;
+      overflow: hidden; }
+    .global-class .item.last {
+      border-bottom: 0; }
+
+.global-tit {
+  background: #edf0f6;
+  line-height: 46px;
+  padding: 0 10px;
+  font-size: 24px;
+  margin-bottom: 15px; }
+  .global-tit b {
+    color: #1c3c8f; }
+  .global-tit .small {
+    font-size: 14px;
+    letter-spacing: 3px; }
 
 .com-pager {
   margin: 30px auto;
@@ -1423,6 +1534,41 @@ input::-ms-reveal {
       text-decoration: underline; }
   .com-list-base .item:hover .header {
     color: #003987; }
+
+.com-list-global .item {
+  overflow: visible;
+  -webkit-transition: background 0.3s;
+  transition: background 0.3s;
+  border-top: 1px solid #dcdcdc; }
+  .com-list-global .item h6 {
+    font-size: 16px;
+    margin: 8px 0;
+    color: #0099ff; }
+  .com-list-global .item img {
+    width: 100%; }
+  .com-list-global .item .img {
+    width: 280px;
+    margin-right: 15px;
+    position: relative; }
+  .com-list-global .item .header {
+    font-size: 20px; }
+  .com-list-global .item .tip {
+    background: #ff3300;
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 7px;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 3px 10px; }
+  .com-list-global .item .line {
+    margin-top: 15px;
+    line-height: 1.7; }
+  .com-list-global .item:hover {
+    background: #f1f1f1;
+    border-top-color: transparent;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2); }
+    .com-list-global .item:hover h6 {
+      color: #ff3300; }
 
 .com-list-simple .item {
   -webkit-transition: background 0.3s;
