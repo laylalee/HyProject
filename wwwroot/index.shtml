@@ -443,8 +443,7 @@
     <img src="pics/home-ad-3.jpg" alt="">
 </a>
 <!--/首页：广告位-->
-
-<!--#include virtual="_include/_com-info.shtml"-->
+<!--#include virtual="_include/_com-info-home.shtml"-->
 
 <!--首页：合作伙伴-->
 <section class="home-coop">

@@ -584,6 +584,7 @@
 }
 
 .com-info {
+  background: $inner-gray;
   padding-bottom: 30px;
   padding-top: 30px;
   .item {
@@ -628,6 +629,9 @@
         display: none;
       }
     }
+  }
+  &.nobg {
+    background: none;
   }
 }
 
@@ -1054,6 +1058,16 @@
       }
     }
   }
+  .list-wz{
+    li{
+      margin: 10px 5px;
+      @extend %tof;
+      b{
+        display: inline-block;
+        width: 25px;
+      }
+    }
+  }
 }
 
 .com-consult {
@@ -1131,7 +1145,7 @@
     position: relative;
     text-align: center;
     margin-bottom: 10px;
-    span{
+    span {
       background: #fff;
       position: relative;
       padding: 10px 30px;
@@ -1148,29 +1162,29 @@
 
     }
   }
-  .item{
+  .item {
     margin-bottom: 30px;
-     header{
-       font-size: 20px;
-       @extend %tof;
-       line-height: 60px;
-       font-weight: bold;
-     }
-    .fl{
+    header {
+      font-size: 20px;
+      @extend %tof;
+      line-height: 60px;
+      font-weight: bold;
+    }
+    .fl {
       width: 280px;
       text-align: center;
     }
-    .content{
+    .content {
       width: 560px;
       height: 245px;
-      padding:15px;
+      padding: 15px;
       position: relative;
       background: $inner-gray;
     }
-    img{
+    img {
       width: 100%;
     }
-    label{
+    label {
       position: relative;
       background: $orange;
       color: #fff;
@@ -1181,16 +1195,16 @@
       width: 150px;
       text-align: center;
       font-size: 16px;
-      &:after{
+      &:after {
         content: '';
         left: 0;
         bottom: -10px;
         position: absolute;
-        @include triangle(right,#991f00,5px,5px);
+        @include triangle(right, #991f00, 5px, 5px);
         border-top-color: #991f00;
       }
     }
-    .btn{
+    .btn {
       background: $primary-second;
       color: #fff;
       font-size: 18px;
@@ -1199,29 +1213,68 @@
       line-height: 40px;
       border-radius: 5px;
       @include transition(background 0.35s);
-      &:hover{
+      &:hover {
         background: #1779d6;
       }
-      i{
+      i {
         padding-left: 5px;
 
       }
     }
-    .tip{
+    .tip {
       @extend %tof;
-      padding:0 5px 5px;
+      padding: 0 5px 5px;
       font-size: 15px;
-      i{
+      i {
         color: $orange;
         padding-right: 10px;
       }
     }
-    p{
+    p {
       color: #666;
       line-height: 22px;
       margin-top: 10px;
       height: 88px;
       overflow: hidden;
     }
+  }
+}
+
+/** 文章详情 **/
+.article {
+  font-size: 16px;
+  padding-bottom: 100px;
+  header {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .share{
+    padding:20px;
+  }
+  .jiathis_style{
+    text-align: center;
+    position: relative;
+    left: 40%;
+  }
+  .content {
+    padding-bottom: 30px;
+  }
+  img {
+    max-width: 100%;
+  }
+  p {
+    margin-bottom: 20px;
+    line-height: 1.8;
+  }
+  .link {
+    color: $primary-second;
+    font-size: 24px;
+    text-align: center;
+    display: block;
+    padding: 15px;
+    @extend %tof;
+    border:1px dashed #ddd ;
+    margin-bottom: 10px;
   }
 }

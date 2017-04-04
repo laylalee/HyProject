@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--#include virtual="_include/_com-meta.shtml"-->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+<body>
+<!--#include virtual="_include/_com-header.shtml"-->
+<div class="com-wrap">
+    <ul class="com-crumbs">
+        <li><a href="index.html">首页</a></li>
+        <li><a href="strategy.html">参展攻略</a></li>
+        <li>行业资讯</li>
+    </ul>
+    <main class="com-content clearfix">
+        <aside class="aside-left fl">
+            <article class="article">
+                <header>
+                    <h2>【展会直击】全球最大体育运动用品展ISPO MUNICH 昨日落幕</h2>
+                    <div class="share">
+                        <!-- JiaThis Button BEGIN -->
+                        <div class="jiathis_style">
+                            <a class="jiathis_button_qzone"></a>
+                            <a class="jiathis_button_tsina"></a>
+                            <a class="jiathis_button_tqq"></a>
+                            <a class="jiathis_button_weixin"></a>
+                            <a class="jiathis_button_renren"></a>
+                            <a class="jiathis_button_xiaoyou"></a>
+                            <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+                        </div>
+                        <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+                        <!-- JiaThis Button END -->
+                    </div>
+                </header>
+                <div class="content">
+                    <p class="tc">
+                        <img src="pics/article.jpg">
+                    </p>
+                    <p>
+                        2017年2月5-8日，来自世界各地的 2,732 家展商亮相 ISPO MUNICH 2017，参加了世界上最大的运动用品展—德国慕尼黑国际体育用品及运动时尚贸易博览会。
+                    </p>
+                    <p>
+                        今年 ISPO MUNICH 2017 展商数量达到创纪录的 2,732 家，其中国际展商比例增至89%。在为期四天的展期内，慕尼黑成为了国际运动行业的大本营。本届 ISPO MUNICH 再次为大家带来运动户外行业下一季度的潮流趋势：从最新的冬季运动时尚、户外装备，到健身、运动时装和功能性面料，全方位展示行业最新、最热门的产品和技术。 </p>
+                    <p>
+                        国际展商参展比例提升
+                    </p>
+                    <p>
+
+                    </p>
+                    <p>
+                        今年慕尼黑展览中心 16 个展厅全部订出，其中 89% 的展商来自海外。除德国外，展商最多的国家分别是：中国、意大利、台湾、英国和美国。
+                    </p>
+                    <p>
+                        今年还迎来了三星、卡西欧和黛安芬等重量级的新伙伴亮相。户外展区强势扩展，新增40家展商，其中包括 2015 年 ISPO创新大赛（ISPO BRANDNEW）大奖获得者Scrubba（澳大利亚）和Sealand Gear（南非）。今年还迎来了三星、卡西欧和黛安芬等重量级的新伙伴亮相。户外展区强势扩展，新增40家展商，其中包括 2015 年 ISPO创新大赛（ISPO BRANDNEW）大奖获得者Scrubba（澳大利亚）和Sealand Gear（南非）。
+                    </p>
+                    <p>
+                        聚焦行业增长潜力
+                    </p>
+                    <p>
+                        “移动健康&健身”特别展区
+                    </p>
+                    <p>瑜伽、普拉提健身等健康和健身运动受到热捧，未来将形成巨大的市场。可穿戴设备的市场仍然看好。ISPO MUNICH 在B5展厅推出 “移动健康&健身”特别展区，让三星、卡西欧、Garmin 和 Polar 等公司展示自己的最新产品。
+                    </p>
+                    <p>
+                        ISPO MUNICH 还与 Bogner 及弗劳恩霍夫集成电路研究所合作，深入展示虚拟现实技术在零售市场中的现状。通过虚拟现实设备，观众能够亲身体会在风雪中站立在 500 米高的冰山之上，头上有雄鹰盘旋的情景。一座小桥通向展示区入口，带观众了解 Bogner 的历史。然后，观众还能穿上 Bogner 外套，来一场轻松的滑雪。
+                    </p>
+                    <p>聚焦：运动中的女性</p>
+                    <p>瑜伽、普拉提健身等健康和健身运动受到热捧，未来将形成巨大的市场。可穿戴设备的市场仍然看好。ISPO MUNICH 在B5展厅推出 “移动健康&健身”特别展区，让三星、卡西欧、Garmin 和 Polar 等公司展示自己的最新产品。 </p>
+                    <p>ISPO MUNICH 还与 Bogner 及弗劳恩霍夫集成电路研究所合作，深入展示虚拟现实技术在零售市场中的现状。通过虚拟现实设备，观众能够亲身体会在风雪中站立在 500 米高的冰山之上，头上有雄鹰盘旋的情景。一座小桥通向展示区入口，带观众了解 Bogner 的历史。然后，观众还能穿上 Bogner 外套，来一场轻松的滑雪。</p>
+                    <p>无论作为经营者、影响者或目标群体，女性在运动市场中的现状都呼唤着改变。</p>
+                    <p>今年，ISPO MUNICH 在B1展厅设置了“女性运动专区”，这次 ISPO MUNICH 首次专为女性运动提供平台。每天11:00~15:30，这里都会举办 ISPO Experts4Women 女性运动专家活动，为观众推荐适合女性运动的品牌。
+                    </p>
+                </div>
+                <footer>
+                    <a class="link" href="##">2016美国波士顿水产展下周即将盛大开幕！</a>
+                </footer>
+            </article>
+        </aside>
+        <aside class="aside-right fr">
+            <!-- 广告位-->
+            <a class="com-aside-ad" href="###" title=""></a>
+
+            <!--#include virtual="_include/_com-list-tj.shtml"-->
+            <!--#include virtual="_include/_com-list-wz.shtml"-->
+        </aside>
+    </main>
+</div>
+<!--#include virtual="_include/_com-info.shtml"-->
+
+<!--#include virtual="_include/_com-footer.shtml"-->
+<script>
+    (function () {
+
+    })();
+</script>
+</body>
+
+</html>
