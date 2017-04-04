@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--#include virtual="_include/_com-meta.shtml"-->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+<body>
+<!--#include virtual="_include/_com-header.shtml"-->
+<!--#include virtual="_include/_com-topAd.shtml"-->
+<div class="com-wrap">
+    <ul class="com-crumbs">
+        <li><a href="index.html">首页</a></li>
+        <li><a href="subject.html">专题展会</a></li>
+        <li>08期</li>
+    </ul>
+    <main class="com-content clearfix">
+        <aside class="aside-left fl">
+            <!-- 专题系列-->
+            <section class="sub-detail">
+                <header><span>【 展会专题08期 】</span>遇见诗意生活 2017法兰克福春季消费</header>
+                <div class="img">
+                    <img src="pics/suj-hf.jpg" alt="">
+                </div>
+                <p>
+                    作为世界顶级的消费品行业类博览会，毫不夸张地说，在这里可以看到关于美好家居生活的所有想象，其专业性和前瞻性堪称全球消费风向标(俗称剁手指南)。第一时间赶赴现场，全方位报道这场全球级的买买买狂欢。作为世界顶级的消费品行业类博览会，毫不夸张地说，在这里可以看到关于美好家居生活的所有想象，其专业性和前瞻性堪称全球消费风向标(俗称剁手指南)。第一时间赶赴现场，全方位报道这场全</p>
+            </section>
+            <!-- 相关系列-->
+            <section class="sub-list">
+                <header class="sub-list-header"><span>相关系列展会</span></header>
+                <section class="item">
+                    <header><a href="###"> 法国巴黎国际消费品博览会（Maison & Objet Paris）</a></header>
+                    <div class="clearfix">
+                        <aside class="fl">
+                            <img src="pics/home-cq.jpg">
+                            <a class="btn" href="###">展会详情<i class="fa fa-search"></i></a>
+                        </aside>
+                        <aside class="content fr">
+                            <label>展会亮点</label>
+                            <div class="tip"><i class="fa fa-thumbs-up"></i>国内企业进一步开拓法国市场的绝好的机会</div>
+                            <div class="tip"><i class="fa fa-thumbs-up"></i>买家一致认为这个展会是购买快速消费品的最佳途径</div>
+                            <p>法国巴黎国际消费品博览会（Maison & Objet Paris）是由著名的GL events exhibitions主办，该集团是专业的贸易展会主办方，而旗下的巴黎国际贸易展览会为从事生产高质量产品的中国企业介入法国市场提供了一个很好的贸易平台，也是法国买家深入了解中国企业的生产和加工实力，并最终形成生产订单的良好机会。</p>
+                        </aside>
+                    </div>
+                </section>
+                <!-- item end-->
+                <section class="item">
+                    <header><a href="###"> 法国巴黎国际消费品博览会（Maison & Objet Paris）</a></header>
+                    <div class="clearfix">
+                        <aside class="fl">
+                            <img src="pics/home-cq.jpg">
+                            <a class="btn" href="###">展会详情<i class="fa fa-search"></i></a>
+                        </aside>
+                        <aside class="content fr">
+                            <label>展会亮点</label>
+                            <div class="tip"><i class="fa fa-thumbs-up"></i>国内企业进一步开拓法国市场的绝好的机会</div>
+                            <div class="tip"><i class="fa fa-thumbs-up"></i>买家一致认为这个展会是购买快速消费品的最佳途径</div>
+                            <div class="tip"><i class="fa fa-thumbs-up"></i>买家一致认为这个展会是购买快速消费品的最佳途径</div>
+                            <p>法国巴黎国际消费品博览会（Maison & Objet Paris）是由著名的GL events exhibitions主办，该集团是专业的贸易展会主办方，而旗下的巴黎国际贸易展览会为从事生产高质量产品的中国企业介入法国市场提供了一个很好的贸易平台，也是法国买家深入了解中国企业的生产和加工实力，并最终形成生产订单的良好机会。</p>
+                        </aside>
+                    </div>
+                </section>
+                <!-- item end-->
+                <section class="item">
+                    <header><a href="###"> 法国巴黎国际消费品博览会（Maison & Objet Paris）</a></header>
+                    <div class="clearfix">
+                        <aside class="fl">
+                            <img src="pics/home-cq.jpg">
+                            <a class="btn" href="###">展会详情<i class="fa fa-search"></i></a>
+                        </aside>
+                        <aside class="content fr">
+                            <label>展会亮点</label>
+                            <div class="tip"><i class="fa fa-thumbs-up"></i>国内企业进一步开拓法国市场的绝好的机会</div>
+                            <div class="tip"><i class="fa fa-thumbs-up"></i>买家一致认为这个展会是购买快速消费品的最佳途径</div>
+                            <p>法国巴黎国际消费品博览会（Maison & Objet Paris）是由著名的GL events exhibitions主办，该集团是专业的贸易展会主办方，而旗下的巴黎国际贸易展览会为从事生产高质量产品的中国企业介入法国市场提供了一个很好的贸易平台，也是法国买家深入了解中国企业的生产和加工实力，并最终形成生产订单的良好机会。</p>
+                        </aside>
+                    </div>
+                </section>
+                <!-- item end-->
+            </section>
+        </aside>
+        <aside class="aside-right fr">
+            <!-- 广告位-->
+            <a class="com-aside-ad" href="###" title=""><img src="pics/home-zb-1.jpg"></a>
+            <!--#include virtual="_include/_com-list-tj2.shtml"-->
+            <!--#include virtual="_include/_com-list-sj2.shtml"-->
+
+        </aside>
+    </main>
+</div>
+<!--#include virtual="_include/_com-info.shtml"-->
+
+<!--#include virtual="_include/_com-footer.shtml"-->
+<script>
+    (function () {
+
+    })();
+</script>
+</body>
+
+</html>

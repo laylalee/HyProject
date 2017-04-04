@@ -53,6 +53,7 @@
 @mixin triangle($d:top,$color:#ddd,$xsize:10px,$ysize:10px) {
     width: 0;
     height: 0;
+    border-style:solid;
     border-width: $xsize $ysize;
     border-color: transparent;
     border-#{$d}-color: $color;

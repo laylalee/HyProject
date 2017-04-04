@@ -1,4 +1,4 @@
-.home-cq .item .img label, .home-cq .item p, .home-gl .gallery .img p, .home-gl .list-center .top h5, .home-coop .item a, .com-menu-fold .item h4, .global-class header, .com-list-base .item .header, .com-list-circle li, .com-list-label li, .com-list-aside .list-tj .item p {
+.home-cq .item .img label, .home-cq .item p, .home-gl .gallery .img p, .home-gl .list-center .top h5, .home-coop .item a, .com-menu-fold .item h4, .global-class header, .com-list-base .item .header, .com-list-circle li, .com-list-label li, .com-list-aside .list-tj .item p, .sub-detail header, .sub-list .item header, .sub-list .item .tip {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis; }
@@ -432,7 +432,7 @@ input::-ms-reveal {
 ::-ms-clear, ::-ms-reveal {
   display: none; }
 
-.home-cq .item .img label, .home-cq .item p, .home-gl .gallery .img p, .home-gl .list-center .top h5, .home-coop .item a, .com-menu-fold .item h4, .global-class header, .com-list-base .item .header, .com-list-circle li, .com-list-label li, .com-list-aside .list-tj .item p {
+.home-cq .item .img label, .home-cq .item p, .home-gl .gallery .img p, .home-gl .list-center .top h5, .home-coop .item a, .com-menu-fold .item h4, .global-class header, .com-list-base .item .header, .com-list-circle li, .com-list-label li, .com-list-aside .list-tj .item p, .sub-detail header, .sub-list .item header, .sub-list .item .tip {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis; }
@@ -746,6 +746,7 @@ input::-ms-reveal {
         margin-left: -7px;
         width: 0;
         height: 0;
+        border-style: solid;
         border-width: 7px 7px;
         border-color: transparent;
         border-bottom-color: #ff3300; }
@@ -1066,6 +1067,7 @@ input::-ms-reveal {
     border-style: solid;
     width: 0;
     height: 0;
+    border-style: solid;
     border-width: 8px 8px;
     border-color: transparent;
     border-bottom-color: #fff;
@@ -1641,6 +1643,7 @@ input::-ms-reveal {
   .com-list-label .label-b:after {
     width: 0;
     height: 0;
+    border-style: solid;
     border-width: 5px 5px;
     border-color: transparent;
     border-left-color: #0099ff; }
@@ -1649,6 +1652,7 @@ input::-ms-reveal {
   .com-list-label .label-r:after {
     width: 0;
     height: 0;
+    border-style: solid;
     border-width: 5px 5px;
     border-color: transparent;
     border-left-color: #ff3300; }
@@ -1754,3 +1758,108 @@ input::-ms-reveal {
     border-top: 1px solid #80ccff; }
     .com-consult .return .fa {
       font-size: 35px; }
+
+/**  专题详情 **/
+.sub-detail {
+  margin-bottom: 20px; }
+  .sub-detail header {
+    font-size: 24px;
+    line-height: 40px;
+    margin-bottom: 10px; }
+    .sub-detail header span {
+      color: #0099ff;
+      font-size: 14px;
+      display: inline-block;
+      vertical-align: middle;
+      margin-top: -4px; }
+  .sub-detail img {
+    width: 100%; }
+  .sub-detail p {
+    padding: 10px;
+    line-height: 1.8;
+    color: #666; }
+
+.sub-list .sub-list-header {
+  font-size: 24px;
+  position: relative;
+  text-align: center;
+  margin-bottom: 10px; }
+  .sub-list .sub-list-header span {
+    background: #fff;
+    position: relative;
+    padding: 10px 30px; }
+  .sub-list .sub-list-header:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    background: #dddddd;
+    height: 6px;
+    left: 0;
+    top: 50%;
+    margin-top: -3px; }
+.sub-list .item {
+  margin-bottom: 30px; }
+  .sub-list .item header {
+    font-size: 20px;
+    line-height: 60px;
+    font-weight: bold; }
+  .sub-list .item .fl {
+    width: 280px;
+    text-align: center; }
+  .sub-list .item .content {
+    width: 560px;
+    height: 245px;
+    padding: 15px;
+    position: relative;
+    background: #f1f1f1; }
+  .sub-list .item img {
+    width: 100%; }
+  .sub-list .item label {
+    position: relative;
+    background: #ff3300;
+    color: #fff;
+    display: inline-block;
+    top: -15px;
+    left: -25px;
+    line-height: 34px;
+    width: 150px;
+    text-align: center;
+    font-size: 16px; }
+    .sub-list .item label:after {
+      content: '';
+      left: 0;
+      bottom: -10px;
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 5px 5px;
+      border-color: transparent;
+      border-right-color: #991f00;
+      border-top-color: #991f00; }
+  .sub-list .item .btn {
+    background: #0099ff;
+    color: #fff;
+    font-size: 18px;
+    display: block;
+    margin: 10px 0 0;
+    line-height: 40px;
+    border-radius: 5px;
+    -webkit-transition: background 0.35s;
+    transition: background 0.35s; }
+    .sub-list .item .btn:hover {
+      background: #1779d6; }
+    .sub-list .item .btn i {
+      padding-left: 5px; }
+  .sub-list .item .tip {
+    padding: 0 5px 5px;
+    font-size: 15px; }
+    .sub-list .item .tip i {
+      color: #ff3300;
+      padding-right: 10px; }
+  .sub-list .item p {
+    color: #666;
+    line-height: 22px;
+    margin-top: 10px;
+    height: 88px;
+    overflow: hidden; }
