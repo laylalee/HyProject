@@ -1129,6 +1129,13 @@ input::-ms-reveal {
     background: url("../images/sj-purple.png"); }
 
 /* 公共组件*/
+.com-banner {
+  height: 295px;
+  width: 100%;
+  margin: 5px auto 15px; }
+  .com-banner.service-banner {
+    background: url("../images/server-banner.jpg") center; }
+
 .head-h2 {
   font-size: 24px; }
 
@@ -2051,6 +2058,116 @@ input::-ms-reveal {
     margin-top: 10px;
     height: 88px;
     overflow: hidden; }
+
+/** 服务体系**/
+.service-top {
+  margin-bottom: 80px;
+  position: relative; }
+  .service-top .top-tab {
+    position: absolute;
+    z-index: 110;
+    top: 50px;
+    width: 130px;
+    left: -150px; }
+    .service-top .top-tab li {
+      margin-bottom: 5px; }
+    .service-top .top-tab a {
+      display: block;
+      text-align: center;
+      font-size: 16px;
+      line-height: 36px;
+      color: #003987;
+      position: relative;
+      border: 1px solid #003987; }
+      .service-top .top-tab a:after {
+        content: '';
+        position: absolute;
+        right: -16px;
+        top: 50%;
+        margin-top: -8px;
+        visibility: hidden;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 8px 8px;
+        border-color: transparent;
+        border-left-color: #003987; }
+      .service-top .top-tab a:hover, .service-top .top-tab a.active {
+        background: #003987;
+        color: #fff; }
+        .service-top .top-tab a:hover:after, .service-top .top-tab a.active:after {
+          visibility: visible; }
+  .service-top .item {
+    margin-bottom: 20px;
+    font-size: 15px; }
+    .service-top .item .msg {
+      width: 540px; }
+    .service-top .item .img {
+      margin-top: 50px; }
+    .service-top .item .tit {
+      border-bottom: 1px solid #ddd;
+      margin-right: 10px;
+      height: 48px;
+      margin-bottom: 20px;
+      font-size: 20px; }
+      .service-top .item .tit span {
+        display: inline-block;
+        height: 48px;
+        line-height: 53px;
+        color: #fff;
+        width: 190px;
+        background: url("../images/server-title.png"); }
+      .service-top .item .tit b {
+        display: inline-block;
+        width: 50px;
+        font-size: 24px;
+        margin-left: 5px;
+        text-align: center; }
+    .service-top .item .line {
+      line-height: 32px; }
+      .service-top .item .line span {
+        padding-right: 5px; }
+  .service-top .top-text {
+    line-height: 2;
+    margin-top: 40px; }
+    .service-top .top-text span {
+      font-size: 18px; }
+
+.service-bottom {
+  margin-top: 30px;
+  margin-bottom: 50px; }
+  .service-bottom .item {
+    display: inline-block;
+    padding: 10px 20px 20px;
+    width: 33%;
+    margin-bottom: 20px;
+    -webkit-transition: background 0.3s;
+    transition: background 0.3s; }
+    .service-bottom .item img {
+      width: 100%; }
+    .service-bottom .item p {
+      line-height: 25px;
+      height: 50px; }
+    .service-bottom .item h3 {
+      text-align: center;
+      font-size: 20px;
+      font-weight: bold;
+      line-height: 60px;
+      -webkit-transition: color 0.3s;
+      transition: color 0.3s; }
+    .service-bottom .item .link {
+      display: block;
+      text-align: right;
+      color: #0099ff;
+      visibility: hidden; }
+      .service-bottom .item .link:hover {
+        text-decoration: underline; }
+    .service-bottom .item:hover {
+      background: #f1f1f1; }
+      .service-bottom .item:hover h3 {
+        color: #003987; }
+      .service-bottom .item:hover .link {
+        visibility: visible; }
 
 /** 文章详情 **/
 .article {
