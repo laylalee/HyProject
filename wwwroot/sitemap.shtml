@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--#include virtual="_include/_com-meta.shtml"-->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+<body>
+<!--#include virtual="_include/_com-header.shtml"-->
+<div class="com-wrap">
+    <ul class="com-crumbs">
+        <li><a href="index.html">首页</a></li>
+        <li>网站地图</li>
+    </ul>
+    <main class="com-content clearfix">
+        <aside class="aside-left sitemap fl ">
+            <header class="com-line-title primary-color"><span>全球展会</span></header>
+            <label>行业类别</label>
+            <section class="links">
+                <a class="link" href="###">日用消费品类</a>
+                <a class="link" href="###">礼品赠品类</a>
+                <a class="link" href="###">办公文具类</a>
+                <a class="link" href="###">鞋及鞋材类</a>
+                <a class="link" href="###">印刷包装类</a>
+                <a class="link last" href="###">体育用品类</a>
+
+                <a class="link" href="###">日用消费品类</a>
+                <a class="link" href="###">礼品赠品类</a>
+                <a class="link" href="###">办公文具类</a>
+                <a class="link" href="###">鞋及鞋材类</a>
+                <a class="link" href="###">印刷包装类</a>
+                <a class="link last" href="###">体育用品类</a>
+
+                <a class="link" href="###">日用消费品类</a>
+                <a class="link" href="###">礼品赠品类</a>
+                <a class="link" href="###">办公文具类</a>
+                <a class="link" href="###">鞋及鞋材类</a>
+                <a class="link" href="###">印刷包装类</a>
+                <a class="link last" href="###">体育用品类</a>
+
+                <a class="link" href="###">日用消费品类</a>
+                <a class="link" href="###">礼品赠品类</a>
+                <a class="link" href="###">办公文具类</a>
+                <a class="link" href="###">鞋及鞋材类</a>
+                <a class="link" href="###">印刷包装类</a>
+                <a class="link last" href="###">体育用品类</a>
+            </section>
+            <label>国家地区</label>
+            <section class="links">
+                <a class="link" href="###">美国</a>
+                <a class="link" href="###">俄罗斯</a>
+                <a class="link" href="###">巴西</a>
+                <a class="link" href="###">日本</a>
+                <a class="link" href="###">德国</a>
+                <a class="link last" href="###"> 意大利</a>
+
+                <a class="link" href="###">美国</a>
+                <a class="link" href="###">俄罗斯</a>
+                <a class="link" href="###">巴西</a>
+                <a class="link" href="###">日本</a>
+                <a class="link" href="###">德国</a>
+                <a class="link last" href="###"> 意大利</a>
+
+                <a class="link" href="###">美国</a>
+                <a class="link" href="###">俄罗斯</a>
+                <a class="link" href="###">巴西</a>
+                <a class="link" href="###">日本</a>
+                <a class="link" href="###">德国</a>
+                <a class="link last" href="###"> 意大利</a>
+
+                <a class="link" href="###">美国</a>
+                <a class="link" href="###">俄罗斯</a>
+                <a class="link" href="###">巴西</a>
+                <a class="link" href="###">日本</a>
+                <a class="link" href="###">德国</a>
+                <a class="link last" href="###"> 意大利</a>
+            </section>
+            <header class="com-line-title primary-color"><span>专题展会</span></header>
+            <section class="links">
+                <a class="link" href="###">家居用品</a>
+                <a class="link" href="###">食品</a>
+                <a class="link" href="###">水产渔业</a>
+                <a class="link" href="###">家居用品</a>
+                <a class="link" href="###">食品</a>
+                <a class="link last" href="###"> 水产渔业</a>
+
+                <a class="link" href="###">家居用品</a>
+                <a class="link" href="###">食品</a>
+                <a class="link" href="###">水产渔业</a>
+                <a class="link" href="###">家居用品</a>
+                <a class="link" href="###">食品</a>
+                <a class="link last" href="###"> 水产渔业</a>
+
+                <a class="link" href="###">家居用品</a>
+                <a class="link" href="###">食品</a>
+                <a class="link" href="###">水产渔业</a>
+                <a class="link" href="###">家居用品</a>
+                <a class="link" href="###">食品</a>
+                <a class="link last" href="###"> 水产渔业</a>
+            </section>
+            <header class="com-line-title primary-color"><span>服务体系</span></header>
+            <section class="links">
+                <a class="link" href="###">服务体系</a>
+                <a class="link" href="###">电子商务</a>
+                <a class="link" href="###">担保服务</a>
+                <a class="link" href="###">进出品服务</a>
+                <a class="link" href="###">展会搭建</a>
+                <a class="link last" href="###"> 中小企业服务</a>
+
+                <a class="link" href="###">海峡商机期刊</a>
+            </section>
+
+            <header class="com-line-title primary-color"><span>参展攻略</span></header>
+            <section class="links">
+                <a class="link" href="###">展会回顾</a>
+                <a class="link" href="###">参展技巧</a>
+                <a class="link" href="###">展台搭建</a>
+                <a class="link" href="###">行业资讯</a>
+                <a class="link" href="###">签证技巧</a>
+                <a class="link last" href="###">外贸课堂</a>
+
+                <a class="link" href="###">市场分析</a>
+            </section>
+            <header class="com-line-title primary-color"><span>关于我们</span></header>
+            <section class="links">
+                <a class="link" href="###">企业简介</a>
+                <a class="link" href="###">汇源动态</a>
+                <a class="link" href="###">企业文化</a>
+                <a class="link" href="###">发展历程</a>
+                <a class="link" href="###">企业荣誉</a>
+                <a class="link last" href="###">人才招聘</a>
+
+                <a class="link" href="###">联系我们</a>
+            </section>
+        </aside>
+        <aside class="aside-right fr">
+            <!-- 广告位-->
+            <a class="com-aside-ad" href="###" title=""></a>
+            <!--#include virtual="_include/_com-list-tj.shtml"-->
+        </aside>
+    </main>
+</div>
+<!--#include virtual="_include/_com-info.shtml"-->
+
+<!--#include virtual="_include/_com-footer.shtml"-->
+<script>
+    (function () {
+
+    })();
+</script>
+</body>
+
+</html>
