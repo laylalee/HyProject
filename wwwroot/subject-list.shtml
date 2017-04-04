@@ -26,7 +26,7 @@
             </section>
             <!-- 相关系列-->
             <section class="sub-list">
-                <header class="sub-list-header"><span>相关系列展会</span></header>
+                <header class="com-line-title"><span>相关系列展会</span></header>
                 <section class="item">
                     <header><a href="###"> 法国巴黎国际消费品博览会（Maison & Objet Paris）</a></header>
                     <div class="clearfix">
