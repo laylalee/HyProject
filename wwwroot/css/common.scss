@@ -857,6 +857,48 @@
 
 }
 
+.com-list-dt{
+  .item{
+     border-radius: 5px;
+     border: 1px solid #fff;
+    .img{
+      width: 330px;
+    }
+    .header{
+      white-space:normal;
+      font-size: 20px;
+    }
+    .time{
+      color: #666;
+      font-size: 12px;
+      margin: 7px 0 8px;
+    }
+    p{
+      line-height: 1.9;
+    }
+    .btn{
+      display: inline-block;
+      line-height: 36px;
+      width: 180px;
+      text-align: center;
+      margin-top: 30px;
+      font-size: 15px;
+      border-radius: 5px;
+      border:1px solid $primary-second;
+      color: $primary-second;
+    }
+    &:hover{
+      border-color: $inner-gray;
+      box-shadow: 0 0 3px rgba(0,0,0,0.4);
+      .btn{
+        background: $primary-second;
+        color:#fff;
+      }
+    }
+  }
+
+}
+
 .com-list-global {
   .item {
     overflow: visible;
@@ -1512,6 +1554,102 @@
       &:after {
         display: none;
       }
+    }
+  }
+}
+
+/**关于我们**/
+.about-nav{
+  width: 280px;
+  li{
+    line-height: 48px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding:0 20px 0 40px;
+    position: relative;
+    background: $inner-gray;
+    cursor: pointer;
+    @include transition(background 0.35s);
+    .fa{
+      float: right;
+      display: inline-block;
+      line-height: 48px;
+      color: #fff;
+      visibility: hidden;
+    }
+    &.active,&:hover{
+      background: $primary;
+      color: #fff;
+      .fa{
+        visibility: visible;
+      }
+    }
+  }
+}
+.about-content{
+  width: 880px;
+  padding-bottom: 50px;
+}
+.about-intro{
+  font-size: 16px;
+  header{
+    font-size: 24px;
+    text-align: center;
+  }
+  .share{
+    padding:20px 0;
+    float: right;
+  }
+  .cnt{
+    line-height: 2;
+  }
+  .fa-circle{
+    font-size: 12px;
+    margin-left: 5px;
+    margin-right: 15px;
+    @include scale(0.8);
+  }
+  p{
+    margin-bottom: 30px;
+  }
+  h3{
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+  }
+  .imgs{
+    text-align: center;
+    img{
+      display: inline-block;
+      width: 30.5%;
+      margin:0 1% 30px;
+      border-radius: 3px;
+    }
+    &.imgs-half{
+      img{
+        width: 47%;
+      }
+    }
+  }
+  .line-1{
+    line-height: 2.05;
+    margin-bottom: 30px;
+    .fl{
+      width: 65%;
+    }
+  }
+  .line-2{
+    margin-bottom: 30px;
+    .fl{
+      width: 45%;
+      img{
+        width: 100%;
+        margin-bottom: 15px;
+      }
+    }
+    .fr{
+      width: 53%;
     }
   }
 }

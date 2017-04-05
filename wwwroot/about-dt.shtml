@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--#include virtual="_include/_com-meta.shtml"-->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+<body>
+<!--#include virtual="_include/_com-header.shtml"-->
+<div class="com-wrap">
+    <ul class="com-crumbs">
+        <li><a href="index.html">首页</a></li>
+        <li><a href="about.html">关于我们</a></li>
+        <li>汇源动态</li>
+    </ul>
+    <main class="com-content clearfix">
+        <!--#include virtual="_include/_about-nav.shtml"-->
+        <aside class="about-content fr">
+            <div class="com-list-base com-list-dt">
+                <section class="item clearfix">
+                    <div class="img">
+                        <a href="###" title=""><img src="pics/dt.jpg"></a>
+                    </div>
+                    <div class="msg">
+                        <h4 class="header"><a href="###">2010年5月成立台湾荟源国际展览股份有限公司</a></h4>
+                        <div class="time">2016-6-22	10:25</div>
+                        <p>2010年5月成立台湾荟源国际展览股份有限公司，是中国大陆首家在台湾设立的会展企业！时任福建省省长黄小晶为我司授匾！</p>
+                        <a class="btn" href="###">详细信息  >></a>
+                    </div>
+                </section>
+                <section class="item clearfix">
+                    <div class="img">
+                        <a href="###" title=""><img src="pics/dt.jpg"></a>
+                    </div>
+                    <div class="msg">
+                        <h4 class="header"><a href="###">2010年5月成立台湾荟源国际展览股份有限公司</a></h4>
+                        <div class="time">2016-6-22	10:25</div>
+                        <p>2010年5月成立台湾荟源国际展览股份有限公司，是中国大陆首家在台湾设立的会展企业！时任福建省省长黄小晶为我司授匾！</p>
+                        <a class="btn" href="###">详细信息  >></a>
+                    </div>
+                </section>
+                <section class="item clearfix">
+                    <div class="img">
+                        <a href="###" title=""><img src="pics/dt.jpg"></a>
+                    </div>
+                    <div class="msg">
+                        <h4 class="header"><a href="###">2010年5月成立台湾荟源国际展览股份有限公司</a></h4>
+                        <div class="time">2016-6-22	10:25</div>
+                        <p>2010年5月成立台湾荟源国际展览股份有限公司，是中国大陆首家在台湾设立的会展企业！时任福建省省长黄小晶为我司授匾！</p>
+                        <a class="btn" href="###">详细信息  >></a>
+                    </div>
+                </section>
+                <section class="item clearfix">
+                    <div class="img">
+                        <a href="###" title=""><img src="pics/dt.jpg"></a>
+                    </div>
+                    <div class="msg">
+                        <h4 class="header"><a href="###">2010年5月成立台湾荟源国际展览股份有限公司</a></h4>
+                        <div class="time">2016-6-22	10:25</div>
+                        <p>2010年5月成立台湾荟源国际展览股份有限公司，是中国大陆首家在台湾设立的会展企业！时任福建省省长黄小晶为我司授匾！</p>
+                        <a class="btn" href="###">详细信息  >></a>
+                    </div>
+                </section>
+                <section class="item clearfix">
+                    <div class="img">
+                        <a href="###" title=""><img src="pics/dt.jpg"></a>
+                    </div>
+                    <div class="msg">
+                        <h4 class="header"><a href="###">2010年5月成立台湾荟源国际展览股份有限公司</a></h4>
+                        <div class="time">2016-6-22	10:25</div>
+                        <p>2010年5月成立台湾荟源国际展览股份有限公司，是中国大陆首家在台湾设立的会展企业！时任福建省省长黄小晶为我司授匾！</p>
+                        <a class="btn" href="###">详细信息  >></a>
+                    </div>
+                </section>
+                <section class="item clearfix">
+                    <div class="img">
+                        <a href="###" title=""><img src="pics/dt.jpg"></a>
+                    </div>
+                    <div class="msg">
+                        <h4 class="header"><a href="###">2010年5月成立台湾荟源国际展览股份有限公司</a></h4>
+                        <div class="time">2016-6-22	10:25</div>
+                        <p>2010年5月成立台湾荟源国际展览股份有限公司，是中国大陆首家在台湾设立的会展企业！时任福建省省长黄小晶为我司授匾！</p>
+                        <a class="btn" href="###">详细信息  >></a>
+                    </div>
+                </section>
+            </div>
+            <!--#include virtual="_include/_com-pager.shtml"-->
+        </aside>
+    </main>
+</div>
+<!--#include virtual="_include/_com-info.shtml"-->
+
+<!--#include virtual="_include/_com-footer.shtml"-->
+<script>
+    (function () {
+        $('.about-nav li').eq(1).addClass('active');
+    })();
+</script>
+</body>
+
+</html>

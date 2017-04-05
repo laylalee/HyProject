@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--#include virtual="_include/_com-meta.shtml"-->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+<body>
+<!--#include virtual="_include/_com-header.shtml"-->
+<div class="com-wrap">
+    <ul class="com-crumbs">
+        <li><a href="index.html">首页</a></li>
+        <li><a href="about.html">关于我们</a></li>
+        <li>企业简介</li>
+    </ul>
+    <main class="com-content clearfix">
+        <!--#include virtual="_include/_about-nav.shtml"-->
+        <aside class="about-content about-intro fr">
+            <header>
+                <h2>汇源（中国）会展创意简介</h2>
+
+                <div class="share">
+                    <!-- JiaThis Button BEGIN -->
+                    <div class="jiathis_style">
+                        <a class="jiathis_button_qzone"></a>
+                        <a class="jiathis_button_tsina"></a>
+                        <a class="jiathis_button_tqq"></a>
+                        <a class="jiathis_button_weixin"></a>
+                        <a class="jiathis_button_renren"></a>
+                        <a class="jiathis_button_xiaoyou"></a>
+                        <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis"
+                           target="_blank"></a>
+                    </div>
+                    <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+                    <!-- JiaThis Button END -->
+                </div>
+            </header>
+            <div class="cnt">
+                <p><img src="images/abo-intro-1.jpg"></p>
+
+                <div class="line-1 clearfix">
+                    <div class="fl">
+                        <b>福建汇源国际商务会展有限公司</b>
+                        我们成立于2000年，是经商务部批准赋予出国展览经营权的专业展览公司。我们以福建外贸为基础，经过17年的发展，开发代理的境外专业展会涵盖30多个国家和地区，涉及鞋服、工艺品、家庭用品、机械电子、食品、家具、婴童用品、文具、能源、五金建材等十几个产业，每年带领全国5千多家外贸企业走向国际市场，结识专业买家7.8万，为福建省带来直接订单13.5亿美元，意向签约35亿美元。
+                    </div>
+                    <img class="fr" src="images/abo-intro-2.jpg">
+                </div>
+                <h3 class="text-primary">我们每年带领5千多家企业前往世界各地开拓市场</h3>
+
+                <div class="imgs">
+                    <img src="images/abo-intro-3-1.jpg">
+                    <img src="images/abo-intro-3-2.jpg">
+                    <img src="images/abo-intro-3-3.jpg">
+                    <img src="images/abo-intro-3-4.jpg">
+                    <img src="images/abo-intro-3-5.jpg">
+                    <img src="images/abo-intro-3-6.jpg">
+                </div>
+                <div class="line-2 clearfix">
+                    <div class="fl img">
+                        <img src="images/abo-intro-4.jpg">
+                        <h6 class="text-primary tc">（全国独特的展会综合服务体系）</h6>
+                    </div>
+                    <div class="fr">
+                        <div>我们秉承有为则有位，以薪酬福利留住人、以文化底蕴塑造人、以发展机制培养人、以家庭氛围温暖人的汇源人才观。</div>
+                        <div>
+                            我们在长期的经营发展中，创造性地开发以展览为内核，以展会产业相关服务为外核，构建成全国独特的展会综合服务体系。公司中负责展览业务的公司包括了福建荟源国际展览有限公司、厦门荟源国际展览有限公司、台湾荟源国际展览有限公司、香港荟源国际展览有限公司，以及泉州办事处。外核服务业务公司包括福建省外经贸中小企业服务中心、福建荟源进出口有限公司，福建华闽招标有限公司，福建荟源达装饰工程有限公司、《海峡商机》编辑部、福建省荟源外经贸融资担保有限公司。
+                        </div>
+                    </div>
+                </div>
+                <p>
+                    2006年汇源公司发起联合福建17家企业，与中国保利集团合作，在广交会旁建设9.2万平米的保利世贸博览馆。广交会期间70%展位由福建企业使用，成为福建外贸最大的贸易成交平台。
+                </p>
+
+                <p>
+                    2009年，汇源公司与国际36家大型会展公司激烈竞争后，获得广交会进口展区全球总代理资格，每届有55个国家和地区的企业报名参展。2015年之后，我司仍作为进口展区一级代理。
+                </p>
+
+                <p>
+                    <i class="fa fa-circle"></i>
+                    2011年公司开启“二次创业”，培育自办展会和专业展会运营团队，实行代理展和自办展并行，目前在福州、厦门、马来西亚举办自办展，包括福州渔博会、福州家建展、福州时尚婚庆博览会、厦门98酒展、马来西亚福建商品展（福建品牌海丝行）等多个自办展项目。
+                </p>
+
+                <div class="imgs imgs-half">
+                    <img src="images/abo-intro-5-1.jpg">
+                    <img src="images/abo-intro-5-2.jpg">
+                </div>
+                <p>
+                    <i class="fa fa-circle"></i> 2011年8月，中共福州市委宣传部评选我司为“福州市文化创意产业示范企业”，是展览行业中唯一的示范企业。<br>
+                    <i class="fa fa-circle"></i> 2012年11月,我司被评为“2012-2013年度福建省文化出口重点企业”。<br>
+                    <i class="fa fa-circle"></i> 2013年3月，我司被评为“福建省文化产业示范基地”。<br>
+                    <i class="fa fa-circle"></i> 2013年根据福建区域和企业评价中心评审，成为福建省最大会展公司。
+                </p>
+
+                <div class="imgs imgs-half">
+                    <img src="images/abo-intro-6-1.jpg">
+                    <img src="images/abo-intro-6-2.jpg">
+                    <img src="images/abo-intro-6-3.jpg">
+                    <img src="images/abo-intro-6-4.jpg">
+                </div>
+                <p>
+                    我们致力于为进出口贸易企业提供完整的综合服务体系，热忱期待与国内外广大贸易商和生产企业、各国驻中国商务机构、贸易代表及行业商会和国内各地外经贸厅（局）、贸促会及各专业协会精诚合作，共谋发展，为进一步配合中国外贸企业开拓国际市场而不断努力。
+                </p>
+            </div>
+
+        </aside>
+    </main>
+</div>
+<!--#include virtual="_include/_com-info.shtml"-->
+
+<!--#include virtual="_include/_com-footer.shtml"-->
+<script>
+    (function () {
+        $('.about-nav li').eq(0).addClass('active');
+    })();
+</script>
+</body>
+
+</html>

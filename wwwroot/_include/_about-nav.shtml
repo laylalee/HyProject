@@ -1,0 +1,10 @@
+<!-- 关于我们：侧边栏-->
+<ul class="about-nav fl">
+    <li> <a href="about.html">企业简介</a><i class="fa fa-angle-right"></i></li>
+    <li> <a href="about-dt.html">汇源动态</a><i class="fa fa-angle-right"></i></li>
+    <li> <a href="###">企业文化</a><i class="fa fa-angle-right"></i></li>
+    <li> <a href="###">发展历程</a><i class="fa fa-angle-right"></i></li>
+    <li> <a href="###">企业荣誉</a><i class="fa fa-angle-right"></i></li>
+    <li> <a href="###"> 人才招聘</a><i class="fa fa-angle-right"></i></li>
+</ul>
+<!-- /关于我们：侧边栏-->
