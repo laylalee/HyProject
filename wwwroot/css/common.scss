@@ -28,14 +28,6 @@
   @extend %cf;
 }
 
-.fl {
-  float: left;
-}
-
-.fr {
-  float: right;
-}
-
 .label-sj {
   position: absolute;
   left: 0;
@@ -131,6 +123,11 @@
   }
   .aside-right {
     width: 280px;
+  }
+  @include respond-to(lg){
+    .aside-left{
+      width: 690px;
+    }
   }
 }
 
@@ -320,7 +317,9 @@
   width: 1200px;
   padding: 0 10px;
   margin: 0 auto;
-
+  @include respond-to(lg){
+    width: 1000px;
+  }
 }
 
 .com-top {
@@ -431,7 +430,13 @@
     }
 
   }
-
+  @include respond-to(lg){
+    .search-input{
+      .topSearchText{
+        width: 200px;
+      }
+    }
+  }
 }
 
 .com-menu-fold {
@@ -849,6 +854,7 @@
     }
 
   }
+
 }
 
 .com-list-global {
@@ -938,6 +944,13 @@
   .header {
     line-height: 80px;
     margin-right: 100px;
+  }
+  @include  respond-to(lg){
+    .item{
+      .header{
+        line-height: 60px;
+      }
+    }
   }
 }
 
@@ -1258,6 +1271,20 @@
       overflow: hidden;
     }
   }
+  @include respond-to(lg){
+    .item{
+      .fl{
+        width: 270px;
+      }
+      .content{
+        width: 400px;
+        height: 235px;
+      }
+      p{
+        height: 66px;
+      }
+    }
+  }
 }
 
 /** 服务体系**/
@@ -1308,6 +1335,7 @@
     }
     .img {
       margin-top: 50px;
+      width: 540px;
     }
     .tit {
       border-bottom: 1px solid #ddd;
@@ -1345,6 +1373,17 @@
     span {
       font-size: 18px;
     }
+  }
+  @include respond-to(lg){
+    .item{
+      .img{
+        width: 450px;
+      }
+      .msg{
+        width: 450px;
+      }
+    }
+
   }
 }
 

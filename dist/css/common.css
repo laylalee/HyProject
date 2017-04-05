@@ -1101,12 +1101,6 @@ input::-ms-reveal {
 .text-upper {
   text-transform: uppercase; }
 
-.fl {
-  float: left; }
-
-.fr {
-  float: right; }
-
 .label-sj {
   position: absolute;
   left: 0;
@@ -1162,23 +1156,29 @@ input::-ms-reveal {
     .com-line-title.primary-color:before {
       background: #003987; }
 
-.com-content .aside-left {
-  width: 880px; }
-.com-content .inner-header {
-  margin: 15px 0;
-  background: #f1f1f1;
-  border-bottom: 2px solid #c7c7c7; }
-.com-content .com-nav-tab a {
-  background: #f1f1f1; }
-.com-content .load-more {
-  background: #f1f1f1;
-  display: block;
-  line-height: 42px;
-  text-align: center;
-  font-size: 16px;
-  margin: 15px auto; }
-.com-content .aside-right {
-  width: 280px; }
+.com-content {
+  @error 'No value found for `#{$breakpoint}`. Please make sure it is defined in `$breakpoints` map.'; }
+  .com-content .aside-left {
+    width: 880px; }
+  .com-content .inner-header {
+    margin: 15px 0;
+    background: #f1f1f1;
+    border-bottom: 2px solid #c7c7c7; }
+  .com-content .com-nav-tab a {
+    background: #f1f1f1; }
+  .com-content .load-more {
+    background: #f1f1f1;
+    display: block;
+    line-height: 42px;
+    text-align: center;
+    font-size: 16px;
+    margin: 15px auto; }
+  .com-content .aside-right {
+    width: 280px; }
+  @media only screen and ( max-width: 1280px) {
+    .com-content .aside-left {
+      width: 690px; }
+ }
 
 .com-crumbs {
   margin-bottom: 5px; }
@@ -1334,7 +1334,11 @@ input::-ms-reveal {
 .com-wrap {
   width: 1200px;
   padding: 0 10px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  @error 'No value found for `#{$breakpoint}`. Please make sure it is defined in `$breakpoints` map.'; }
+  @media only screen and ( max-width: 1280px) {
+    .com-wrap {
+      width: 1000px; } }
 
 .com-top {
   height: 40px;
@@ -1349,7 +1353,8 @@ input::-ms-reveal {
 .com-top-search {
   padding-top: 25px;
   padding-bottom: 25px;
-  position: relative; }
+  position: relative;
+  @error 'No value found for `#{$breakpoint}`. Please make sure it is defined in `$breakpoints` map.'; }
   .com-top-search .logo {
     float: left;
     margin-right: 40px;
@@ -1426,6 +1431,10 @@ input::-ms-reveal {
       margin-left: -4px;
       text-align: center;
       display: inline-block; }
+  @media only screen and ( max-width: 1280px) {
+    .com-top-search .search-input .topSearchText {
+      width: 200px; }
+ }
 
 .com-menu-fold {
   display: none;
@@ -1791,27 +1800,33 @@ input::-ms-reveal {
   .com-list-simple .item:hover {
     background: #f1f1f1; }
 
-.com-list-subject .item {
-  position: relative;
-  border: 1px solid #f1f1f1;
-  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2); }
-.com-list-subject label {
-  position: absolute;
-  right: 10px;
-  top: 0px;
-  padding-top: 10px;
-  text-align: center;
-  color: #ffffff;
-  font-size: 16px;
-  width: 110px;
-  height: 70px;
-  display: block;
-  background: url("../images/circle-blue.png") bottom center no-repeat; }
-  .com-list-subject label b {
-    display: block; }
-.com-list-subject .header {
-  line-height: 80px;
-  margin-right: 100px; }
+.com-list-subject {
+  @error 'No value found for `#{$breakpoint}`. Please make sure it is defined in `$breakpoints` map.'; }
+  .com-list-subject .item {
+    position: relative;
+    border: 1px solid #f1f1f1;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2); }
+  .com-list-subject label {
+    position: absolute;
+    right: 10px;
+    top: 0px;
+    padding-top: 10px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 16px;
+    width: 110px;
+    height: 70px;
+    display: block;
+    background: url("../images/circle-blue.png") bottom center no-repeat; }
+    .com-list-subject label b {
+      display: block; }
+  .com-list-subject .header {
+    line-height: 80px;
+    margin-right: 100px; }
+  @media only screen and ( max-width: 1280px) {
+    .com-list-subject .item .header {
+      line-height: 60px; }
+ }
 
 .com-list-circle li {
   line-height: 39px;
@@ -1992,77 +2007,89 @@ input::-ms-reveal {
     line-height: 1.8;
     color: #666; }
 
-.sub-list .item {
-  margin-bottom: 30px; }
-  .sub-list .item header {
-    font-size: 20px;
-    line-height: 60px;
-    font-weight: bold; }
-  .sub-list .item .fl {
-    width: 280px;
-    text-align: center; }
-  .sub-list .item .content {
-    width: 560px;
-    height: 245px;
-    padding: 15px;
-    position: relative;
-    background: #f1f1f1; }
-  .sub-list .item img {
-    width: 100%; }
-  .sub-list .item label {
-    position: relative;
-    background: #ff3300;
-    color: #fff;
-    display: inline-block;
-    top: -15px;
-    left: -25px;
-    line-height: 34px;
-    width: 150px;
-    text-align: center;
-    font-size: 16px; }
-    .sub-list .item label:after {
-      content: '';
-      left: 0;
-      bottom: -10px;
-      position: absolute;
-      width: 0;
-      height: 0;
-      border-style: solid;
-      border-width: 5px 5px;
-      border-color: transparent;
-      border-right-color: #991f00;
-      border-top-color: #991f00; }
-  .sub-list .item .btn {
-    background: #0099ff;
-    color: #fff;
-    font-size: 18px;
-    display: block;
-    margin: 10px 0 0;
-    line-height: 40px;
-    border-radius: 5px;
-    -webkit-transition: background 0.35s;
-    transition: background 0.35s; }
-    .sub-list .item .btn:hover {
-      background: #1779d6; }
-    .sub-list .item .btn i {
-      padding-left: 5px; }
-  .sub-list .item .tip {
-    padding: 0 5px 5px;
-    font-size: 15px; }
-    .sub-list .item .tip i {
-      color: #ff3300;
-      padding-right: 10px; }
-  .sub-list .item p {
-    color: #666;
-    line-height: 22px;
-    margin-top: 10px;
-    height: 88px;
-    overflow: hidden; }
+.sub-list {
+  @error 'No value found for `#{$breakpoint}`. Please make sure it is defined in `$breakpoints` map.'; }
+  .sub-list .item {
+    margin-bottom: 30px; }
+    .sub-list .item header {
+      font-size: 20px;
+      line-height: 60px;
+      font-weight: bold; }
+    .sub-list .item .fl {
+      width: 280px;
+      text-align: center; }
+    .sub-list .item .content {
+      width: 560px;
+      height: 245px;
+      padding: 15px;
+      position: relative;
+      background: #f1f1f1; }
+    .sub-list .item img {
+      width: 100%; }
+    .sub-list .item label {
+      position: relative;
+      background: #ff3300;
+      color: #fff;
+      display: inline-block;
+      top: -15px;
+      left: -25px;
+      line-height: 34px;
+      width: 150px;
+      text-align: center;
+      font-size: 16px; }
+      .sub-list .item label:after {
+        content: '';
+        left: 0;
+        bottom: -10px;
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 5px 5px;
+        border-color: transparent;
+        border-right-color: #991f00;
+        border-top-color: #991f00; }
+    .sub-list .item .btn {
+      background: #0099ff;
+      color: #fff;
+      font-size: 18px;
+      display: block;
+      margin: 10px 0 0;
+      line-height: 40px;
+      border-radius: 5px;
+      -webkit-transition: background 0.35s;
+      transition: background 0.35s; }
+      .sub-list .item .btn:hover {
+        background: #1779d6; }
+      .sub-list .item .btn i {
+        padding-left: 5px; }
+    .sub-list .item .tip {
+      padding: 0 5px 5px;
+      font-size: 15px; }
+      .sub-list .item .tip i {
+        color: #ff3300;
+        padding-right: 10px; }
+    .sub-list .item p {
+      color: #666;
+      line-height: 22px;
+      margin-top: 10px;
+      height: 88px;
+      overflow: hidden; }
+  @media only screen and ( max-width: 1280px) {
+    .sub-list .item .fl {
+      width: 270px; }
+    .sub-list .item .content {
+      width: 400px;
+      height: 235px; }
+    .sub-list .item p {
+      height: 66px; }
+ }
 
 /** 服务体系**/
 .service-top {
   margin-bottom: 80px;
-  position: relative; }
+  position: relative;
+  @error 'No value found for `#{$breakpoint}`. Please make sure it is defined in `$breakpoints` map.'; }
   .service-top .top-tab {
     position: absolute;
     z-index: 110;
@@ -2103,7 +2130,8 @@ input::-ms-reveal {
     .service-top .item .msg {
       width: 540px; }
     .service-top .item .img {
-      margin-top: 50px; }
+      margin-top: 50px;
+      width: 540px; }
     .service-top .item .tit {
       border-bottom: 1px solid #ddd;
       margin-right: 10px;
@@ -2132,6 +2160,12 @@ input::-ms-reveal {
     margin-top: 40px; }
     .service-top .top-text span {
       font-size: 18px; }
+  @media only screen and ( max-width: 1280px) {
+    .service-top .item .img {
+      width: 450px; }
+    .service-top .item .msg {
+      width: 450px; }
+ }
 
 .service-bottom {
   margin-top: 30px;
