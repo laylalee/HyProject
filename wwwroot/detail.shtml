@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--#include virtual="_include/_com-meta.shtml"-->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+<body>
+<!--#include virtual="_include/_com-header.shtml"-->
+<div class="detail">
+    <div class="com-wrap">
+        <ul class="com-crumbs">
+            <li><a href="index.html">首页</a></li>
+            <li><a href="strategy.html">全球展会</a></li>
+            <li>日用消费品类</li>
+        </ul>
+        <div class="detail-header">
+            <h2>美国拉斯维加斯国际五金工具展览会（NHS）
+                <全球最大的五金制品专业展览会
+            </h2>
+            <div class="clearfix">
+                <aside class="fl">
+                    <section class="gallery">
+                        <a class="img" href="###" title="">
+                            <img src="pics/detail-1.jpg" alt="">
+                        </a>
+
+                        <div class="list-group">
+                            <a rel="pics/detail-1.jpg" href="javascript:;"><img src="pics/detail-1.jpg"></a>
+                            <a rel="pics/detail-1.jpg" href="javascript:;"><img src="pics/detail-1.jpg"></a>
+                            <a class="on" rel="pics/detail-1.jpg" href="javascript:;"><img src="pics/detail-1.jpg"></a>
+                            <a rel="pics/detail-1.jpg" href="javascript:;"><img src="pics/detail-1.jpg"></a>
+                        </div>
+                        <a class="icon icon-left" href="###"> <i class=" fa fa-chevron-left"></i></a>
+                        <a class="icon icon-right" href="###"> <i class=" fa fa-chevron-right"></i></a>
+                    </section>
+                    <section class="share">
+                        <!-- JiaThis Button BEGIN -->
+                        <div class="jiathis_style">
+                            <a class="jiathis_button_qzone"></a>
+                            <a class="jiathis_button_tsina"></a>
+                            <a class="jiathis_button_tqq"></a>
+                            <a class="jiathis_button_weixin"></a>
+                            <a class="jiathis_button_renren"></a>
+                            <a class="jiathis_button_xiaoyou"></a>
+                            <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis"
+                               target="_blank"></a>
+                        </div>
+                        <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+                        <!-- JiaThis Button END -->
+                    </section>
+                </aside>
+                <aside class="fr">
+                    <h3 class="text-blue">
+                        <label>展会时间：</label>
+                        2017年7月20日-23日
+                    </h3>
+
+                    <div class="point">
+                        <label class="text-orange">展会亮点：</label>
+
+                        <p><i class="fa fa-thumbs-up text-orange"></i>全球最大的五金制品专业展览会</p>
+
+                        <p><i class="fa fa-thumbs-up text-orange"></i>每年都吸引全球排名前100名的采购商到现场采购</p>
+                    </div>
+                    <div class="text">
+                        <label>展出地点：</label>美国-拉斯维加斯<br>
+                        <label>展会行业：</label><span class="text-primary">五金工具类</span><br>
+                        <label>展会规模：</label>65000平方米<br>
+                        <label>主办机构：</label> 励展国际（Reed Exhibition）
+                    </div>
+                    <div class="btns">
+                        <a class="btn btn-blue" href="###"><i class="fa fa-comments"></i>在线咨询</a>
+                        <a class="btn btn-orange" href="###"><i class="fa fa-download"></i>资料下载</a>
+                    </div>
+                </aside>
+            </div>
+        </div>
+        <nav class="detail-nav">
+            <a class="active" href="###">展品范围</a>
+            <a href="###">展会介绍</a>
+            <a href="###">市场分析</a>
+            <a href="###">展会回顾</a>
+            <a href="###">客户评价</a>
+        </nav>
+        <main class="com-content detail-content clearfix">
+            <aside class="aside-left fl">
+                <section class="section section-1">
+                    <header class="section-head"><span>展品范围</span></header>
+                    <p>
+                        <label>1、</label> <b>五金工具类：</b>电动工具、手动工具、五金工具、气动工具、机械加工设备、冲压设备、锁具、泵类、量刃具、索具、照明电
+                        器及灯具、卫浴设备、建筑材料、小型机械、管道设备等、DIY产品、厨房设备及用具等；<br>
+                    </p>
+
+                    <p>
+                        <label>2、</label> <b>家庭用品类：</b>小件厨房用品（电磁炉、电饭煲、搅拌机、榨汁机、咖啡机、食物密封机、烤面包机、开罐器、蒸汽锅/烘烤器 /慢炖
+                        锅）、吸尘器、地面护理、洗熨器具（洗衣机/干衣机、熨斗、蒸汽熨斗）、热水器、空调、炉灶面、炉和烤箱、减湿
+                        器/加湿器、洗碗机、垃圾处理器和碾压机、排风扇（天花板、地面、桌面、窗户）、微波炉、个人护理产品（发夹、吹风机 、秤、健
+                        康监测器、按摩器、电子牙刷）、电子毯、充气床、冰箱、缝纫机及附件等；<br>
+                    </p>
+
+                    <p>
+                        <label>3、</label> <b>草坪及庭院类：</b>园艺维护和修建产品、园艺用具、锄草设备、灌溉设备、烧烤设备、铁艺产品、庭院休闲、户外家具等；<br>
+                    </p>
+
+                    <p>
+                        <label>4、</label> <b>保安器材和汽车附件：</b>锁类、防盗及报警产品、安全器材、汽车维修工具、泵类及各类配件等；<br>
+                    </p>
+
+                    <p><label>5、</label> <b>照明器材：</b>灯具及配件、节日灯、圣诞灯、草地灯、各类电工器材和材料等；<br>
+                    </p>
+
+                    <p>
+                        <label>6、</label> <b>DIY产品和厨房及卫浴产品类：</b>家庭装饰和装修用品、宠物用品，卫生洁具、浴室设备、厨房设备等。
+                    </p>
+                </section>
+                <section class="section section-2">
+                    <header class="section-head"><span>展会介绍</span></header>
+                    <p> 美国国际五金工具及花园用品博览会National Hardware
+                        Show创办于1945年，作为全球最大的五金制品专业展览会，每年都吸引全球最高水准的参展商和采购商前往。是当今世界上历史最长、规模最大的专业展览会之一，也是美洲地区最大的五金工具、五金制品及户外用品展览会。展出内容以五金工具类、草坪和花园世界两大主题为主，继续设立新产品、新技术、新设计展示区。
+                    </p>
+
+                    <p> 每年全球排名前100名的采购商到现场采购；在全美100家最大的家居用品零售商中，每年参加该五金展的企业已经累计占到89%。展览总面积65000平方米，来自20个国家3,000家企业参展。
+                    </p>
+
+                    <p> 美国国际五金工具及花园用品博览会的展品范围覆盖五金工具、花园工具和小家电、家居用品等。
+                        该展会内中国展区的面积正在逐年扩大，参展企业数量迅猛递增，许多参展商都奔着NHS的专业性前来，相当比例的中国企业都是连续多年参展。
+                    </p>
+
+
+                </section>
+                <section class="section ">
+                    <header class="section-head"><span>市场分析</span></header>
+                </section>
+                <section class="section ">
+                    <header class="section-head"><span>展会回顾</span></header>
+                </section>
+                <section class="section ">
+                    <header class="section-head"><span>客户评价</span></header>
+                </section>
+            </aside>
+            <aside class="aside-right fr">
+                <!-- 广告位-->
+                <a class="com-aside-ad" href="###" title=""></a>
+                <!--#include virtual="_include/_com-list-tj.shtml"-->
+                <a class="com-aside-ad" href="###" title=""></a>
+            </aside>
+        </main>
+    </div>
+</div>
+
+<!--#include virtual="_include/_com-info.shtml"-->
+
+<!--#include virtual="_include/_com-footer.shtml"-->
+<script>
+    (function () {
+
+    })();
+</script>
+</body>
+
+</html>

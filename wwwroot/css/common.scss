@@ -16,6 +16,10 @@
   color: $primary;
 }
 
+.text-blue {
+  color: $primary-second;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1477,7 +1481,7 @@
 /** 文章详情 **/
 .article {
   font-size: 16px;
-  padding-bottom:30px;
+  padding-bottom: 30px;
   header {
     font-size: 24px;
     text-align: center;
@@ -1502,38 +1506,39 @@
     line-height: 1.8;
   }
   .link {
-    label{
+    label {
       font-size: 16px;
       color: #666;
     }
-    a{
+    a {
       color: $primary-second;
       font-size: 20px;
     }
     display: block;
-    padding:10px 15px;
+    padding: 10px 15px;
     @extend %tof;
     border: 1px dashed #ddd;
     margin-bottom: 10px;
   }
 }
-.hot-items{
-  h2{
-     padding:5px ;
-     text-align: left;
-     font-size: 24px;
-     border-bottom:2px solid $inner-gray;
-     margin-bottom: 10px;
+
+.hot-items {
+  h2 {
+    padding: 5px;
+    text-align: left;
+    font-size: 24px;
+    border-bottom: 2px solid $inner-gray;
+    margin-bottom: 10px;
   }
-  .item{
+  .item {
     display: inline-block;
     vertical-align: top;
     width: 30%;
-    margin:0px 1% 40px;
-    img{
+    margin: 0px 1% 40px;
+    img {
       width: 100%;
     }
-    .text{
+    .text {
       text-align: left;
       line-height: 22px;
       height: 44px;
@@ -1541,6 +1546,7 @@
     }
   }
 }
+
 /** 网站地图 **/
 .sitemap {
   text-align: left;
@@ -1775,7 +1781,6 @@
     label {
       position: absolute;
 
-
       right: 25px;
       top: 50%;
       margin-top: -12px;
@@ -1785,31 +1790,31 @@
 
 }
 
-.about-lx{
-  .item{
+.about-lx {
+  .item {
     padding: 20px 40px;
     line-height: 1.8;
     background: $inner-gray;
     border-radius: 5px;
     margin-bottom: 30px;
     @include transition(background 0.35s);
-    h3{
+    h3 {
       font-size: 22px;
       font-weight: bold;
       line-height: 30px;
       margin-bottom: 10px;
     }
-    p{
+    p {
       margin-bottom: 10px;
     }
-    span{
+    span {
       padding-right: 40px;
     }
-    .text{
+    .text {
       font-size: 14px;
       position: relative;
       padding-left: 20px;
-      &:after{
+      &:after {
         content: '';
         left: 0;
         top: 5px;
@@ -1819,12 +1824,12 @@
         background: #0099ff;
       }
     }
-    &:hover{
-      box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    &:hover {
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
       background: #0099ff;
       color: #fff;
-      .text{
-        &:after{
+      .text {
+        &:after {
           background: #fff;
         }
       }
@@ -1832,4 +1837,157 @@
     }
   }
 
+}
+
+/**展会详情**/
+.detail {
+  background: $inner-gray;
+  .aside-left{
+    width: 820px;
+  }
+  .section{
+    font-size: 15px;
+    padding-bottom: 40px;
+    line-height: 1.8;
+  }
+
+  .section-head {
+    font-size: 24px;
+    color: #535d63;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    span{
+      padding: 10px;
+      border-bottom: 2px solid  #535d63;
+    }
+  }
+}
+
+.detail-nav {
+  background: #535d63;
+  height: 55px;
+  color: #fff;
+  padding: 0 10px;
+  a {
+    display: inline-block;
+    width: 120px;
+    line-height: 45px;
+    margin-top: 10px;;
+    text-align: center;
+    font-size: 15px;
+    &:hover {
+      text-decoration: underline;
+    }
+    &.active {
+      border-radius: 5px 5px 0 0;
+      background: #ffffff;
+      color: #535d63;
+    }
+  }
+}
+
+.detail-content {
+  padding: 20px 15px;
+  background: #fff;
+  .section-1{
+    p{
+      position: relative;
+      min-height: 24px;
+      padding-left: 30px;
+    }
+    label {
+      position: absolute;
+      left: 0;
+      top: 0;
+
+    }
+  }
+  .section-2{
+    p{
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.detail-header {
+  padding: 15px;
+  background: #fff;
+  margin-bottom: 20px;
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .fl {
+    width: 600px;
+  }
+  .fr {
+    width: 500px;
+  }
+  .gallery {
+    width: 100%;
+    margin-bottom: 20px;
+    .icon {
+      top: 25%;
+      height: 100px;
+      line-height: 100px;
+      width: 40px;
+      font-size: 18px;
+    }
+    .icon-left {
+      border-radius: 0 5px 5px 0;
+    }
+    .icon-right {
+      border-radius: 5px 0 0 5px;
+    }
+  }
+  .share {
+    height: 30px;
+    float: right;
+  }
+  .text-blue {
+    margin-bottom: 10px;
+    label {
+      font-size: 16px;
+      display: block;
+    }
+    font-size: 24px;
+  }
+  .point {
+    i {
+      padding-right: 4px;
+    }
+    label {
+      display: block;
+      font-size: 18px;
+      margin-bottom: 5px;
+    }
+    min-height: 150px;
+    line-height: 2;
+    padding: 15px;
+    background: url("../images/detail-icon-1.png") bottom right no-repeat $inner-gray;
+  }
+  .text {
+    padding: 14px 20px;
+    line-height: 2;
+  }
+  .btn {
+    font-size: 18px;
+    text-align: center;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    width: 47%;
+    margin-right: 2%;
+    i {
+      margin-right: 5px;
+      font-size: 22px;
+    }
+    &.btn-blue {
+      background: $primary-second;
+    }
+    &.btn-orange {
+      background: $orange;
+    }
+  }
 }
