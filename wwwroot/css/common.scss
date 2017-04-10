@@ -1477,7 +1477,7 @@
 /** 文章详情 **/
 .article {
   font-size: 16px;
-  padding-bottom: 100px;
+  padding-bottom:30px;
   header {
     font-size: 24px;
     text-align: center;
@@ -1502,17 +1502,45 @@
     line-height: 1.8;
   }
   .link {
-    color: $primary-second;
-    font-size: 24px;
-    text-align: center;
+    label{
+      font-size: 16px;
+      color: #666;
+    }
+    a{
+      color: $primary-second;
+      font-size: 20px;
+    }
     display: block;
-    padding: 15px;
+    padding:10px 15px;
     @extend %tof;
     border: 1px dashed #ddd;
     margin-bottom: 10px;
   }
 }
-
+.hot-items{
+  h2{
+     padding:5px ;
+     text-align: left;
+     font-size: 24px;
+     border-bottom:2px solid $inner-gray;
+     margin-bottom: 10px;
+  }
+  .item{
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin:0px 1% 40px;
+    img{
+      width: 100%;
+    }
+    .text{
+      text-align: left;
+      line-height: 22px;
+      height: 44px;
+      overflow: hidden;
+    }
+  }
+}
 /** 网站地图 **/
 .sitemap {
   text-align: left;
