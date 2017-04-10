@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--#include virtual="_include/_com-meta.shtml"-->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+<body>
+<!--#include virtual="_include/_com-header.shtml"-->
+<div class="com-wrap">
+    <ul class="com-crumbs">
+        <li><a href="index.html">首页</a></li>
+        <li><a href="about.html">关于我们</a></li>
+        <li>发展历程</li>
+    </ul>
+    <main class="com-content clearfix">
+        <!--#include virtual="_include/_about-nav.shtml"-->
+        <!--发展历程 -->
+        <aside class="about-content about-lc fr">
+            <header>
+                <h2>发展历程介</h2>
+
+                <div class="share">
+                    <!-- JiaThis Button BEGIN -->
+                    <div class="jiathis_style">
+                        <a class="jiathis_button_qzone"></a>
+                        <a class="jiathis_button_tsina"></a>
+                        <a class="jiathis_button_tqq"></a>
+                        <a class="jiathis_button_weixin"></a>
+                        <a class="jiathis_button_renren"></a>
+                        <a class="jiathis_button_xiaoyou"></a>
+                        <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis"
+                           target="_blank"></a>
+                    </div>
+                    <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+                    <!-- JiaThis Button END -->
+                </div>
+            </header>
+            <section class="item">
+                <label>2017年</label>
+
+                <div class="text">
+                    <p>—— 2017年 1月“荟源”获福建省著名商标；</p>
+
+                    <p>—— 3月福建汇源文化创意发展有限公司成立。</p>
+                </div>
+            </section>
+            <section class="item single">
+                <label>2016年</label>
+
+                <div class="text">
+                    <p>—— 2016年 3月“荟源”获福州市知名商标。</p>
+                </div>
+            </section>
+            <section class="item single">
+                <label>2015年</label>
+
+                <div class="text">
+                    <p>—— 2015年 4月22日宁德荟源国际展览有限公司成立。</p>
+                </div>
+            </section>
+            <section class="item">
+                <label>2014年</label>
+
+                <div class="text">
+                    <p>—— 2014年，成立汇源信息科技有限公司，构建跨境电子商务服务中心；</p>
+
+                    <p>—— 福建省文化改革发展领导小组评选我司为“2013年度福建省文化企业十强”；</p>
+
+                    <p>—— 成立福州报业荟源会展有限公司；</p>
+
+                    <p>—— 成立荟源行（福建）汽车有限公司。</p>
+                </div>
+            </section>
+            <section class="item">
+                <label>2013年</label>
+
+                <div class="text">
+                    <p>—— 2013年，我司组展规模居全国前三；</p>
+
+                    <p>—— 我司被推选为福州市服务贸易发展促进协会的会长单位；</p>
+
+                    <p>—— 成功举办“第二届中国（厦门）国际葡萄糖酒及烈酒展览会”（简称厦门98酒展）</p>
+                </div>
+            </section>
+            <section class="item">
+                <label>2012年</label>
+
+                <div class="text">
+                    <p>—— 2012年，我司被评为福建省商贸服务业第三名，全省会展业第一名！ </p>
+
+                    <p>—— 我司被推选为福州市会展行业协会会长单位。</p>
+                </div>
+            </section>
+            <section class="item">
+                <label>2011年</label>
+
+                <div class="text">
+                    <p>—— 2011年，成立福建荟源达装饰工程有限公司，承接展览展示公司设计、施工等业务。</p>
+
+                    <p>—— 首次成功举办自办专业展“中国（福州）家具建材装饰品博览会”。</p>
+                </div>
+            </section>
+            <section class="item">
+                <label>2010年</label>
+
+                <div class="text">
+                    <p>—— 2010年，成为福建15个进出口基地商会的1个会长单位，14个副会长单位；</p>
+
+                    <p>—— 福建省荟源外经贸融资担保有限公司总额突破2.5亿元；</p>
+
+                    <p>—— 成为广交会进口展区全球总代理。</p>
+                </div>
+            </section>
+            <section class="item single">
+                <label>2009年</label>
+
+                <div class="text">
+                    <p>——  2009年，在台湾成立台湾荟源国际展览股份有限公司。</p>
+                </div>
+            </section>
+            <section class="item">
+                <label>2008年</label>
+
+                <div class="text">
+                    2008年，通过ISO14001:2004环境管理体系认证；
+                    —  海西外贸第一杂志《海峡商机》取得ISSN出版发行刊号。
+                    <p>—— </p>
+                </div>
+            </section>
+            <section class="item single">
+                <label>2007年</label>
+
+                <div class="text">
+                    <p>——  2007年，成立了福建省荟源外经贸融资担保有限公司，为外经贸客户提供全方位的综合性金融担保服务。</p>
+                </div>
+            </section>
+            <section class="item">
+                <label>2006年</label>
+                <div class="text">
+                    <p>——  2006年，成立福建汇源国际商务会展有限公司进出口总部，负责进出口自营及代理业务。</p>
+                    <p>——  2006年-2009年，被评为中国会展业“十佳出展单位”。</p>
+                </div>
+            </section>
+            <section class="item">
+                <label>2005年</label>
+                <div class="text">
+                    <p>——  2005年，公司的商标获得西班牙马德里国际商标认证；</p>
+                    <p>——  成立福建华闵招标有限公司，负责各种招标采购业务。</p>
+                </div>
+            </section>
+            <section class="item">
+                <label>2004年</label>
+                <div class="text">
+                    <p>——  2004年，获得商务部授予的AAA级的诚信单位并列为商务部重点支持的展览公司之一。</p>
+                </div>
+            </section>
+            <section class="item">
+                <label>2003年</label>
+                <div class="text">
+                    <p>——  2003年，成立福建荟源国际展览有限公司；</p>
+                    <p>——  展览同行业中率先通过ISO9001:2000质量管理体系认证；</p>
+                    <p>——  树立会展行业的自主品牌——荟源，并获得国家工商管理行政总局商标认证注册；</p>
+                    <p>——  福建省外经贸中小企业服务中心成立。</p>
+                </div>
+            </section>
+            <section class="item single">
+                <label>2000年</label>
+                <div class="text">
+                    <p>——  2000年，成立福建汇源国际商务会展有限公司</p>
+                </div>
+            </section>
+        </aside>
+        <!--/发展历程 -->
+    </main>
+</div>
+<!--#include virtual="_include/_com-info.shtml"-->
+
+<!--#include virtual="_include/_com-footer.shtml"-->
+<script>
+    (function () {
+        $('.about-nav li').eq(3).addClass('active');
+    })();
+</script>
+</body>
+
+</html>

@@ -124,8 +124,8 @@
   .aside-right {
     width: 280px;
   }
-  @include respond-to(lg){
-    .aside-left{
+  @include respond-to(lg) {
+    .aside-left {
       width: 690px;
     }
   }
@@ -317,7 +317,7 @@
   width: 1200px;
   padding: 0 10px;
   margin: 0 auto;
-  @include respond-to(lg){
+  @include respond-to(lg) {
     width: 1000px;
   }
 }
@@ -430,9 +430,9 @@
     }
 
   }
-  @include respond-to(lg){
-    .search-input{
-      .topSearchText{
+  @include respond-to(lg) {
+    .search-input {
+      .topSearchText {
         width: 200px;
       }
     }
@@ -857,26 +857,26 @@
 
 }
 
-.com-list-dt{
-  .item{
-     border-radius: 5px;
-     border: 1px solid #fff;
-    .img{
+.com-list-dt {
+  .item {
+    border-radius: 5px;
+    border: 1px solid #fff;
+    .img {
       width: 330px;
     }
-    .header{
-      white-space:normal;
+    .header {
+      white-space: normal;
       font-size: 20px;
     }
-    .time{
+    .time {
       color: #666;
       font-size: 12px;
       margin: 7px 0 8px;
     }
-    p{
+    p {
       line-height: 1.9;
     }
-    .btn{
+    .btn {
       display: inline-block;
       line-height: 36px;
       width: 180px;
@@ -884,15 +884,15 @@
       margin-top: 30px;
       font-size: 15px;
       border-radius: 5px;
-      border:1px solid $primary-second;
+      border: 1px solid $primary-second;
       color: $primary-second;
     }
-    &:hover{
+    &:hover {
       border-color: $inner-gray;
-      box-shadow: 0 0 3px rgba(0,0,0,0.4);
-      .btn{
+      box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+      .btn {
         background: $primary-second;
-        color:#fff;
+        color: #fff;
       }
     }
   }
@@ -987,9 +987,9 @@
     line-height: 80px;
     margin-right: 100px;
   }
-  @include  respond-to(lg){
-    .item{
-      .header{
+  @include respond-to(lg) {
+    .item {
+      .header {
         line-height: 60px;
       }
     }
@@ -1313,16 +1313,16 @@
       overflow: hidden;
     }
   }
-  @include respond-to(lg){
-    .item{
-      .fl{
+  @include respond-to(lg) {
+    .item {
+      .fl {
         width: 270px;
       }
-      .content{
+      .content {
         width: 400px;
         height: 235px;
       }
-      p{
+      p {
         height: 66px;
       }
     }
@@ -1333,36 +1333,36 @@
 .service-top {
   margin-bottom: 80px;
   position: relative;
-  .top-tab{
+  .top-tab {
     position: absolute;
     z-index: 110;
     top: 50px;
     width: 130px;
     left: -150px;
-    li{
+    li {
       margin-bottom: 5px;
     }
-    a{
+    a {
       display: block;
-      text-align:center;
+      text-align: center;
       font-size: 16px;
       line-height: 36px;
       color: $primary;
       position: relative;
       border: 1px solid $primary;
-      &:after{
+      &:after {
         content: '';
         position: absolute;
         right: -16px;
         top: 50%;
         margin-top: -8px;
         visibility: hidden;
-        @include triangle(left,$primary,8px,8px);
+        @include triangle(left, $primary, 8px, 8px);
       }
-      &:hover,&.active{
+      &:hover, &.active {
         background: $primary;
         color: #fff;
-        &:after{
+        &:after {
           visibility: visible;
         }
       }
@@ -1416,12 +1416,12 @@
       font-size: 18px;
     }
   }
-  @include respond-to(lg){
-    .item{
-      .img{
+  @include respond-to(lg) {
+    .item {
+      .img {
         width: 450px;
       }
-      .msg{
+      .msg {
         width: 450px;
       }
     }
@@ -1434,44 +1434,43 @@
   margin-bottom: 50px;
   .item {
     display: inline-block;
-    padding:10px 20px 20px;
+    padding: 10px 20px 20px;
     width: 33%;
     margin-bottom: 20px;
     @include transition(background 0.3s);
-    img{
+    img {
       width: 100%;
     }
-    p{
+    p {
       line-height: 25px;
       height: 50px;
     }
-    h3{
+    h3 {
       text-align: center;
       font-size: 20px;
       font-weight: bold;
       line-height: 60px;
       @include transition(color 0.3s);
     }
-    .link{
+    .link {
       display: block;
       text-align: right;
       color: $primary-second;
       visibility: hidden;
-      &:hover{
+      &:hover {
         text-decoration: underline;
       }
     }
-    &:hover{
+    &:hover {
       background: $inner-gray;
-      h3{
+      h3 {
         color: $primary;
       }
-      .link{
+      .link {
         visibility: visible;
       }
     }
   }
-
 
 }
 
@@ -1559,97 +1558,250 @@
 }
 
 /**关于我们**/
-.about-nav{
+.about-nav {
   width: 280px;
-  li{
+  li {
     line-height: 48px;
     font-size: 16px;
     margin-bottom: 10px;
-    padding:0 20px 0 40px;
+    padding: 0 20px 0 40px;
     position: relative;
     background: $inner-gray;
     cursor: pointer;
     @include transition(background 0.35s);
-    .fa{
+    .fa {
       float: right;
       display: inline-block;
       line-height: 48px;
       color: #fff;
       visibility: hidden;
     }
-    &.active,&:hover{
+    &.active, &:hover {
       background: $primary;
       color: #fff;
-      .fa{
+      .fa {
         visibility: visible;
       }
     }
   }
 }
-.about-content{
+
+.about-content {
   width: 880px;
-  padding-bottom: 50px;
-}
-.about-intro{
   font-size: 16px;
-  header{
+  padding-bottom: 50px;
+  header {
     font-size: 24px;
     text-align: center;
+    height: 90px;
   }
-  .share{
-    padding:20px 0;
+  .share {
+    padding: 20px 0;
     float: right;
   }
-  .cnt{
+  @include respond-to(lg) {
+    width: 670px;
+  }
+}
+
+.about-intro {
+  .cnt {
     line-height: 2;
   }
-  .fa-circle{
+  .fa-circle {
     font-size: 12px;
     margin-left: 5px;
     margin-right: 15px;
     @include scale(0.8);
   }
-  p{
+  p {
     margin-bottom: 30px;
   }
-  h3{
+  h3 {
     font-size: 18px;
     text-align: center;
     margin-bottom: 30px;
     font-weight: bold;
   }
-  .imgs{
+  .imgs {
     text-align: center;
-    img{
+    img {
       display: inline-block;
       width: 30.5%;
-      margin:0 1% 30px;
+      margin: 0 1% 30px;
       border-radius: 3px;
     }
-    &.imgs-half{
-      img{
+    &.imgs-half {
+      img {
         width: 47%;
       }
     }
   }
-  .line-1{
+  .line-1 {
     line-height: 2.05;
     margin-bottom: 30px;
-    .fl{
+    .fl {
       width: 65%;
     }
   }
-  .line-2{
+  .line-2 {
     margin-bottom: 30px;
-    .fl{
+    .fl {
       width: 45%;
-      img{
+      img {
         width: 100%;
         margin-bottom: 15px;
       }
     }
-    .fr{
+    .fr {
       width: 53%;
     }
   }
+}
+
+.about-lc {
+  .item {
+    position: relative;
+    padding-left: 180px;
+    margin-bottom: 30px;
+    label {
+      width: 95px;
+      height: 95px;
+      background: url("../images/circle-blueDark.png") no-repeat;
+      font-size: 20px;
+      line-height: 90px;
+      text-align: center;
+      position: absolute;
+      color: #fff;
+      left: 0;
+      top: 0;
+      font-weight: normal;
+
+    }
+    .text {
+      position: relative;
+      padding: 25px;
+      line-height: 2;
+      background: $inner-gray;
+      border-radius: 5px;
+      &:after {
+        content: '';
+        @include triangle(right, $inner-gray, 15px, 15px);
+        position: absolute;
+        left: -30px;
+        top: 35px;
+        z-index: 2;
+      }
+      &:before {
+        content: '';
+        width: 85px;
+        position: absolute;
+        left: -85px;
+        border-bottom: 1px solid $primary;
+        top: 50px;
+        z-index: 2;
+      }
+
+    }
+    &.single {
+      .text {
+        &:after {
+          top: 25px;
+        }
+        &:before {
+          top: 40px;
+        }
+      }
+    }
+  }
+}
+
+.about-zp {
+  .item {
+    border: 5px solid $inner-gray;
+    padding: 15px 145px 15px 25px;
+    margin-bottom: 30px;
+    line-height: 1.9;
+    border-radius: 5px;
+    min-height: 135px;
+    position: relative;
+    font-size: 14px;
+    color: #666;
+    h3 {
+      font-size: 18px;
+      span {
+        color: #999;
+        padding-left: 4px;
+        font-size: 14px;
+      }
+      &:hover {
+        a {
+          color: $primary;
+          text-decoration: underline;
+        }
+      }
+    }
+    .text-orange {
+      font-size: 18px;
+    }
+    label {
+      position: absolute;
+
+
+      right: 25px;
+      top: 50%;
+      margin-top: -12px;
+    }
+
+  }
+
+}
+
+.about-lx{
+  .item{
+    padding: 20px 40px;
+    line-height: 1.8;
+    background: $inner-gray;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    @include transition(background 0.35s);
+    h3{
+      font-size: 22px;
+      font-weight: bold;
+      line-height: 30px;
+      margin-bottom: 10px;
+    }
+    p{
+      margin-bottom: 10px;
+    }
+    span{
+      padding-right: 40px;
+    }
+    .text{
+      font-size: 14px;
+      position: relative;
+      padding-left: 20px;
+      &:after{
+        content: '';
+        left: 0;
+        top: 5px;
+        bottom: 5px;
+        position: absolute;
+        width: 3px;
+        background: #0099ff;
+      }
+    }
+    &:hover{
+      box-shadow: 0 0 5px rgba(0,0,0,0.3);
+      background: #0099ff;
+      color: #fff;
+      .text{
+        &:after{
+          background: #fff;
+        }
+      }
+
+    }
+  }
+
 }

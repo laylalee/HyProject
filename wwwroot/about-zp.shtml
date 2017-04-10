@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--#include virtual="_include/_com-meta.shtml"-->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+<body>
+<!--#include virtual="_include/_com-header.shtml"-->
+<div class="com-wrap">
+    <ul class="com-crumbs">
+        <li><a href="index.html">首页</a></li>
+        <li><a href="about.html">关于我们</a></li>
+        <li>人才招聘</li>
+    </ul>
+    <main class="com-content clearfix">
+        <!--#include virtual="_include/_about-nav.shtml"-->
+        <!--发展历程 -->
+        <aside class="about-content about-zp fr">
+            <header>
+                <h2>人才招聘</h2>
+            </header>
+            <div class="item">
+                <h3><a href="javascript:;">展览业务员（福州）</a><span>2小时前发布</span></h3>
+                <p>1、本科以上学历，英语六级以上，通过英语CET-8级者优先。</p>
+                <p> 2、有3年以上相关工作经验，有会展工作经验者优先。</p>
+                <label>薪资：<b class="text-orange">3K-70K</b></label>
+            </div>
+            <div class="item">
+                <h3><a href="javascript:;">展览业务员（福州）</a><span>2小时前发布</span></h3>
+                <p>1、本科以上学历，英语六级以上，通过英语CET-8级者优先。</p>
+                <p> 2、有3年以上相关工作经验，有会展工作经验者优先。</p>
+                <label>薪资：<b class="text-orange">3K-70K</b></label>
+            </div>
+            <div class="item">
+                <h3><a href="javascript:;">展览业务员（福州）</a><span>2小时前发布</span></h3>
+                <p>1、本科以上学历，英语六级以上，通过英语CET-8级者优先。</p>
+                <p> 2、有3年以上相关工作经验，有会展工作经验者优先。</p>
+                <label>薪资：<b class="text-orange">3K-70K</b></label>
+            </div>
+            <div class="item">
+                <h3><a href="javascript:;">展览业务员（福州）</a><span>2小时前发布</span></h3>
+                <p>1、本科以上学历，英语六级以上，通过英语CET-8级者优先。</p>
+                <p> 2、有3年以上相关工作经验，有会展工作经验者优先。</p>
+                <label>薪资：<b class="text-orange">3K-70K</b></label>
+            </div>
+            <div class="item">
+                <h3><a href="javascript:;">展览业务员（福州）</a><span>2小时前发布</span></h3>
+                <p>1、本科以上学历，英语六级以上，通过英语CET-8级者优先。</p>
+                <p> 2、有3年以上相关工作经验，有会展工作经验者优先。</p>
+                <label>薪资：<b class="text-orange">3K-70K</b></label>
+            </div>
+            <div class="item">
+                <h3><a href="javascript:;">展览业务员（福州）</a><span>2小时前发布</span></h3>
+                <p>1、本科以上学历，英语六级以上，通过英语CET-8级者优先。</p>
+                <p> 2、有3年以上相关工作经验，有会展工作经验者优先。</p>
+                <label>薪资：<b class="text-orange">3K-70K</b></label>
+            </div>
+        </aside>
+        <!--/发展历程 -->
+    </main>
+</div>
+<!--#include virtual="_include/_com-info.shtml"-->
+
+<!--#include virtual="_include/_com-footer.shtml"-->
+<script>
+    (function () {
+        $('.about-nav li').eq(6).addClass('active');
+    })();
+</script>
+</body>
+
+</html>
