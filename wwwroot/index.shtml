@@ -11,15 +11,15 @@
     <!-- 轮播-->
     <section class="banner-cnt swiper-container">
         <div class="swiper-wrapper">
-            <div class="swiper-slide"><a class="img" href="###" style="background: url('pics/home-banner.jpg')"></a>
+            <div class="swiper-slide"><a class="img" href="javascript:;" style="background: url('pics/home-banner.jpg')"></a>
             </div>
-            <div class="swiper-slide"><a class="img" href="###" style="background: url('pics/home-banner.jpg')"></a>
+            <div class="swiper-slide"><a class="img" href="javascript:;" style="background: url('pics/home-banner.jpg')"></a>
             </div>
-            <div class="swiper-slide"><a class="img" href="###" style="background: url('pics/home-banner.jpg')"></a>
+            <div class="swiper-slide"><a class="img" href="javascript:;" style="background: url('pics/home-banner.jpg')"></a>
             </div>
-            <div class="swiper-slide"><a class="img" href="###" style="background: url('pics/home-banner.jpg')"></a>
+            <div class="swiper-slide"><a class="img" href="javascript:;" style="background: url('pics/home-banner.jpg')"></a>
             </div>
-            <div class="swiper-slide"><a class="img" href="###" style="background: url('pics/home-banner.jpg')"></a>
+            <div class="swiper-slide"><a class="img" href="javascript:;" style="background: url('pics/home-banner.jpg')"></a>
             </div>
         </div>
         <!--分页器 -->
@@ -31,35 +31,35 @@
     <section class="com-wrap">
         <aside class="tabs">
             <header class="tab-header clearfix">
-                <a class="on" href="###">行业类别</a>
-                <a href="###">国家地区</a>
+                <a class="on" href="javascript:;">行业类别</a>
+                <a href="javascript:;">国家地区</a>
             </header>
             <div class="tab-content">
                 <section class="content on">
-                    <a href="###">日用消费品类</a>
-                    <a href="###">礼品赠品类</a>
-                    <a href="###">办公文具类</a>
-                    <a href="###">婴童玩具类</a>
-                    <a href="###">灯饰照明类</a>
-                    <a href="###">纺织服装类</a>
-                    <a href="###">家居用品类</a>
-                    <a href="###">箱包配饰类</a>
-                    <a href="###">户外园艺类</a>
-                    <a href="###">电子产品类</a>
-                    <a href="###">水产渔业类</a>
-                    <a href="###">厨房酒店类</a>
-                    <a href="###">鞋及鞋材类</a>
-                    <a href="###">船舶海事类</a>
-                    <a href="###">体育用品类</a>
-                    <a href="###">电力能源类</a>
-                    <a href="###">印刷包装类</a>
-                    <a href="###">建筑建材类</a>
-                    <a href="###">食品类</a>
-                    <a href="###">家具类</a>
-                    <a href="###">家电类</a>
-                    <a href="###">汽配类</a>
-                    <a href="###">机械类</a>
-                    <a class="more" href="###"> 展开更多></a>
+                    <a href="javascript:;">日用消费品类</a>
+                    <a href="javascript:;">礼品赠品类</a>
+                    <a href="javascript:;">办公文具类</a>
+                    <a href="javascript:;">婴童玩具类</a>
+                    <a href="javascript:;">灯饰照明类</a>
+                    <a href="javascript:;">纺织服装类</a>
+                    <a href="javascript:;">家居用品类</a>
+                    <a href="javascript:;">箱包配饰类</a>
+                    <a href="javascript:;">户外园艺类</a>
+                    <a href="javascript:;">电子产品类</a>
+                    <a href="javascript:;">水产渔业类</a>
+                    <a href="javascript:;">厨房酒店类</a>
+                    <a href="javascript:;">鞋及鞋材类</a>
+                    <a href="javascript:;">船舶海事类</a>
+                    <a href="javascript:;">体育用品类</a>
+                    <a href="javascript:;">电力能源类</a>
+                    <a href="javascript:;">印刷包装类</a>
+                    <a href="javascript:;">建筑建材类</a>
+                    <a href="javascript:;">食品类</a>
+                    <a href="javascript:;">家具类</a>
+                    <a href="javascript:;">家电类</a>
+                    <a href="javascript:;">汽配类</a>
+                    <a href="javascript:;">机械类</a>
+                    <a class="more" href="javascript:;"> 展开更多></a>
                 </section>
                 <section class="content"></section>
             </div>
@@ -77,16 +77,16 @@
                 <label>
                     热门专题：
                 </label>
-                <a class="on" href="###" title="家居用品">家居用品 </a>
-                <a href="###" title="机械电子">机械电子</a>
-                <a href="###" title="食品">食品</a>
-                <a href="###" title="箱包">箱包</a>
-                <a href="###" title="水产渔业">水产渔业</a>
+                <a class="on" href="javascript:;" title="家居用品">家居用品 </a>
+                <a href="javascript:;" title="机械电子">机械电子</a>
+                <a href="javascript:;" title="食品">食品</a>
+                <a href="javascript:;" title="箱包">箱包</a>
+                <a href="javascript:;" title="水产渔业">水产渔业</a>
             </nav>
         </header>
         <div class="items clearfix">
             <section class="item">
-                <a class="img" href="###" title="">
+                <a class="img" href="javascript:;" title="">
                     <img src="pics/home-zt.jpg">
 
                     <div class="circle">
@@ -97,7 +97,7 @@
 
                     </div>
                 </a>
-                <a class="text" href="###" title="">
+                <a class="text" href="javascript:;" title="">
                     <i></i>
 
                     <p>世界上规模最大、影响力最强的包装展览会</p>
@@ -105,7 +105,7 @@
                 </a>
             </section>
             <section class="item">
-                <a class="img" href="###" title="">
+                <a class="img" href="javascript:;" title="">
                     <img src="pics/home-zt.jpg">
 
                     <div class="circle">
@@ -116,7 +116,7 @@
 
                     </div>
                 </a>
-                <a class="text" href="###" title="">
+                <a class="text" href="javascript:;" title="">
                     <i></i>
 
                     <p>东京国际孕婴童用品展是一站式采购婴幼儿用品、玩具、孕妇用品的优秀地点</p>
@@ -124,7 +124,7 @@
                 </a>
             </section>
             <section class="item">
-                <a class="img" href="###" title="">
+                <a class="img" href="javascript:;" title="">
                     <img src="pics/home-zt.jpg">
 
                     <div class="circle">
@@ -134,7 +134,7 @@
                         </div>
                     </div>
                 </a>
-                <a class="text" href="###" title="">
+                <a class="text" href="javascript:;" title="">
                     <i></i>
 
                     <p>世界上规模最大、影响力最强的包装展览会世界上规模最大、影响力最强的包装展览会世界上规模最大、影响力最强的包装展览会</p>
@@ -158,173 +158,173 @@
         <header class="com-header">
             <label class="label">全球展会</label>
             <nav class="com-nav-tab com-head-nav">
-                <a class="on" href="###" title="建材石材">建材石材 </a>
-                <a href="###" title="汽摩配件">汽摩配件</a>
-                <a href="###" title="家具家居">家具家居</a>
-                <a href="###" title="食品饮料">食品饮料</a>
-                <a href="###" title="电子电力">电子电力</a>
+                <a class="on" href="javascript:;" title="建材石材">建材石材 </a>
+                <a href="javascript:;" title="汽摩配件">汽摩配件</a>
+                <a href="javascript:;" title="家具家居">家具家居</a>
+                <a href="javascript:;" title="食品饮料">食品饮料</a>
+                <a href="javascript:;" title="电子电力">电子电力</a>
             </nav>
         </header>
         <div class="row-1 clearfix ">
             <aside class="items fl">
                 <section class="item on">
                     <div class="inner">
-                        <a class="img" href="###" title="">
+                        <a class="img" href="javascript:;" title="">
                             <img src="pics/home-cq.jpg" alt="">
                             <label class="label-primary">重点</label>
                         </a>
-                        <a class="link" href="###" title="">
+                        <a class="link" href="javascript:;" title="">
                             墨西哥国际电力电工设备、照明及技术展览
                         </a>
 
                         <p>展会时间: 2017年6月6日-8日</p>
 
                         <p>展出地点：北美洲-墨西哥</p>
-                        <a class="btn" href="###"><i class="fa fa-comments"></i>在线咨询</a>
+                        <a class="btn" href="javascript:;"><i class="fa fa-comments"></i>在线咨询</a>
                     </div>
                 </section>
                 <section class="item">
                     <div class="inner">
-                        <a class="img" href="###" title="">
+                        <a class="img" href="javascript:;" title="">
                             <img src="pics/home-cq.jpg" alt="">
                             <label class="label-hot">热销</label>
                         </a>
-                        <a class="link" href="###" title="">
+                        <a class="link" href="javascript:;" title="">
                             墨西哥国际电力电工设备、照明及技术展览
                         </a>
 
                         <p>展会时间: 2017年6月6日-8日</p>
 
                         <p>展出地点：北美洲-墨西哥</p>
-                        <a class="btn" href="###"><i class="fa fa-comments"></i>在线咨询</a>
+                        <a class="btn" href="javascript:;"><i class="fa fa-comments"></i>在线咨询</a>
                     </div>
                 </section>
                 <section class="item">
                     <div class="inner">
-                        <a class="img" href="###" title="">
+                        <a class="img" href="javascript:;" title="">
                             <img src="pics/home-cq.jpg" alt="">
                             <label class="label-xq">稀缺</label>
                         </a>
-                        <a class="link" href="###" title="">
+                        <a class="link" href="javascript:;" title="">
                             墨西哥国际电力电工设备、照明及技术展览
                         </a>
 
                         <p>展会时间: 2017年6月6日-8日</p>
 
                         <p>展出地点：北美洲-墨西哥</p>
-                        <a class="btn" href="###"><i class="fa fa-comments"></i>在线咨询</a>
+                        <a class="btn" href="javascript:;"><i class="fa fa-comments"></i>在线咨询</a>
                     </div>
                 </section>
                 <section class="item">
                     <div class="inner">
-                        <a class="img" href="###" title="">
+                        <a class="img" href="javascript:;" title="">
                             <img src="pics/home-cq.jpg" alt="">
                             <label class="label-xq">稀缺</label>
                         </a>
-                        <a class="link" href="###" title="">
+                        <a class="link" href="javascript:;" title="">
                             墨西哥国际电力电工设备、照明及技术展览
                         </a>
 
                         <p>展会时间: 2017年6月6日-8日</p>
 
                         <p>展出地点：北美洲-墨西哥</p>
-                        <a class="btn" href="###"><i class="fa fa-comments"></i>在线咨询</a>
+                        <a class="btn" href="javascript:;"><i class="fa fa-comments"></i>在线咨询</a>
                     </div>
                 </section>
                 <section class="item">
                     <div class="inner">
-                        <a class="img" href="###" title="">
+                        <a class="img" href="javascript:;" title="">
                             <img src="pics/home-cq.jpg" alt="">
                             <label class="label-bt">补贴</label>
                         </a>
-                        <a class="link" href="###" title="">
+                        <a class="link" href="javascript:;" title="">
                             墨西哥国际电力电工设备、照明及技术展览
                         </a>
 
                         <p>展会时间: 2017年6月6日-8日</p>
 
                         <p>展出地点：北美洲-墨西哥</p>
-                        <a class="btn" href="###"><i class="fa fa-comments"></i>在线咨询</a>
+                        <a class="btn" href="javascript:;"><i class="fa fa-comments"></i>在线咨询</a>
                     </div>
                 </section>
                 <section class="item">
                     <div class="inner">
-                        <a class="img" href="###" title="">
+                        <a class="img" href="javascript:;" title="">
                             <img src="pics/home-cq.jpg" alt="">
                             <label class="label-yh">优惠</label>
                         </a>
-                        <a class="link" href="###" title="">
+                        <a class="link" href="javascript:;" title="">
                             墨西哥国际电力电工设备、照明及技术展览
                         </a>
 
                         <p>展会时间: 2017年6月6日-8日</p>
 
                         <p>展出地点：北美洲-墨西哥</p>
-                        <a class="btn" href="###"><i class="fa fa-comments"></i>在线咨询</a>
+                        <a class="btn" href="javascript:;"><i class="fa fa-comments"></i>在线咨询</a>
                     </div>
                 </section>
             </aside>
-            <a class="ad fr" href="###"><img src="pics/home-cq-ad.jpg"></a>
+            <a class="ad fr" href="javascript:;"><img src="pics/home-cq-ad.jpg"></a>
         </div>
         <div class="row-2 clearfix">
             <section class="item">
                 <div class="inner">
-                    <a class="img" href="###" title="">
+                    <a class="img" href="javascript:;" title="">
                         <img src="pics/home-cq.jpg" alt="">
                     </a>
-                    <a class="link" href="###" title="">
+                    <a class="link" href="javascript:;" title="">
                         墨西哥国际电力电工设备、照明及技术展览
                     </a>
 
                     <p>展会时间: 2017年6月6日-8日</p>
 
                     <p>展出地点：北美洲-墨西哥</p>
-                    <a class="btn" href="###"><i class="fa fa-comments"></i>在线咨询</a>
+                    <a class="btn" href="javascript:;"><i class="fa fa-comments"></i>在线咨询</a>
                 </div>
             </section>
             <section class="item">
                 <div class="inner">
-                    <a class="img" href="###" title="">
+                    <a class="img" href="javascript:;" title="">
                         <img src="pics/home-cq.jpg" alt="">
                     </a>
-                    <a class="link" href="###" title="">
+                    <a class="link" href="javascript:;" title="">
                         墨西哥国际电力电工设备、照明及技术展览
                     </a>
 
                     <p>展会时间: 2017年6月6日-8日</p>
 
                     <p>展出地点：北美洲-墨西哥</p>
-                    <a class="btn" href="###"><i class="fa fa-comments"></i>在线咨询</a>
+                    <a class="btn" href="javascript:;"><i class="fa fa-comments"></i>在线咨询</a>
                 </div>
             </section>
             <section class="item">
                 <div class="inner">
-                    <a class="img" href="###" title="">
+                    <a class="img" href="javascript:;" title="">
                         <img src="pics/home-cq.jpg" alt="">
                     </a>
-                    <a class="link" href="###" title="">
+                    <a class="link" href="javascript:;" title="">
                         墨西哥国际电力电工设备、照明及技术展览
                     </a>
 
                     <p>展会时间: 2017年6月6日-8日</p>
 
                     <p>展出地点：北美洲-墨西哥</p>
-                    <a class="btn" href="###"><i class="fa fa-comments"></i>在线咨询</a>
+                    <a class="btn" href="javascript:;"><i class="fa fa-comments"></i>在线咨询</a>
                 </div>
             </section>
             <section class="item">
                 <div class="inner">
-                    <a class="img" href="###" title="">
+                    <a class="img" href="javascript:;" title="">
                         <img src="pics/home-cq.jpg" alt="">
                     </a>
-                    <a class="link" href="###" title="">
+                    <a class="link" href="javascript:;" title="">
                         墨西哥国际电力电工设备、照明及技术展览
                     </a>
 
                     <p>展会时间: 2017年6月6日-8日</p>
 
                     <p>展出地点：北美洲-墨西哥</p>
-                    <a class="btn" href="###"><i class="fa fa-comments"></i>在线咨询</a>
+                    <a class="btn" href="javascript:;"><i class="fa fa-comments"></i>在线咨询</a>
                 </div>
             </section>
         </div>
@@ -344,18 +344,18 @@
         <header class="com-header">
             <label class="label">国内自办展</label>
             <nav class="com-head-nav swiper-buttons">
-                <a class="swiper-button swiper-button-prev" href="###"><i class="fa fa-2x fa-angle-left"></i></a>
-                <a class="swiper-button swiper-button-next" href="###"><i class="fa fa-2x fa-angle-right"></i></a>
+                <a class="swiper-button swiper-button-prev" href="javascript:;"><i class="fa fa-2x fa-angle-left"></i></a>
+                <a class="swiper-button swiper-button-next" href="javascript:;"><i class="fa fa-2x fa-angle-right"></i></a>
             </nav>
         </header>
         <!-- 轮播-->
         <section class="zb-cnt swiper-container">
             <div class="swiper-wrapper">
-                <div class="swiper-slide"><a class="img img-left" href="###"><img src="pics/home-zb-1.jpg"></a></div>
-                <div class="swiper-slide"><a class="img img-right" href="###"><img src="pics/home-zb-2.jpg"></a></div>
-                <div class="swiper-slide"><a class="img img-left" href="###"><img src="pics/home-zb-1.jpg"></a></div>
-                <div class="swiper-slide"><a class="img img-right" href="###"><img src="pics/home-zb-2.jpg"></a></div>
-                <div class="swiper-slide"><a class="img img-left" href="###"><img src="pics/home-zb-1.jpg"></a></div>
+                <div class="swiper-slide"><a class="img img-left" href="javascript:;"><img src="pics/home-zb-1.jpg"></a></div>
+                <div class="swiper-slide"><a class="img img-right" href="javascript:;"><img src="pics/home-zb-2.jpg"></a></div>
+                <div class="swiper-slide"><a class="img img-left" href="javascript:;"><img src="pics/home-zb-1.jpg"></a></div>
+                <div class="swiper-slide"><a class="img img-right" href="javascript:;"><img src="pics/home-zb-2.jpg"></a></div>
+                <div class="swiper-slide"><a class="img img-left" href="javascript:;"><img src="pics/home-zb-1.jpg"></a></div>
             </div>
         </section>
     </div>
@@ -368,18 +368,18 @@
         <header class="com-header">
             <label class="label">参展攻略</label>
             <nav class="com-nav-gl com-head-nav">
-                <a class="on" href="###" title="展会回顾">展会回顾 </a>
-                <a href="###" title="参展技巧"> 参展技巧</a>
-                <a href="###" title="展台搭建">展台搭建</a>
-                <a href="###" title="行业资讯">行业资讯</a>
-                <a href="###" title="签证技巧">签证技巧 </a>
-                <a href="###" title="外贸课堂">外贸课堂 </a>
-                <a href="###" title="市场分析">市场分析 </a>
+                <a class="on" href="javascript:;" title="展会回顾">展会回顾 </a>
+                <a href="javascript:;" title="参展技巧"> 参展技巧</a>
+                <a href="javascript:;" title="展台搭建">展台搭建</a>
+                <a href="javascript:;" title="行业资讯">行业资讯</a>
+                <a href="javascript:;" title="签证技巧">签证技巧 </a>
+                <a href="javascript:;" title="外贸课堂">外贸课堂 </a>
+                <a href="javascript:;" title="市场分析">市场分析 </a>
             </nav>
         </header>
         <section class="clearfix">
             <aside class="gallery fl">
-                <a class="img" href="###" title="">
+                <a class="img" href="javascript:;" title="">
                     <img src="pics/home-gallery-b1.jpg" alt="">
 
                     <p>汇源会展公司15周年</p>
@@ -392,8 +392,8 @@
                             src="pics/home-gallery-s3.jpg"></a>
                     <a rel="pics/home-gallery-b1.jpg" href="javascript:;"><img src="pics/home-gallery-s4.jpg"></a>
                 </div>
-                <a class="icon icon-left" href="###"> <i class=" fa fa-chevron-left"></i></a>
-                <a class="icon icon-right" href="###"> <i class=" fa fa-chevron-right"></i></a>
+                <a class="icon icon-left" href="javascript:;"> <i class=" fa fa-chevron-left"></i></a>
+                <a class="icon icon-right" href="javascript:;"> <i class=" fa fa-chevron-right"></i></a>
             </aside>
             <aside class="list-center fl">
                 <div class="top">
@@ -403,34 +403,34 @@
                 </div>
                 <ul class="com-list-label">
                     <li>
-                        <label class="label-b">行业资讯</label><a href="###">全球最大体育运动用品展ISPO MUNICH 昨日落幕</a>
+                        <label class="label-b">行业资讯</label><a href="javascript:;">全球最大体育运动用品展ISPO MUNICH 昨日落幕</a>
                     </li>
                     <li>
-                        <label class="label-r">行业资讯</label><a href="###">74项纺织行业标准发布，2017年4月1日起实施</a>
+                        <label class="label-r">行业资讯</label><a href="javascript:;">74项纺织行业标准发布，2017年4月1日起实施</a>
                     </li>
                     <li>
-                        <label class="label-b">行业资讯</label><a href="###"> [开发美州市场，必去展会推荐] 美国拉斯维加斯消费品展[开发美州市场，必去展会推荐]
+                        <label class="label-b">行业资讯</label><a href="javascript:;"> [开发美州市场，必去展会推荐] 美国拉斯维加斯消费品展[开发美州市场，必去展会推荐]
                         美国拉斯维加斯消费品展</a>
                     </li>
                     <li>
-                        <label class="label-r">行业资讯</label><a href="###"> [开发美州市场，必去展会推荐] 美国拉斯维加斯消费品展</a>
+                        <label class="label-r">行业资讯</label><a href="javascript:;"> [开发美州市场，必去展会推荐] 美国拉斯维加斯消费品展</a>
                     </li>
                     <li>
-                        <label class="label-b">行业资讯</label><a href="###"> [开发美州市场，必去展会推荐] 美国拉斯维加斯消费品展</a>
+                        <label class="label-b">行业资讯</label><a href="javascript:;"> [开发美州市场，必去展会推荐] 美国拉斯维加斯消费品展</a>
                     </li>
                 </ul>
             </aside>
             <aside class="list-right fr">
                 <h6>参展技巧</h6>
                 <ul class="com-list-circle">
-                    <li><a href="###" title=""><i class="fa fa-circle-o"></i>广交会展位申请攻略</a></li>
-                    <li><a href="###" title=""><i class="fa fa-circle-o"></i>【小展的生意经】一些国家的外贸一些国家的外贸</a></li>
-                    <li><a href="###" title=""><i class="fa fa-circle-o"></i>新手广交会签单30万美金全记录</a></li>
-                    <li><a href="###" title=""><i class="fa fa-circle-o"></i>展会上如何与老外交流</a></li>
-                    <li><a href="###" title=""><i class="fa fa-circle-o"></i>展会上如何与老外交流</a></li>
-                    <li><a href="###" title=""><i class="fa fa-circle-o"></i>展会上如何与老外交流</a></li>
-                    <li><a href="###" title=""><i class="fa fa-circle-o"></i>展会上如何与老外交流</a></li>
-                    <li><a href="###" title=""><i class="fa fa-circle-o"></i>展会上如何与老外交流</a></li>
+                    <li><a href="javascript:;" title=""><i class="fa fa-circle-o"></i>广交会展位申请攻略</a></li>
+                    <li><a href="javascript:;" title=""><i class="fa fa-circle-o"></i>【小展的生意经】一些国家的外贸一些国家的外贸</a></li>
+                    <li><a href="javascript:;" title=""><i class="fa fa-circle-o"></i>新手广交会签单30万美金全记录</a></li>
+                    <li><a href="javascript:;" title=""><i class="fa fa-circle-o"></i>展会上如何与老外交流</a></li>
+                    <li><a href="javascript:;" title=""><i class="fa fa-circle-o"></i>展会上如何与老外交流</a></li>
+                    <li><a href="javascript:;" title=""><i class="fa fa-circle-o"></i>展会上如何与老外交流</a></li>
+                    <li><a href="javascript:;" title=""><i class="fa fa-circle-o"></i>展会上如何与老外交流</a></li>
+                    <li><a href="javascript:;" title=""><i class="fa fa-circle-o"></i>展会上如何与老外交流</a></li>
                 </ul>
             </aside>
         </section>
@@ -451,32 +451,32 @@
         <label>合作<br>伙伴</label>
         <ul>
             <li class="item">
-                <a class="img" href="###" title="合作伙伴公司名称"><img src="pics/home-coop.png" alt="合作伙伴公司名称"></a>
-                <a href="###" title="合作伙伴公司名称">合作伙伴公司名称合作伙伴公司名称</a>
+                <a class="img" href="javascript:;" title="合作伙伴公司名称"><img src="pics/home-coop.png" alt="合作伙伴公司名称"></a>
+                <a href="http://hyproject.lj.millylee.cn" title="合作伙伴公司名称">合作伙伴公司名称合作伙伴公司名称</a>
             </li>
             <li class="item">
-                <a class="img" href="###" title="合作伙伴公司名称"><img src="pics/home-coop.png" alt="合作伙伴公司名称"></a>
-                <a href="###" title="合作伙伴公司名称">合作伙伴公司名称</a>
+                <a class="img" href="javascript:;" title="合作伙伴公司名称"><img src="pics/home-coop.png" alt="合作伙伴公司名称"></a>
+                <a href="javascript:;" title="合作伙伴公司名称">合作伙伴公司名称</a>
             </li>
             <li class="item">
-                <a class="img" href="###" title="合作伙伴公司名称"><img src="pics/home-coop.png" alt="合作伙伴公司名称"></a>
-                <a href="###" title="合作伙伴公司名称">合作伙伴公司名称</a>
+                <a class="img" href="javascript:;" title="合作伙伴公司名称"><img src="pics/home-coop.png" alt="合作伙伴公司名称"></a>
+                <a href="javascript:;" title="合作伙伴公司名称">合作伙伴公司名称</a>
             </li>
             <li class="item">
-                <a class="img" href="###" title="合作伙伴公司名称"><img src="pics/home-coop.png" alt="合作伙伴公司名称"></a>
-                <a href="###" title="合作伙伴公司名称">合作伙伴公司名称</a>
+                <a class="img" href="javascript:;" title="合作伙伴公司名称"><img src="pics/home-coop.png" alt="合作伙伴公司名称"></a>
+                <a href="javascript:;" title="合作伙伴公司名称">合作伙伴公司名称</a>
             </li>
             <li class="item">
-                <a class="img" href="###" title="合作伙伴公司名称"><img src="pics/home-coop.png" alt="合作伙伴公司名称"></a>
-                <a href="###" title="合作伙伴公司名称">合作伙伴公司名称</a>
+                <a class="img" href="javascript:;" title="合作伙伴公司名称"><img src="pics/home-coop.png" alt="合作伙伴公司名称"></a>
+                <a href="javascript:;" title="合作伙伴公司名称">合作伙伴公司名称</a>
             </li>
             <li class="item">
-                <a class="img" href="###" title="合作伙伴公司名称"><img src="pics/home-coop.png" alt="合作伙伴公司名称"></a>
-                <a href="###" title="合作伙伴公司名称">合作伙伴公司名称</a>
+                <a class="img" href="javascript:;" title="合作伙伴公司名称"><img src="pics/home-coop.png" alt="合作伙伴公司名称"></a>
+                <a href="javascript:;" title="合作伙伴公司名称">合作伙伴公司名称</a>
             </li>
             <li class="item">
-                <a class="img" href="###" title="合作伙伴公司名称"><img src="pics/home-coop.png" alt="合作伙伴公司名称"></a>
-                <a href="###" title="合作伙伴公司名称">合作伙伴公司名称</a>
+                <a class="img" href="javascript:;" title="合作伙伴公司名称"><img src="pics/home-coop.png" alt="合作伙伴公司名称"></a>
+                <a href="javascript:;" title="合作伙伴公司名称">合作伙伴公司名称</a>
             </li>
         </ul>
     </div>
@@ -488,29 +488,29 @@
     <div class="com-wrap clearfix">
         <label>友情链接：</label>
         <aside class="links">
-            <a href="###" title="外经贸发展专项资金">外经贸发展专项资金</a>
-            <a href="###" title="外贸发展事务局">外贸发展事务局</a>
-            <a href="###" title="2017年国际展会"> 2017年国际展会</a>
-            <a href="###" title="德国展会">德国展会</a>
-            <a href="###" title="迪拜展会">迪拜展会</a>
-            <a href="###" title="香港展会">香港展会</a>
-            <a href="###" title="美国展会">美国展会</a>
-            <a href="###" title="俄罗斯展会">俄罗斯展会</a>
-            <a href="###" title=" 广交会"> 广交会 </a>
-            <a href="###" title="北京会展网">北京会展网</a>
-            <a href="###" title="深圳会展中心">深圳会展中心</a>
-            <a href="###" title="上海会展网 ">上海会展网 </a>
-            <a href="###" title="展会信息">展会信息</a>
-            <a href="###" title="太平洋家居网展会">太平洋家居网展会</a>
-            <a href="###" title="名酒招商">名酒招商</a>
-            <a href="###" title="调研中心">调研中心</a>
-            <a href="###" title=" 家纺加盟 "> 家纺加盟 </a>
-            <a href="###" title="无锡房产网 ">无锡房产网 </a>
-            <a href="###" title="昆山搜房网">昆山搜房网</a>
-            <a href="###" title=" 制造资源网  "> 制造资源网 </a>
-            <a href="###" title="企业保险">企业保险</a>
-            <a href="###" title="中国商务服务网">中国商务服务网</a>
-            <a class="last" href="###" title="商机网">商机网</a>
+            <a href="javascript:;" title="外经贸发展专项资金">外经贸发展专项资金</a>
+            <a href="javascript:;" title="外贸发展事务局">外贸发展事务局</a>
+            <a href="javascript:;" title="2017年国际展会"> 2017年国际展会</a>
+            <a href="javascript:;" title="德国展会">德国展会</a>
+            <a href="javascript:;" title="迪拜展会">迪拜展会</a>
+            <a href="javascript:;" title="香港展会">香港展会</a>
+            <a href="javascript:;" title="美国展会">美国展会</a>
+            <a href="javascript:;" title="俄罗斯展会">俄罗斯展会</a>
+            <a href="javascript:;" title=" 广交会"> 广交会 </a>
+            <a href="javascript:;" title="北京会展网">北京会展网</a>
+            <a href="javascript:;" title="深圳会展中心">深圳会展中心</a>
+            <a href="javascript:;" title="上海会展网 ">上海会展网 </a>
+            <a href="javascript:;" title="展会信息">展会信息</a>
+            <a href="javascript:;" title="太平洋家居网展会">太平洋家居网展会</a>
+            <a href="javascript:;" title="名酒招商">名酒招商</a>
+            <a href="javascript:;" title="调研中心">调研中心</a>
+            <a href="javascript:;" title=" 家纺加盟 "> 家纺加盟 </a>
+            <a href="javascript:;" title="无锡房产网 ">无锡房产网 </a>
+            <a href="javascript:;" title="昆山搜房网">昆山搜房网</a>
+            <a href="javascript:;" title=" 制造资源网  "> 制造资源网 </a>
+            <a href="javascript:;" title="企业保险">企业保险</a>
+            <a href="javascript:;" title="中国商务服务网">中国商务服务网</a>
+            <a class="last" href="javascript:;" title="商机网">商机网</a>
         </aside>
     </div>
 </section>
@@ -553,6 +553,7 @@
             slidesPerView: 2
         });
 
+
         $('.com-head-nav .swiper-button-prev').click(function () {
             zb.swipePrev();
         });
@@ -565,6 +566,7 @@
         $('.banner-cnt .swiper-button-next').click(function () {
             banner.swipeNext();
         });
+
 
     })();
 </script>

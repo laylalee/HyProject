@@ -1,4 +1,4 @@
-.home-cq .item .img label, .home-cq .item p, .home-gl .gallery .img p, .home-gl .list-center .top h5, .home-coop .item a, .com-menu-fold .item h4, .global-class header, .com-list-base .item .header, .com-list-circle li, .com-list-label li, .com-list-aside .list-tj .item p, .com-list-aside .list-wz li, .sub-detail header, .sub-list .item header, .sub-list .item .tip, .article .link, .sitemap .link {
+.home-cq .item .img label, .home-cq .item p, .gallery .img p, .home-gl .list-center .top h5, .home-coop .item a, .com-menu-fold .item h4, .global-class header, .com-list-base .item .header, .com-list-circle li, .com-list-label li, .com-list-aside .list-tj .item p, .com-list-aside .list-wz li, .sub-detail header, .sub-list .item header, .sub-list .item .tip, .article .link, .sitemap .link {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis; }
@@ -518,7 +518,7 @@ input::-ms-reveal {
 ::-ms-clear, ::-ms-reveal {
   display: none; }
 
-.home-cq .item .img label, .home-cq .item p, .home-gl .gallery .img p, .home-gl .list-center .top h5, .home-coop .item a, .com-menu-fold .item h4, .global-class header, .com-list-base .item .header, .com-list-circle li, .com-list-label li, .com-list-aside .list-tj .item p, .com-list-aside .list-wz li, .sub-detail header, .sub-list .item header, .sub-list .item .tip, .article .link, .sitemap .link {
+.home-cq .item .img label, .home-cq .item p, .gallery .img p, .home-gl .list-center .top h5, .home-coop .item a, .com-menu-fold .item h4, .global-class header, .com-list-base .item .header, .com-list-circle li, .com-list-label li, .com-list-aside .list-tj .item p, .com-list-aside .list-wz li, .sub-detail header, .sub-list .item header, .sub-list .item .tip, .article .link, .sitemap .link {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis; }
@@ -874,17 +874,15 @@ input::-ms-reveal {
   margin-top: 30px; }
 
 /*首页：参展攻略*/
-.home-gl .gallery {
-  margin-top: 10px;
+.gallery {
   position: relative;
-  overflow: hidden;
-  width: 450px; }
-  .home-gl .gallery img {
+  overflow: hidden; }
+  .gallery img {
     width: 100%; }
-  .home-gl .gallery .img {
+  .gallery .img {
     display: block;
     position: relative; }
-    .home-gl .gallery .img p {
+    .gallery .img p {
       background: url("../images/gallary-text-bg.png") bottom repeat-x;
       color: #fff;
       bottom: 0;
@@ -896,20 +894,20 @@ input::-ms-reveal {
       position: absolute;
       width: 100%;
       text-align: center; }
-  .home-gl .gallery .list-group {
+  .gallery .list-group {
     width: 100%;
     padding-top: 10px;
     overflow: hidden; }
-    .home-gl .gallery .list-group a {
+    .gallery .list-group a {
       width: 25%;
       display: block;
       float: left;
       border: 1px solid #fff;
       margin-right: 0px;
       position: relative; }
-    .home-gl .gallery .list-group a:hover, .home-gl .gallery .list-group a.on {
+    .gallery .list-group a:hover, .gallery .list-group a.on {
       border-color: #ff3300; }
-      .home-gl .gallery .list-group a:hover:after, .home-gl .gallery .list-group a.on:after {
+      .gallery .list-group a:hover:after, .gallery .list-group a.on:after {
         content: '';
         position: absolute;
         top: -14px;
@@ -922,7 +920,7 @@ input::-ms-reveal {
         border-width: 7px 7px;
         border-color: transparent;
         border-bottom-color: #ff3300; }
-  .home-gl .gallery .icon {
+  .gallery .icon {
     position: absolute;
     bottom: 15px;
     display: inline-block;
@@ -933,10 +931,14 @@ input::-ms-reveal {
     color: #fff;
     text-align: center;
     cursor: pointer; }
-  .home-gl .gallery .icon-left {
+  .gallery .icon-left {
     left: 1px; }
-  .home-gl .gallery .icon-right {
+  .gallery .icon-right {
     right: 1px; }
+
+.home-gl .gallery {
+  width: 450px;
+  margin-top: 10px; }
 .home-gl .list-center {
   margin-top: 10px;
   width: 420px;
@@ -1094,6 +1096,9 @@ input::-ms-reveal {
 
 .text-primary {
   color: #003987; }
+
+.text-blue {
+  color: #0099ff; }
 
 .text-center {
   text-align: center; }
@@ -2510,3 +2515,118 @@ input::-ms-reveal {
     color: #fff; }
     .about-lx .item:hover .text:after {
       background: #fff; }
+
+/**展会详情**/
+.detail {
+  background: #f1f1f1; }
+  .detail .aside-left {
+    width: 820px; }
+  .detail .section {
+    font-size: 15px;
+    padding-bottom: 40px;
+    line-height: 1.8; }
+  .detail .section-head {
+    font-size: 24px;
+    color: #535d63;
+    padding-bottom: 10px;
+    margin-bottom: 20px; }
+    .detail .section-head span {
+      padding: 10px;
+      border-bottom: 2px solid #535d63; }
+
+.detail-nav {
+  background: #535d63;
+  height: 55px;
+  color: #fff;
+  padding: 0 10px; }
+  .detail-nav a {
+    display: inline-block;
+    width: 120px;
+    line-height: 45px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px; }
+    .detail-nav a:hover {
+      text-decoration: underline; }
+    .detail-nav a.active {
+      border-radius: 5px 5px 0 0;
+      background: #ffffff;
+      color: #535d63; }
+
+.detail-content {
+  padding: 20px 15px;
+  background: #fff; }
+  .detail-content .section-1 p {
+    position: relative;
+    min-height: 24px;
+    padding-left: 30px; }
+  .detail-content .section-1 label {
+    position: absolute;
+    left: 0;
+    top: 0; }
+  .detail-content .section-2 p {
+    margin-bottom: 20px; }
+
+.detail-header {
+  padding: 15px;
+  background: #fff;
+  margin-bottom: 20px; }
+  .detail-header h2 {
+    font-size: 24px;
+    margin-bottom: 10px; }
+  .detail-header .fl {
+    width: 600px; }
+  .detail-header .fr {
+    width: 500px; }
+  .detail-header .gallery {
+    width: 100%;
+    margin-bottom: 20px; }
+    .detail-header .gallery .icon {
+      top: 25%;
+      height: 100px;
+      line-height: 100px;
+      width: 40px;
+      font-size: 18px; }
+    .detail-header .gallery .icon-left {
+      border-radius: 0 5px 5px 0; }
+    .detail-header .gallery .icon-right {
+      border-radius: 5px 0 0 5px; }
+  .detail-header .share {
+    height: 30px;
+    float: right; }
+  .detail-header .text-blue {
+    margin-bottom: 10px;
+    font-size: 24px; }
+    .detail-header .text-blue label {
+      font-size: 16px;
+      display: block; }
+  .detail-header .point {
+    min-height: 150px;
+    line-height: 2;
+    padding: 15px;
+    background: url("../images/detail-icon-1.png") bottom right no-repeat #f1f1f1; }
+    .detail-header .point i {
+      padding-right: 4px; }
+    .detail-header .point label {
+      display: block;
+      font-size: 18px;
+      margin-bottom: 5px; }
+  .detail-header .text {
+    padding: 14px 20px;
+    line-height: 2; }
+  .detail-header .btn {
+    font-size: 18px;
+    text-align: center;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    width: 47%;
+    margin-right: 2%; }
+    .detail-header .btn i {
+      margin-right: 5px;
+      font-size: 22px; }
+    .detail-header .btn.btn-blue {
+      background: #0099ff; }
+    .detail-header .btn.btn-orange {
+      background: #ff3300; }

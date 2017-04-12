@@ -22,7 +22,7 @@
     $window.on({
         'click': function () {
             $menuFold.removeClass('open');
-            return false;
+            //return false;
         },
         'scroll': $.throttle(500, tool.winScroll)
     });
