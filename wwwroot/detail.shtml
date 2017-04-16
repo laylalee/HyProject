@@ -15,7 +15,7 @@
         </ul>
         <div class="detail-header">
             <h2>美国拉斯维加斯国际五金工具展览会（NHS）
-                <全球最大的五金制品专业展览会
+                全球最大的五金制品专业展览会
             </h2>
             <div class="clearfix">
                 <aside class="fl">
@@ -70,7 +70,7 @@
                     </div>
                     <div class="btns">
                         <a class="btn btn-blue" href="###"><i class="fa fa-comments"></i>在线咨询</a>
-                        <a class="btn btn-orange" href="###"><i class="fa fa-download"></i>资料下载</a>
+                        <a class="btn btn-orange" id="downBtn" href="###"><i class="fa fa-download"></i>资料下载</a>
                     </div>
                 </aside>
             </div>
@@ -128,14 +128,61 @@
 
 
                 </section>
-                <section class="section ">
+                <section class="section section-3">
                     <header class="section-head"><span>市场分析</span></header>
                 </section>
-                <section class="section ">
+                <section class="section section-4">
                     <header class="section-head"><span>展会回顾</span></header>
+                    <div class="labels clearfix">
+                        <label class="fl">展会面积：65，000平方米 </label>
+                        <label class="fr">参展商数量：23个国家3550多家企业23个国家3550多家企业</label>
+                        <label class="fl">买家数量：43500人</label>
+                    </div>
+                    <section class="section-imgs swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide clearfix">
+                                <img class="fl" src="pics/detail-4-1.jpg">
+                                <img class="fr" src="pics/detail-4-2.jpg">
+                            </div>
+                            <div class="swiper-slide clearfix">
+                                <img class="fl" src="pics/detail-4-1.jpg">
+                                <img class="fr" src="pics/detail-4-2.jpg">
+                            </div>
+                        </div>
+                        <!--导航按钮 -->
+                        <div class="swiper-button swiper-button-prev"><i class="fa fa-2x fa-angle-left"></i></div>
+                        <div class="swiper-button swiper-button-next"><i class="fa fa-2x fa-angle-right"></i></div>
+                    </section>
                 </section>
-                <section class="section ">
+                <section class="section section-5">
                     <header class="section-head"><span>客户评价</span></header>
+                    <div class="item pic-left">
+                        <img src="pics/detail-5-1.jpg">
+                        <div class="text">
+                            <i class="fa fa-quote-left"></i>
+                            <p class="line">世界第二,美洲之首-拉斯维加斯工具展会-展团大,服务优展位绝佳,行程灵活,</p>
+                            <p class="text-blue">—   福建福晶公司海外业务总经理  VVlian</p>
+                            <i class="fa fa-quote-right"></i>
+                        </div>
+                    </div>
+                    <div class="item pic-right">
+                        <img src="pics/detail-5-2.jpg">
+                        <div class="text">
+                            <i class="fa fa-quote-left"></i>
+                            <p class="line">的确是全球最大的电子消费产品展览会，展期维持在6天，每天都十分精彩，人流络绎不绝。专业人士积聚，行业顶级品牌发布最新产品，我们每年都会去参加，是不容错过的行业盛会</p>
+                            <p class="text-blue">—   福建福晶公司海外业务总经理  VVlian</p>
+                            <i class="fa fa-quote-right"></i>
+                        </div>
+                    </div>
+                    <div class="item pic-left">
+                        <img src="pics/detail-5-3.jpg">
+                        <div class="text">
+                            <i class="fa fa-quote-left"></i>
+                            <p class="line">世界第二,美洲之首-拉斯维加斯工具展会-展团大,服务优展位绝佳,行程灵活,</p>
+                            <p class="text-blue">—   福建福晶公司海外业务总经理  VVlian</p>
+                            <i class="fa fa-quote-right"></i>
+                        </div>
+                    </div>
                 </section>
             </aside>
             <aside class="aside-right fr">
@@ -147,13 +194,58 @@
         </main>
     </div>
 </div>
-
 <!--#include virtual="_include/_com-info.shtml"-->
-
 <!--#include virtual="_include/_com-footer.shtml"-->
+<div class="dialog dialog-detail">
+    <main class="dialog-main ">
+        <header>
+            <span class="text-primary">资料下载</span>
+            <span class="text">全球展览咨询热线：<b class="text-orange">4001-865-365</b></span>
+            <a class="close" href="javascript:;"></a>
+        </header>
+        <section class="section-1">
+            <h3>日本东京时尚世界服装配饰及鞋包展览会</h3>
+            <p class="text-blue">展会时间：	2017年10月05日 - 07日</p>
+        </section>
+        <form>
+            <p>
+                <input class="input-text" type="text" placeholder="公司名称（* 必填）">
+            </p>
+            <p>
+                <input class="input-text input-sm" type="text" placeholder="联系人（* 必填）">
+                <input class="input-text input-sm" type="text" placeholder="联系电话（* 必填）">
+            </p>
+            <p>
+                <input class="input-text" type="text" placeholder="联系QQ或邮箱（选填）">
+            </p>
+            <p>
+                <textarea class="input-text input-area">请输入内容（选填）</textarea>
+            </p>
+            <p>
+                <input class="btn" type="submit" value="提交资料(下载申请)">
+            </p>
+            <p class="tip">
+                提交资料申请后我们会在1-2个工作日内即时与您取得联系。
+            </p>
+        </form>
+    </main>
+</div>
+<script src="js/idangerous.swiper.min.js"></script>
 <script>
     (function () {
-
+        var imgs = new Swiper('.section-imgs');
+        $('.section-imgs .swiper-button-prev').click(function () {
+            imgs.swipePrev();
+        });
+        $('.section-imgs .swiper-button-next').click(function () {
+            imgs.swipeNext();
+        });
+        $("#downBtn").click(function(){
+           $(".dialog-detail").fadeIn();
+        });
+        $(".dialog .close").click(function(){
+            $(".dialog-detail").fadeOut();
+        })
     })();
 </script>
 </body>

@@ -1842,10 +1842,10 @@
 /**展会详情**/
 .detail {
   background: $inner-gray;
-  .aside-left{
+  .aside-left {
     width: 820px;
   }
-  .section{
+  .section {
     font-size: 15px;
     padding-bottom: 40px;
     line-height: 1.8;
@@ -1856,9 +1856,9 @@
     color: #535d63;
     padding-bottom: 10px;
     margin-bottom: 20px;
-    span{
+    span {
       padding: 10px;
-      border-bottom: 2px solid  #535d63;
+      border-bottom: 2px solid #535d63;
     }
   }
 }
@@ -1889,8 +1889,8 @@
 .detail-content {
   padding: 20px 15px;
   background: #fff;
-  .section-1{
-    p{
+  .section-1 {
+    p {
       position: relative;
       min-height: 24px;
       padding-left: 30px;
@@ -1902,9 +1902,126 @@
 
     }
   }
-  .section-2{
-    p{
+  .section-2 {
+    p {
       margin-bottom: 20px;
+    }
+  }
+  .section-4 {
+    label {
+      display: block;
+      width: 48%;
+      line-height: 42px;
+      background: $primary-second;
+      color: #fff;
+      margin-bottom: 20px;
+      font-size: 16px;
+      @extend %tof;
+      padding: 0 20px;
+
+    }
+    .section-imgs{
+      height: 295px !important;
+    }
+    img{
+      width: 48%;
+    }
+    .swiper-button {
+      position: absolute;
+      width: 40px;
+      line-height: 100px;
+      top: 50%;
+      background: url("../images/black-75.png");
+      cursor: pointer;
+      font-size: 18px;
+      @include transition(background 0.3s);
+      text-align: center;
+      color: #fff;
+      margin-top: -50px;
+
+      &.swiper-button-prev {
+        left: 0px;
+      }
+      &.swiper-button-next {
+        right: 1px;
+      }
+    }
+  }
+  .section-5{
+    .item{
+      background: #f0f4fd;
+      overflow: hidden;
+      position: relative;
+      margin-bottom: 15px;
+      padding: 15px 20px;
+      img{
+        position: absolute;
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        top: 20px;
+      }
+      .text-blue{
+        text-align: right;
+      }
+      .line{
+        line-height: 24px;
+        min-height: 48px;
+      }
+      .text{
+        position: relative;
+        min-height: 100px;
+        padding: 0 40px;
+        margin: 0 10px;
+        .fa{
+          position: absolute;
+          font-size: 24px;
+          color: #999;
+        }
+        .fa-quote-left{
+          left: 0;
+          top: 0;
+        }
+        .fa-quote-right{
+          right: 0;
+          bottom: 0;
+        }
+      }
+      &.pic-left{
+        padding-left: 120px;
+        img{
+          left: 10px;
+        }
+
+      }
+      &.pic-right{
+        padding-right: 120px;
+        img{
+          right: 10px;
+        }
+
+      }
+    }
+
+  }
+  @include respond-to(lg){
+    .aside-left{
+      width: 680px;
+    }
+    .aside-right{
+      width: 250px;
+    }
+    .com-aside-ad{
+      width: 250px;
+      height: 250px;
+    }
+    .section-4{
+      .swiper-button{
+        top: 40%;
+      }
+      .section-imgs{
+        height: 245px !important;
+      }
     }
   }
 }
@@ -1989,5 +2106,112 @@
     &.btn-orange {
       background: $orange;
     }
+  }
+  @include respond-to(lg){
+    .fl{
+      width: 480px;
+    }
+    .fr{
+      width: 450px;
+    }
+  }
+}
+.dialog-detail{
+  .dialog-main{
+    background: #f7f7f7;
+  }
+  header{
+    border-radius: 10px 10px 0 0 ;
+    line-height: 40px;
+    font-size: 15px;
+    padding: 10px 20px;
+    background: #fff;
+    position: relative;
+    .close{
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      background: url("../images/circle-time.png") no-repeat;
+      top: -50px;
+      right: -50px;
+    }
+    .text{
+      float: right;
+      color: #999;
+      font-size: 14px;
+    }
+    b{
+      font-size: 20px;
+    }
+  }
+  .section-1{
+    background: #fff;
+    padding:10px 20px;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    h3{
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+  }
+  form{
+    padding: 20px;
+    p{
+      margin-bottom: 15px;
+    }
+    .input-text{
+      line-height: 32px;
+      padding:  0 10px;
+      border: 1px solid #dcdcdc;
+      width: 90%;
+    }
+    input::-webkit-input-placeholder,textarea::-webkit-input-placeholder {
+      color:#999;
+    }
+    .input-sm{
+      width: 43%;
+      margin-right: 20px;
+    }
+    .input-area{
+      width: 100%;
+      margin-right: 0;
+      min-height: 100px;
+    }
+    .btn{
+      width: 100%;
+      background: $orange;
+      line-height: 44px;
+      color: #fff;
+      font-size: 16px;
+      border-radius: 4px;
+      text-align: center;
+    }
+    .tip{
+      color: #999;
+    }
+  }
+}
+.dialog{
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url("../images/black-65.png");
+  display: none;
+  .dialog-main{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 600px;
+    height: 550px;
+    border-radius: 10px;
+  }
+  .content{
   }
 }

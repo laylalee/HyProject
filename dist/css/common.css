@@ -1,4 +1,4 @@
-.home-cq .item .img label, .home-cq .item p, .gallery .img p, .home-gl .list-center .top h5, .home-coop .item a, .com-menu-fold .item h4, .global-class header, .com-list-base .item .header, .com-list-circle li, .com-list-label li, .com-list-aside .list-tj .item p, .com-list-aside .list-wz li, .sub-detail header, .sub-list .item header, .sub-list .item .tip, .article .link, .sitemap .link {
+.home-cq .item .img label, .home-cq .item p, .gallery .img p, .home-gl .list-center .top h5, .home-coop .item a, .com-menu-fold .item h4, .global-class header, .com-list-base .item .header, .com-list-circle li, .com-list-label li, .com-list-aside .list-tj .item p, .com-list-aside .list-wz li, .sub-detail header, .sub-list .item header, .sub-list .item .tip, .article .link, .sitemap .link, .detail-content .section-4 label {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis; }
@@ -518,7 +518,7 @@ input::-ms-reveal {
 ::-ms-clear, ::-ms-reveal {
   display: none; }
 
-.home-cq .item .img label, .home-cq .item p, .gallery .img p, .home-gl .list-center .top h5, .home-coop .item a, .com-menu-fold .item h4, .global-class header, .com-list-base .item .header, .com-list-circle li, .com-list-label li, .com-list-aside .list-tj .item p, .com-list-aside .list-wz li, .sub-detail header, .sub-list .item header, .sub-list .item .tip, .article .link, .sitemap .link {
+.home-cq .item .img label, .home-cq .item p, .gallery .img p, .home-gl .list-center .top h5, .home-coop .item a, .com-menu-fold .item h4, .global-class header, .com-list-base .item .header, .com-list-circle li, .com-list-label li, .com-list-aside .list-tj .item p, .com-list-aside .list-wz li, .sub-detail header, .sub-list .item header, .sub-list .item .tip, .article .link, .sitemap .link, .detail-content .section-4 label {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis; }
@@ -2555,7 +2555,8 @@ input::-ms-reveal {
 
 .detail-content {
   padding: 20px 15px;
-  background: #fff; }
+  background: #fff;
+  @error 'No value found for `#{$breakpoint}`. Please make sure it is defined in `$breakpoints` map.'; }
   .detail-content .section-1 p {
     position: relative;
     min-height: 24px;
@@ -2566,11 +2567,98 @@ input::-ms-reveal {
     top: 0; }
   .detail-content .section-2 p {
     margin-bottom: 20px; }
+  .detail-content .section-4 label {
+    display: block;
+    width: 48%;
+    line-height: 42px;
+    background: #0099ff;
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 16px;
+    padding: 0 20px; }
+  .detail-content .section-4 .section-imgs {
+    height: 295px !important; }
+  .detail-content .section-4 img {
+    width: 48%; }
+  .detail-content .section-4 .swiper-button {
+    position: absolute;
+    width: 40px;
+    line-height: 100px;
+    top: 50%;
+    background: url("../images/black-75.png");
+    cursor: pointer;
+    font-size: 18px;
+    -webkit-transition: background 0.3s;
+    transition: background 0.3s;
+    text-align: center;
+    color: #fff;
+    margin-top: -50px; }
+    .detail-content .section-4 .swiper-button.swiper-button-prev {
+      left: 0px; }
+    .detail-content .section-4 .swiper-button.swiper-button-next {
+      right: 1px; }
+  .detail-content .section-5 .item {
+    background: #f0f4fd;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 15px;
+    padding: 15px 20px; }
+    .detail-content .section-5 .item img {
+      position: absolute;
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      top: 20px; }
+    .detail-content .section-5 .item .text-blue {
+      text-align: right; }
+    .detail-content .section-5 .item .line {
+      line-height: 24px;
+      min-height: 48px; }
+    .detail-content .section-5 .item .text {
+      position: relative;
+      min-height: 100px;
+      padding: 0 40px;
+      margin: 0 10px; }
+      .detail-content .section-5 .item .text .fa {
+        position: absolute;
+        font-size: 24px;
+        color: #999; }
+      .detail-content .section-5 .item .text .fa-quote-left {
+        left: 0;
+        top: 0; }
+      .detail-content .section-5 .item .text .fa-quote-right {
+        right: 0;
+        bottom: 0; }
+    .detail-content .section-5 .item.pic-left {
+      padding-left: 120px; }
+      .detail-content .section-5 .item.pic-left img {
+        left: 10px; }
+    .detail-content .section-5 .item.pic-right {
+      padding-right: 120px; }
+      .detail-content .section-5 .item.pic-right img {
+        right: 10px; }
+  @media only screen and ( max-width: 1280px) {
+    .detail-content .aside-left {
+      width: 680px; }
+
+    .detail-content .aside-right {
+      width: 250px; }
+
+    .detail-content .com-aside-ad {
+      width: 250px;
+      height: 250px; }
+
+    .detail-content .section-4 .swiper-button {
+      top: 40%; }
+    .detail-content .section-4 .section-imgs {
+      height: 245px !important; }
+ }
 
 .detail-header {
   padding: 15px;
   background: #fff;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  @error 'No value found for `#{$breakpoint}`. Please make sure it is defined in `$breakpoints` map.'; }
   .detail-header h2 {
     font-size: 24px;
     margin-bottom: 10px; }
@@ -2630,3 +2718,89 @@ input::-ms-reveal {
       background: #0099ff; }
     .detail-header .btn.btn-orange {
       background: #ff3300; }
+  @media only screen and ( max-width: 1280px) {
+    .detail-header .fl {
+      width: 480px; }
+
+    .detail-header .fr {
+      width: 450px; }
+ }
+
+.dialog-detail .dialog-main {
+  background: #f7f7f7; }
+.dialog-detail header {
+  border-radius: 10px 10px 0 0;
+  line-height: 40px;
+  font-size: 15px;
+  padding: 10px 20px;
+  background: #fff;
+  position: relative; }
+  .dialog-detail header .close {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: url("../images/circle-time.png") no-repeat;
+    top: -50px;
+    right: -50px; }
+  .dialog-detail header .text {
+    float: right;
+    color: #999;
+    font-size: 14px; }
+  .dialog-detail header b {
+    font-size: 20px; }
+.dialog-detail .section-1 {
+  background: #fff;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd; }
+  .dialog-detail .section-1 h3 {
+    font-size: 20px;
+    margin-bottom: 10px; }
+.dialog-detail form {
+  padding: 20px; }
+  .dialog-detail form p {
+    margin-bottom: 15px; }
+  .dialog-detail form .input-text {
+    line-height: 32px;
+    padding: 0 10px;
+    border: 1px solid #dcdcdc;
+    width: 90%; }
+  .dialog-detail form input::-webkit-input-placeholder, .dialog-detail form textarea::-webkit-input-placeholder {
+    color: #999; }
+  .dialog-detail form .input-sm {
+    width: 43%;
+    margin-right: 20px; }
+  .dialog-detail form .input-area {
+    width: 100%;
+    margin-right: 0;
+    min-height: 100px; }
+  .dialog-detail form .btn {
+    width: 100%;
+    background: #ff3300;
+    line-height: 44px;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 4px;
+    text-align: center; }
+  .dialog-detail form .tip {
+    color: #999; }
+
+.dialog {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url("../images/black-65.png");
+  display: none; }
+  .dialog .dialog-main {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 600px;
+    height: 550px;
+    border-radius: 10px; }
