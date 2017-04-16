@@ -760,87 +760,100 @@ input::-ms-reveal {
     overflow: hidden; }
 
 /*首页：专题展会*/
-.home-cq img {
-  width: 100%; }
-.home-cq .label-primary {
-  background: url("../images/sj-blue.png"); }
-.home-cq .label-hot {
-  background: url("../images/sj-red.png"); }
-.home-cq .label-xq {
-  background: url("../images/sj-green.png"); }
-.home-cq .label-bt {
-  background: url("../images/sj-orange.png"); }
-.home-cq .label-yh {
-  background: url("../images/sj-purple.png"); }
-.home-cq .ad {
-  margin-top: 15px;
-  margin-right: 15px; }
-.home-cq .item {
-  margin: 10px 0;
-  width: 298px;
-  float: left;
-  position: relative;
-  z-index: 0;
-  height: 320px; }
-  .home-cq .item .inner {
+.home-cq {
+  @error 'No value found for `#{$breakpoint}`. Please make sure it is defined in `$breakpoints` map.'; }
+  .home-cq img {
+    width: 100%; }
+  .home-cq .label-primary {
+    background: url("../images/sj-blue.png"); }
+  .home-cq .label-hot {
+    background: url("../images/sj-red.png"); }
+  .home-cq .label-xq {
+    background: url("../images/sj-green.png"); }
+  .home-cq .label-bt {
+    background: url("../images/sj-orange.png"); }
+  .home-cq .label-yh {
+    background: url("../images/sj-purple.png"); }
+  .home-cq .ad {
+    margin-top: 15px;
+    margin-right: 15px; }
+  .home-cq .item {
+    margin: 10px 0;
+    width: 298px;
+    float: left;
     position: relative;
-    padding: 8px;
-    background: #fff;
-    box-shadow: none; }
-  .home-cq .item .btn {
-    display: block;
-    margin: 5px auto;
-    text-align: center;
-    background: #088def;
-    color: #fff;
-    line-height: 36px;
-    display: none; }
-    .home-cq .item .btn .fa {
-      padding-right: 5px; }
-  .home-cq .item .img {
-    position: relative; }
-    .home-cq .item .img label {
-      position: absolute;
-      left: 0;
-      top: 0;
-      width: 78px;
-      height: 78px;
-      line-height: 50px;
+    z-index: 0;
+    height: 320px; }
+    .home-cq .item .inner {
+      position: relative;
+      padding: 8px;
+      background: #fff;
+      box-shadow: none; }
+    .home-cq .item .btn {
+      display: block;
+      margin: 5px auto;
+      text-align: center;
+      background: #088def;
       color: #fff;
-      padding-left: 6px;
-      font-size: 16px; }
-  .home-cq .item .link {
-    font-size: 16px;
-    line-height: 24px;
-    height: 55px;
-    overflow: hidden;
-    display: block;
-    padding: 5px;
-    margin-bottom: 5px; }
-  .home-cq .item p {
-    color: #999;
-    padding: 2px 5px; }
-  .home-cq .item.on, .home-cq .item:hover {
-    z-index: 99; }
-    .home-cq .item.on .inner, .home-cq .item:hover .inner {
-      background: #f1f1f1;
-      border: 1px solid #ddd;
-      border-radius: 5px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); }
-    .home-cq .item.on .btn, .home-cq .item:hover .btn {
-      display: block; }
-    .home-cq .item.on .link, .home-cq .item:hover .link {
-      color: #003987; }
-    .home-cq .item.on p, .home-cq .item:hover p {
-      color: #000; }
-.home-cq .row-2 {
-  margin-right: -16px;
-  padding-bottom: 15px; }
-.home-cq .row-1 {
-  margin-right: -15px;
-  margin-left: -5px; }
-  .home-cq .row-1 .items {
-    width: 900px; }
+      line-height: 36px;
+      display: none; }
+      .home-cq .item .btn .fa {
+        padding-right: 5px; }
+    .home-cq .item .img {
+      position: relative; }
+      .home-cq .item .img label {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 78px;
+        height: 78px;
+        line-height: 50px;
+        color: #fff;
+        padding-left: 6px;
+        font-size: 16px; }
+    .home-cq .item .link {
+      font-size: 16px;
+      line-height: 24px;
+      height: 55px;
+      overflow: hidden;
+      display: block;
+      padding: 5px;
+      margin-bottom: 5px; }
+    .home-cq .item p {
+      color: #999;
+      padding: 2px 5px; }
+    .home-cq .item.on, .home-cq .item:hover {
+      z-index: 99; }
+      .home-cq .item.on .inner, .home-cq .item:hover .inner {
+        background: #f1f1f1;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); }
+      .home-cq .item.on .btn, .home-cq .item:hover .btn {
+        display: block; }
+      .home-cq .item.on .link, .home-cq .item:hover .link {
+        color: #003987; }
+      .home-cq .item.on p, .home-cq .item:hover p {
+        color: #000; }
+  .home-cq .row-2 {
+    margin-right: -16px;
+    padding-bottom: 15px; }
+  .home-cq .row-1 {
+    margin-right: -15px;
+    margin-left: -5px; }
+    .home-cq .row-1 .items {
+      width: 900px; }
+  @media only screen and ( max-width: 1280px) {
+    .home-cq .row-1 .items {
+      width: 750px; }
+
+    .home-cq .item {
+      width: 245px;
+      height: 260px; }
+
+    .home-cq .ad {
+      width: 235px; }
+ }
 
 /*首页：国内自办展*/
 .home-zb .zb-cnt {
@@ -936,70 +949,86 @@ input::-ms-reveal {
   .gallery .icon-right {
     right: 1px; }
 
-.home-gl .gallery {
-  width: 450px;
-  margin-top: 10px; }
-.home-gl .list-center {
-  margin-top: 10px;
-  width: 420px;
-  margin-left: 10px; }
-  .home-gl .list-center .top {
-    border-bottom: 1px dashed #f2f2f2;
-    padding: 20px 5px 20px;
-    margin-bottom: 10px; }
-    .home-gl .list-center .top p {
-      line-height: 25px;
-      height: 50px;
-      overflow: hidden; }
-    .home-gl .list-center .top h5 {
-      color: #003987;
-      font-size: 24px;
+.home-gl {
+  @error 'No value found for `#{$breakpoint}`. Please make sure it is defined in `$breakpoints` map.'; }
+  .home-gl .gallery {
+    width: 450px;
+    margin-top: 10px; }
+  .home-gl .list-center {
+    margin-top: 10px;
+    width: 420px;
+    margin-left: 10px; }
+    .home-gl .list-center .top {
+      border-bottom: 1px dashed #f2f2f2;
+      padding: 20px 5px 20px;
       margin-bottom: 10px; }
-.home-gl .list-right {
-  border: 1px solid #f2f3f8;
-  width: 280px;
-  margin-top: 10px;
-  padding: 10px 15px 0px; }
-  .home-gl .list-right h6 {
-    color: #003987;
-    line-height: 34px;
-    font-weight: bold; }
+      .home-gl .list-center .top p {
+        line-height: 25px;
+        height: 50px;
+        overflow: hidden; }
+      .home-gl .list-center .top h5 {
+        color: #003987;
+        font-size: 24px;
+        margin-bottom: 10px; }
+  .home-gl .list-right {
+    border: 1px solid #f2f3f8;
+    width: 280px;
+    margin-top: 10px;
+    padding: 10px 15px 0px; }
+    .home-gl .list-right h6 {
+      color: #003987;
+      line-height: 34px;
+      font-weight: bold; }
+  @media only screen and ( max-width: 1280px) {
+    .home-gl .list-center {
+      width: 300px; }
+
+    .home-gl .list-right {
+      width: 200px; }
+ }
 
 /*首页：合作伙伴*/
-.home-coop .com-wrap {
-  border-top: 1px solid #dcdcdc;
-  padding: 25px 0 30px; }
-.home-coop .item {
-  display: inline-block;
-  width: 13%;
-  margin-top: 15px;
-  margin-left: 0.5%;
-  text-align: center; }
-  .home-coop .item a {
-    display: block;
-    color: #999; }
-  .home-coop .item img {
-    border: 1px solid #eee;
-    width: 100%;
-    margin-bottom: 10px; }
-.home-coop label {
-  background: #f2f3f8;
-  width: 100px;
-  padding: 15px 0;
-  float: left;
-  text-align: center;
-  font-size: 24px; }
-.home-coop ul {
-  width: 1100px;
-  text-align: right;
-  float: right; }
+.home-coop {
+  @error 'No value found for `#{$breakpoint}`. Please make sure it is defined in `$breakpoints` map.'; }
+  .home-coop .com-wrap {
+    border-top: 1px solid #dcdcdc;
+    padding: 25px 0 30px; }
+  .home-coop .item {
+    display: inline-block;
+    width: 13%;
+    margin-top: 15px;
+    margin-left: 0.5%;
+    text-align: center; }
+    .home-coop .item a {
+      display: block;
+      color: #999; }
+    .home-coop .item img {
+      border: 1px solid #eee;
+      width: 100%;
+      margin-bottom: 10px; }
+  .home-coop label {
+    background: #f2f3f8;
+    width: 100px;
+    padding: 15px 0;
+    float: left;
+    text-align: center;
+    font-size: 24px; }
+  .home-coop ul {
+    width: 1100px;
+    text-align: right;
+    float: right; }
+  @media only screen and ( max-width: 1280px) {
+    .home-coop ul {
+      width: 900px; }
+ }
 
 /* 首页：友情链接*/
 .home-link {
   background: #f2f3f8;
   padding: 15px 0;
   min-height: 50px;
-  line-height: 28px; }
+  line-height: 28px;
+  @error 'No value found for `#{$breakpoint}`. Please make sure it is defined in `$breakpoints` map.'; }
   .home-link label {
     float: left;
     font-size: 16px;
@@ -1021,12 +1050,113 @@ input::-ms-reveal {
       .home-link a.last:after {
         content: '';
         padding-left: 0; }
+  @media only screen and ( max-width: 1280px) {
+    .home-link .links {
+      width: 900px; }
+ }
 
 .home-ad {
   display: block;
   margin: 20px auto 10px !important; }
   .home-ad img {
     width: 100%; }
+
+.home-consult-bottom {
+  display: none;
+  height: 130px;
+  background: url("../images/bg-blue.png");
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 111; }
+  .home-consult-bottom .img-left {
+    position: relative;
+    top: -100px; }
+  .home-consult-bottom form {
+    display: inline-block;
+    width: 370px;
+    margin-left: 30px;
+    margin-top: 10px; }
+  .home-consult-bottom .input {
+    margin-top: 20px;
+    color: #999999;
+    display: inline-block; }
+    .home-consult-bottom .input p {
+      position: relative; }
+    .home-consult-bottom .input .fa {
+      font-size: 20px;
+      position: absolute;
+      left: 15px;
+      top: 10px; }
+    .home-consult-bottom .input input {
+      line-height: 34px;
+      width: 250px;
+      margin-left: 4px;
+      padding-left: 40px;
+      border: 1px solid #dcdcdc;
+      margin-bottom: 5px; }
+  .home-consult-bottom .btn {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    background: #e94c1b;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 15px;
+    color: #fff;
+    position: relative;
+    top: -3px; }
+  .home-consult-bottom .text {
+    float: right;
+    text-align: right;
+    width: 200px;
+    color: #fff;
+    font-size: 24px;
+    margin-top: 30px; }
+    .home-consult-bottom .text p {
+      color: #ff9900;
+      font-size: 22px;
+      margin-bottom: 10px; }
+  .home-consult-bottom .colse {
+    float: right;
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: url("../images/sqb-2.png") no-repeat;
+    margin-top: 40px;
+    margin-left: 20px; }
+
+.home-consult-center {
+  position: fixed;
+  display: none;
+  z-index: 111;
+  top: 50%;
+  left: 50%;
+  width: 480px;
+  margin-top: -180px;
+  margin-left: -240px;
+  height: 360px;
+  background: url("../images/sqc-1.png") center no-repeat;
+  font-size: 18px; }
+  .home-consult-center .close {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: url("../images/circle-time.png") no-repeat;
+    top: 0px;
+    right: 0px; }
+  .home-consult-center .links {
+    position: absolute;
+    bottom: 75px;
+    right: 50px; }
+  .home-consult-center .link-zx {
+    color: #fff; }
+  .home-consult-center .link {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    margin-right: 30px; }
 
 .swiper-container {
   margin: 0 auto;
@@ -1595,7 +1725,8 @@ input::-ms-reveal {
 .com-info {
   background: #f1f1f1;
   padding-bottom: 30px;
-  padding-top: 30px; }
+  padding-top: 30px;
+  @error 'No value found for `#{$breakpoint}`. Please make sure it is defined in `$breakpoints` map.'; }
   .com-info .item {
     float: left;
     width: 25%;
@@ -1632,6 +1763,10 @@ input::-ms-reveal {
       display: none; }
   .com-info.nobg {
     background: none; }
+  @media only screen and ( max-width: 1280px) {
+    .com-info .item {
+      font-size: 14px; }
+ }
 
 .global-class {
   margin: 20px auto;
@@ -2005,7 +2140,8 @@ input::-ms-reveal {
     margin: 160px auto 0; }
   .com-consult h4 {
     font-size: 18px;
-    margin-bottom: 13px; }
+    margin-bottom: 13px;
+    cursor: pointer; }
   .com-consult .link {
     border-top: 1px solid #80ccff;
     display: block;

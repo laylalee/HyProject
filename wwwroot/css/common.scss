@@ -680,9 +680,15 @@
         display: none;
       }
     }
+
   }
   &.nobg {
     background: none;
+  }
+  @include respond-to(lg){
+    .item{
+      font-size: 14px;
+    }
   }
 }
 
@@ -1189,6 +1195,7 @@
   h4 {
     font-size: 18px;
     margin-bottom: 13px;
+    cursor: pointer;
   }
   .link {
     border-top: 1px solid #80ccff;

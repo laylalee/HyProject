@@ -167,7 +167,7 @@
         </header>
         <div class="row-1 clearfix ">
             <aside class="items fl">
-                <section class="item on">
+                <section class="item">
                     <div class="inner">
                         <a class="img" href="javascript:;" title="">
                             <img src="pics/home-cq.jpg" alt="">
@@ -520,7 +520,7 @@
     <div class="inner">
         <h4>咨询<br>小展</h4>
         <a class="link" href="##">资料下载</a>
-        <a class="link" href="##">补贴申请</a>
+        <a class="link link-sq" href="##">补贴申请</a>
 
         <div class="img">
             <img src="images/wx-code.png">
@@ -540,6 +540,34 @@
 
 </section>
 <!--首页：咨询侧边-->
+<!--首页：咨询底部-->
+<section class="home-consult-bottom">
+    <div class="com-wrap">
+          <img class="img-left" src="images/sqb-1.png">
+          <form class="clearfix">
+              <div class="input">
+                  <p><i class="fa fa-user"></i><input type="text" placeholder="您的称呼"></p>
+                  <p><i class="fa fa-phone"></i><input type="text" placeholder="手机号码"></p>
+              </div>
+              <a href="javascript:;" class="btn" >免费<br>登记</a>
+          </form>
+        <a class="colse" href="javascript:;"></a>
+          <div class="text">
+              <p>咨询热线</p>
+              <h3>4001-865-365</h3>
+          </div>
+
+    </div>
+</section>
+<!---首页：咨询弹窗-->
+<section class="home-consult-center">
+    <a class="close" href="javascript:;"></a>
+    <p class="links">
+        <a class="link link-zx" href="javascript:;">咨询小展</a>
+        <a class="link" href="javascript:;">稍后咨询</a>
+    </p>
+</section>
+<!--/首页：咨询底部-->
 <!--#include virtual="_include/_com-footer.shtml"-->
 <script src="js/idangerous.swiper.min.js"></script>
 <script>
@@ -553,7 +581,8 @@
             slidesPerView: 2
         });
 
-
+        var  consultB=$('.home-consult-bottom');
+        var  consultC=$('.home-consult-center');
         $('.com-head-nav .swiper-button-prev').click(function () {
             zb.swipePrev();
         });
@@ -567,7 +596,18 @@
             banner.swipeNext();
         });
 
-
+        $('.link-sq').click(function(){
+            consultB.fadeIn();
+        });
+        $('.com-consult h4').click(function(){
+            consultC.fadeIn();
+        })
+        $('.colse',consultB).click(function(){
+            consultB.fadeOut();
+        });
+        $('.close',consultC).click(function(){
+            consultC.fadeOut();
+        })
     })();
 </script>
 </body>
