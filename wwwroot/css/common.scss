@@ -1341,9 +1341,10 @@
 }
 
 /** 服务体系**/
-.service-top {
-  margin-bottom: 80px;
-  position: relative;
+.service-tab{
+  .com-wrap{
+    position: relative;
+  }
   .top-tab {
     position: absolute;
     z-index: 110;
@@ -1378,8 +1379,16 @@
         }
       }
     }
-
   }
+  &.fixed{
+    position: fixed;
+    width: 100%;
+    top: 0;
+  }
+}
+.service-top {
+  margin-bottom: 80px;
+  position: relative;
   .item {
     margin-bottom: 20px;
     font-size: 15px;

@@ -2258,44 +2258,51 @@ input::-ms-reveal {
  }
 
 /** 服务体系**/
+.service-tab .com-wrap {
+  position: relative; }
+.service-tab .top-tab {
+  position: absolute;
+  z-index: 110;
+  top: 50px;
+  width: 130px;
+  left: -150px; }
+  .service-tab .top-tab li {
+    margin-bottom: 5px; }
+  .service-tab .top-tab a {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    line-height: 36px;
+    color: #003987;
+    position: relative;
+    border: 1px solid #003987; }
+    .service-tab .top-tab a:after {
+      content: '';
+      position: absolute;
+      right: -16px;
+      top: 50%;
+      margin-top: -8px;
+      visibility: hidden;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 8px 8px;
+      border-color: transparent;
+      border-left-color: #003987; }
+    .service-tab .top-tab a:hover, .service-tab .top-tab a.active {
+      background: #003987;
+      color: #fff; }
+      .service-tab .top-tab a:hover:after, .service-tab .top-tab a.active:after {
+        visibility: visible; }
+.service-tab.fixed {
+  position: fixed;
+  width: 100%;
+  top: 0; }
+
 .service-top {
   margin-bottom: 80px;
   position: relative;
   @error 'No value found for `#{$breakpoint}`. Please make sure it is defined in `$breakpoints` map.'; }
-  .service-top .top-tab {
-    position: absolute;
-    z-index: 110;
-    top: 50px;
-    width: 130px;
-    left: -150px; }
-    .service-top .top-tab li {
-      margin-bottom: 5px; }
-    .service-top .top-tab a {
-      display: block;
-      text-align: center;
-      font-size: 16px;
-      line-height: 36px;
-      color: #003987;
-      position: relative;
-      border: 1px solid #003987; }
-      .service-top .top-tab a:after {
-        content: '';
-        position: absolute;
-        right: -16px;
-        top: 50%;
-        margin-top: -8px;
-        visibility: hidden;
-        width: 0;
-        height: 0;
-        border-style: solid;
-        border-width: 8px 8px;
-        border-color: transparent;
-        border-left-color: #003987; }
-      .service-top .top-tab a:hover, .service-top .top-tab a.active {
-        background: #003987;
-        color: #fff; }
-        .service-top .top-tab a:hover:after, .service-top .top-tab a.active:after {
-          visibility: visible; }
   .service-top .item {
     margin-bottom: 20px;
     font-size: 15px; }

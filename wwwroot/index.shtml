@@ -607,7 +607,11 @@
         });
         $('.close',consultC).click(function(){
             consultC.fadeOut();
-        })
+        });
+        $(window).on({
+            'scroll': $.throttle(500, tool.winScroll)
+        });
+
     })();
 </script>
 </body>

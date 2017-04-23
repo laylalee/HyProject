@@ -23,8 +23,7 @@
         'click': function () {
             $menuFold.removeClass('open');
             //return false;
-        },
-        'scroll': $.throttle(500, tool.winScroll)
+        }
     });
     window.tool = tool;
 
