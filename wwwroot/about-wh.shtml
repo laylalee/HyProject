@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--#include virtual="_include/_com-meta.shtml"-->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+<body>
+<!--#include virtual="_include/_com-header.shtml"-->
+<div class="com-wrap">
+    <ul class="com-crumbs">
+        <li><a href="index.html">首页</a></li>
+        <li><a href="about.html">关于我们</a></li>
+        <li>企业文化</li>
+    </ul>
+    <main class="com-content clearfix">
+        <!--#include virtual="_include/_about-nav.shtml"-->
+        <!--发展历程 -->
+        <aside class="about-content about-wh fr">
+            <header>
+                <h2>企业文化</h2>
+            </header>
+            <div class="cnt">
+                <img src="images/about-wh-1.jpg">
+
+                <h3 class="text-center">公司大楼</h3>
+
+                <p class="text-center">
+                    <img src="images/about-wh-2.jpg">
+                </p>
+                <section class="img-3 ">
+                    <div class="item">
+                        <img src="images/about-wh-3.jpg">
+                        <h6>公司健身房</h6>
+                    </div>
+                    <div class="item">
+                        <img src="images/about-wh-4.jpg">
+                        <h6>休闲室</h6>
+                    </div>
+                    <div class="item">
+                        <img src="images/about-wh-5.jpg">
+                        <h6>办公环境</h6>
+                    </div>
+                </section>
+                <h3>汇源办公环境，你心动了吗~~</h3>
+
+                <p>
+                    公司组织员工参加千江月素质拓展活动，通过活动，增进了部门以及各子公司员工的合作和交流，强化了“齐心协力，创新拼搏”的企业精神！
+                </p>
+                <section class="img-2">
+                    <div class="item fl"><img src="images/about-wh-6.jpg"></div>
+                    <div class="item fr"><img src="images/about-wh-7.jpg"></div>
+                    <p>
+                        <img src="images/about-wh-8.jpg">
+                    </p>
+                </section>
+                <p>
+                    公司组织台湾澎湖旅游活动，以奖励工作10年以上老员工以及2013年度公司优秀员工，勉励同事为公司更好、更快的发展而努力工作！
+                </p>
+                <section class="img-3">
+                    <div class="item"><img src="images/about-wh-9.jpg"></div>
+                    <div class="item"><img src="images/about-wh-10.jpg"></div>
+                    <div class="item"><img src="images/about-wh-11.jpg"></div>
+                </section>
+                <h3 class="text-center">公司年会</h3>
+                <section class="img-2">
+                    <div class="item fl"><img src="images/about-wh-12.jpg"></div>
+                    <div class="item fr"><img src="images/about-wh-13.jpg"></div>
+                    <div class="item fl"><img src="images/about-wh-14.jpg"></div>
+                    <div class="item fr"><img src="images/about-wh-15.jpg"></div>
+                    <div class="item fl"><img src="images/about-wh-16.jpg"></div>
+                    <div class="item fr"><img src="images/about-wh-17.jpg"></div>
+                    <div class="item fl"><img src="images/about-wh-18.jpg"></div>
+                    <div class="item fr"><img src="images/about-wh-19.jpg"></div>
+                </section>
+                <p>关爱教育，回馈社会。公司向龙岩市、漳州市两个小学捐赠课桌椅和教学用品。</p>
+                <section class="img-2">
+                    <div class="item fl"><img src="images/about-wh-20.jpg"></div>
+                    <div class="item fr"><img src="images/about-wh-21.jpg"></div>
+                    <div class="item fl"><img src="images/about-wh-22.jpg"></div>
+                    <div class="item fr"><img src="images/about-wh-23.jpg"></div>
+                </section>
+            </div>
+        </aside>
+        <!--/发展历程 -->
+    </main>
+</div>
+<!--#include virtual="_include/_com-info.shtml"-->
+
+<!--#include virtual="_include/_com-footer.shtml"-->
+<script>
+    (function () {
+        $('.about-nav li').eq(2).addClass('active');
+    })();
+</script>
+</body>
+
+</html>

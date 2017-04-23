@@ -3,7 +3,7 @@
   white-space: nowrap;
   text-overflow: ellipsis; }
 
-.clearfix:after, .com-top-search:after {
+.clearfix:after, .com-top-search:after, .about-wh .img-2:after, .about-wh .img-3:after {
   content: "";
   display: table;
   clear: both; }
@@ -523,7 +523,7 @@ input::-ms-reveal {
   white-space: nowrap;
   text-overflow: ellipsis; }
 
-.clearfix:after, .com-top-search:after {
+.clearfix:after, .com-top-search:after, .about-wh .img-2:after, .about-wh .img-3:after {
   content: "";
   display: table;
   clear: both; }
@@ -2651,6 +2651,33 @@ input::-ms-reveal {
     color: #fff; }
     .about-lx .item:hover .text:after {
       background: #fff; }
+
+.about-wh h3 {
+  font-size: 24px;
+  line-height: 2;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+.about-wh img {
+  max-width: 100%; }
+.about-wh p {
+  line-height: 2;
+  margin-bottom: 20px; }
+.about-wh .img-2 .item {
+  width: 49%;
+  margin-bottom: 20px; }
+.about-wh .img-3 {
+  text-align: center;
+  margin-left: -1%;
+  margin-right: -1%; }
+  .about-wh .img-3 .item {
+    float: left;
+    vertical-align: top;
+    width: 31.2%;
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-bottom: 20px; }
+  .about-wh .img-3 h6 {
+    margin: 10px 0; }
 
 /**展会详情**/
 .detail {
