@@ -2693,7 +2693,7 @@ input::-ms-reveal {
     width: 820px; }
   .detail .section {
     font-size: 15px;
-    padding-bottom: 40px;
+    margin-bottom: 40px;
     line-height: 1.8; }
   .detail .section-head {
     font-size: 24px;
@@ -2722,6 +2722,10 @@ input::-ms-reveal {
       border-radius: 5px 5px 0 0;
       background: #ffffff;
       color: #535d63; }
+  .detail-nav.fixed {
+    top: 0;
+    width: 1180px;
+    z-index: 99; }
 
 .detail-content {
   padding: 20px 15px;

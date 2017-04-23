@@ -521,31 +521,44 @@
 <!--/页脚-->
 <script>
     (function () {
-        var $body = $('html, body'),
-                $win = $(window),
+        var $win = $(window),
                 $tab = $('.top-tab'),
                 $service = $('.service-tab'),
-                $serverTop = $('#server-1'),
-                $serverEnd = $('#server-8'),
-                tabScroll = function () {
-                    if ($win.scrollTop() > $serverTop.offset().top  &&  $win.scrollTop()<$serverEnd.offset().top + 100) {
-                        $service.addClass('fixed')
-                    } else {
-                        $service.removeClass('fixed')
-                    }
-                };
-        $('a', $tab).each(function (index, element) {
-            var _this = $(element),
-                    $target = $(_this.attr('rel'));
-            _this.on('click', function () {
-                var offerTop = $target.offset().top;
-                $body.animate({
-                    scrollTop: offerTop
-                }, 500);
-            })
-        });
+                current = 0,
+                $eles = $('.service-top .item');
+        var tabScroll = function () {
+            var scrollTop = $win.scrollTop(), eleTops = tool.eleHandel($eles);
+            if (scrollTop < eleTops[1]) {
+                current = 0;
+            } else if (scrollTop >= eleTops[1] && scrollTop < eleTops[2]) {
+                current = 1;
+            } else if (scrollTop >= eleTops[2] && scrollTop < eleTops[3]) {
+                current = 2;
+            } else if (scrollTop >= eleTops[3] && scrollTop < eleTops[4]) {
+                current = 3;
+            } else if (scrollTop >= eleTops[4] && scrollTop < eleTops[5]) {
+                current = 4;
+            } else if (scrollTop >= eleTops[5] && scrollTop < eleTops[6]) {
+                current = 5;
+            } else if (scrollTop >= eleTops[6] && scrollTop < eleTops[7]) {
+                current = 6;
+            } else if(scrollTop >= eleTops[7]){
+                current = 7;
+            }
+
+            $('.active', $tab).removeClass('active');
+            $('a', $tab).eq(current).addClass('active');
+            if (scrollTop > eleTops[0] && scrollTop < eleTops[$eles.length - 1] + 100) {
+                $service.addClass('fixed')
+            } else {
+                $service.removeClass('fixed')
+            }
+
+        };
+
+        tool.tabPos($tab);
         $win.on({
-            'scroll': $.throttle(200, tabScroll)
+            'scroll': $.throttle(100, tabScroll)
         })
     })();
 </script>

@@ -229,6 +229,7 @@
             <h2>美国拉斯维加斯国际五金工具展览会（NHS）
                 全球最大的五金制品专业展览会
             </h2>
+
             <div class="clearfix">
                 <aside class="fl">
                     <section class="gallery">
@@ -288,11 +289,11 @@
             </div>
         </div>
         <nav class="detail-nav">
-            <a class="active" href="###">展品范围</a>
-            <a href="###">展会介绍</a>
-            <a href="###">市场分析</a>
-            <a href="###">展会回顾</a>
-            <a href="###">客户评价</a>
+            <a class="active" rel=".section-1" href="javascript:;">展品范围</a>
+            <a rel=".section-2" href="javascript:;">展会介绍</a>
+            <a rel=".section-3" href="javascript:;">市场分析</a>
+            <a rel=".section-4" href="javascript:;">展会回顾</a>
+            <a rel=".section-5" href="javascript:;">客户评价</a>
         </nav>
         <main class="com-content detail-content clearfix">
             <aside class="aside-left fl">
@@ -370,28 +371,38 @@
                     <header class="section-head"><span>客户评价</span></header>
                     <div class="item pic-left">
                         <img src="pics/detail-5-1.jpg">
+
                         <div class="text">
                             <i class="fa fa-quote-left"></i>
+
                             <p class="line">世界第二,美洲之首-拉斯维加斯工具展会-展团大,服务优展位绝佳,行程灵活,</p>
-                            <p class="text-blue">—   福建福晶公司海外业务总经理  VVlian</p>
+
+                            <p class="text-blue">— 福建福晶公司海外业务总经理 VVlian</p>
                             <i class="fa fa-quote-right"></i>
                         </div>
                     </div>
                     <div class="item pic-right">
                         <img src="pics/detail-5-2.jpg">
+
                         <div class="text">
                             <i class="fa fa-quote-left"></i>
-                            <p class="line">的确是全球最大的电子消费产品展览会，展期维持在6天，每天都十分精彩，人流络绎不绝。专业人士积聚，行业顶级品牌发布最新产品，我们每年都会去参加，是不容错过的行业盛会</p>
-                            <p class="text-blue">—   福建福晶公司海外业务总经理  VVlian</p>
+
+                            <p class="line">
+                                的确是全球最大的电子消费产品展览会，展期维持在6天，每天都十分精彩，人流络绎不绝。专业人士积聚，行业顶级品牌发布最新产品，我们每年都会去参加，是不容错过的行业盛会</p>
+
+                            <p class="text-blue">— 福建福晶公司海外业务总经理 VVlian</p>
                             <i class="fa fa-quote-right"></i>
                         </div>
                     </div>
                     <div class="item pic-left">
                         <img src="pics/detail-5-3.jpg">
+
                         <div class="text">
                             <i class="fa fa-quote-left"></i>
+
                             <p class="line">世界第二,美洲之首-拉斯维加斯工具展会-展团大,服务优展位绝佳,行程灵活,</p>
-                            <p class="text-blue">—   福建福晶公司海外业务总经理  VVlian</p>
+
+                            <p class="text-blue">— 福建福晶公司海外业务总经理 VVlian</p>
                             <i class="fa fa-quote-right"></i>
                         </div>
                     </div>
@@ -530,7 +541,7 @@
 <script src="js/common.js"></script>
 <!--/页脚-->
 <div class="dialog dialog-detail">
-    <main class="dialog-main ">
+    <main class="dialog-main">
         <header>
             <span class="text-primary">资料下载</span>
             <span class="text">全球展览咨询热线：<b class="text-orange">4001-865-365</b></span>
@@ -538,25 +549,31 @@
         </header>
         <section class="section-1">
             <h3>日本东京时尚世界服装配饰及鞋包展览会</h3>
-            <p class="text-blue">展会时间：	2017年10月05日 - 07日</p>
+
+            <p class="text-blue">展会时间： 2017年10月05日 - 07日</p>
         </section>
         <form>
             <p>
                 <input class="input-text" type="text" placeholder="公司名称（* 必填）">
             </p>
+
             <p>
                 <input class="input-text input-sm" type="text" placeholder="联系人（* 必填）">
                 <input class="input-text input-sm" type="text" placeholder="联系电话（* 必填）">
             </p>
+
             <p>
                 <input class="input-text" type="text" placeholder="联系QQ或邮箱（选填）">
             </p>
+
             <p>
                 <textarea class="input-text input-area">请输入内容（选填）</textarea>
             </p>
+
             <p>
                 <input class="btn" type="submit" value="提交资料(下载申请)">
             </p>
+
             <p class="tip">
                 提交资料申请后我们会在1-2个工作日内即时与您取得联系。
             </p>
@@ -566,42 +583,71 @@
 <script src="js/idangerous.swiper.min.js"></script>
 <script>
     (function () {
-        var imgs = new Swiper('.section-imgs');
+        var imgs = new Swiper('.section-imgs'),
+                $win = $(window),
+                current = 0,
+                $tab = $('.detail-nav'),
+                $eles = $('.detail-content .aside-left .section'),
+                tabScroll = function () {
+                    var scrollTop = $win.scrollTop(), eleTops = tool.eleHandel($eles);
+                    if (scrollTop < eleTops[1]) {
+                        current = 0;
+                    } else if (scrollTop >= eleTops[1] && scrollTop < eleTops[2]) {
+                        current = 1;
+                    } else if (scrollTop >= eleTops[2] && scrollTop < eleTops[3]) {
+                        current = 2;
+                    } else if (scrollTop >= eleTops[3] && scrollTop < eleTops[4]) {
+                        current = 3;
+                    } else if (scrollTop >= eleTops[4]) {
+                        current = 4;
+                    }
+                    $('.active', $tab).removeClass('active');
+                    $('a', $tab).eq(current).addClass('active');
+                    if (scrollTop > eleTops[0] ) {
+                        $tab.addClass('fixed')
+                    } else {
+                        $tab.removeClass('fixed')
+                    }
+                };
+        $win.on({
+            'scroll': $.throttle(200, tabScroll)
+        })
+        tool.tabPos($tab);
         $('.section-imgs .swiper-button-prev').click(function () {
             imgs.swipePrev();
         });
         $('.section-imgs .swiper-button-next').click(function () {
             imgs.swipeNext();
         });
-        if( !('placeholder' in document.createElement('input')) ){
+        if (!('placeholder' in document.createElement('input'))) {
 
-            $('input[placeholder],textarea[placeholder]').each(function(){
+            $('input[placeholder],textarea[placeholder]').each(function () {
                 var that = $(this),
-                        text= that.attr('placeholder');
-                if(that.val()===""){
+                        text = that.attr('placeholder');
+                if (that.val() === "") {
                     that.val(text).addClass('placeholder');
                 }
-                that.focus(function(){
-                    if(that.val()===text){
+                that.focus(function () {
+                    if (that.val() === text) {
                         that.val("").removeClass('placeholder');
                     }
                 })
-                        .blur(function(){
-                            if(that.val()===""){
+                        .blur(function () {
+                            if (that.val() === "") {
                                 that.val(text).addClass('placeholder');
                             }
                         })
-                        .closest('form').submit(function(){
-                            if(that.val() === text){
+                        .closest('form').submit(function () {
+                            if (that.val() === text) {
                                 that.val('');
                             }
                         });
             });
         }
-        $("#downBtn").click(function(){
-           $(".dialog-detail").fadeIn();
+        $("#downBtn").click(function () {
+            $(".dialog-detail").fadeIn();
         });
-        $(".dialog .close").click(function(){
+        $(".dialog .close").click(function () {
             $(".dialog-detail").fadeOut();
         })
     })();

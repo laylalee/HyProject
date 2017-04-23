@@ -1904,7 +1904,7 @@
   }
   .section {
     font-size: 15px;
-    padding-bottom: 40px;
+    margin-bottom: 40px;
     line-height: 1.8;
   }
 
@@ -1940,6 +1940,11 @@
       background: #ffffff;
       color: #535d63;
     }
+  }
+  &.fixed{
+    top: 0;
+    width: 1180px;
+    z-index: 99;
   }
 }
 
